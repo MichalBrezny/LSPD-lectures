@@ -1,0 +1,14 @@
+title: "Land surface processes and development"
+description: "An open course in quantitative geomorphology"
+theme: just-the-docs
+url: https://michalbrezny.github.io/LSPD-course
+
+# Navigation
+aux_links:
+  "GitHub Repository": https://github.com/michalbrezny/LSPD-course
+
+# Optional customizations
+color_scheme: light
+search_enabled: true
+logo: "/docs/images/hillslope_profile.png"
+
