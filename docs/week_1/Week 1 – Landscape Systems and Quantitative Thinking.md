@@ -1,3 +1,8 @@
+---
+title: "Home"
+nav_order: 1
+---
+
 ## Overview
 
 **Lecture 1: Landscapes as Open Systems**
