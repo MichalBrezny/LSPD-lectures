@@ -1,3 +1,8 @@
+---
+title: 
+slug: Week7
+abstract:
+---
 
 ### Lecture 1: Hillslope Diffusion
 **Structure**
