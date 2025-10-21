@@ -1,6 +1,7 @@
 ---
-title: "Home"
-nav_order: 1
+title: Landscape systems
+slug: Week1
+abstract:
 ---
 
 ## Overview
