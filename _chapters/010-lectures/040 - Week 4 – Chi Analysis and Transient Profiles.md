@@ -1,3 +1,9 @@
+---
+title: Week 4 – Chi Analysis and Transient Profiles
+slug: Week4
+abstract:
+---
+
 ### Lecture 1: Chi Transformation
 **Structure**
 - **Introduction (5 min)**

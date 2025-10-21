@@ -1,5 +1,5 @@
 ---
-title: 
+title: Week 7 – Coupling Channels, Hillslopes, and Mass Movements
 slug: Week7
 abstract:
 ---
