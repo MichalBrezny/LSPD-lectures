@@ -1,22 +1,6 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
-url: https://michalbrezny.github.io/LSPD-course
-
-# Navigation
-aux_links:
-  "GitHub Repository": https://github.com/michalbrezny/LSPD-course
-
-# Optional customizations
-color_scheme: light
-search_enabled: true
-logo: "/docs/images/hillslope_profile.png"
-
-plugins:
-  - jekyll-remote-theme
-  
-
-  remote_theme: jasongrimes/jekyll-chapterbook
-
+# Site settings
 title: Land surface processes and development
 description: An open course in quantitative geomorphology
 author: Michal Břežný
