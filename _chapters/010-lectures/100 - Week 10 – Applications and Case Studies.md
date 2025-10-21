@@ -1,3 +1,9 @@
+---
+title: Week 10 – Applications and Case Studies
+slug: Week10
+abstract:
+---
+
 ## Week 10 – Applications and Case Studies
 
 ### Lecture 1: Applied Quantitative Geomorphology

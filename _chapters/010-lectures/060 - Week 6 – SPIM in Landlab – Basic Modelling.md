@@ -1,3 +1,9 @@
+---
+title: Week 6 – SPIM in Landlab – Basic Modelling
+slug: Week6
+abstract:
+---
+
 ### Lecture 1: Introduction to LEMs
 **Structure**
 - **Introduction (5 min)**

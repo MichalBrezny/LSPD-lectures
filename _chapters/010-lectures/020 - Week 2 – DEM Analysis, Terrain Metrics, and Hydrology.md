@@ -1,3 +1,10 @@
+---
+title: Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
+slug: Week2
+abstract:
+---
+
+
 ## Overview
 **Lecture 1: Digital Elevation Models**
 - Data sources: SRTM, ASTER, LiDAR, UAV-based DEMs.

@@ -1,3 +1,9 @@
+---
+title: Week 3 – River Networks and Longitudinal Profiles
+slug: Week3
+abstract:
+---
+
 
 ## Overview
 
