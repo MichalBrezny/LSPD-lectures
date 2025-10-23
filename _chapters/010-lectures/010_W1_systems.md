@@ -1,53 +1,44 @@
 ---
-title: Landscape systems
-slug: Week1
+title: W1 - Landscapes as Open System
+slug: week1-landscapes-as-open-system
 abstract:
 ---
 
-## Overview
-
-**Lecture 1: Landscapes as Open Systems**
-- Landscapes as open systems exchanging energy and matter.
-- Inputs: tectonic uplift, climate forcing; outputs: sediment and solute fluxes.
-- Steady-state vs. dynamic equilibrium vs. transient states.
-- Governing equation: ∂z/∂t = U – E – D.
-- Timescales of geomorphic processes, from single events (rainfall) to orogeny.
-
-**Lecture 2: From Descriptive to Quantitative Geomorphology**
-- Historical development: Davisian cycles → dynamic equilibrium (Hack) → process-based approaches.
-- Benefits of quantification: reproducibility, hypothesis testing, predictive capacity.
-- Concepts of scaling and dimensional analysis.
-- Examples of simple quantitative models (box models, balance equations).
-
-**Lab**
-- Introduction to DEMs (SRTM, Copernicus).
-- Hillshading, profiles, basic visualization.
-- Preprocessing: sink filling, projection, resampling.
-- **Exercise:** Choose a real landscape (case study), describe evidence for transient vs. steady-state conditions.
----
 ## What is landscape?
 *Landscapes are suites of landforms which share a common genesis, contiguous location, and related history.* (Bierman & Montgomery 2014)
 
 ## Landscape as Open System
-
 ‘A system is a structured set of objects and/or attributes. These objects and attributes consist of components or variables (i.e. phenomena which are free to assume variable magnitudes) that exhibit discernible relationships with one another and operate together as a complex whole, according to some observed pattern.” Chorley and Kennedy, 1971
 
-Landscape is an open system - involves exchange of energy and mass with surroundings and other systems
+There are three types of systems:
 
-And example of thermodynamic systems, geomorphic system is an open system - it exchange energy and matter with surroundings
-![[Pasted image 20250929185950.png]]
+  - Open system - exchanges energy and matter with surroundings
+  - Closed system - exchanges only energy with surroundings
+  - Isolated system - does not exchange energy or matter with surroundings
 
-![[Pasted image 20250914102024.png|Geomorphic system]]
+{% include figure.html
+    caption="Systems"
+    url="/figures/system.png"
+    class="row"
+%}
 
 The character of system is dependent on the choice of boundaries - the system can have different qualities and inputs and outputs based (and if it is open or isolated)
 
 System and boundaries
 ![[Pasted image 20250929182030.png]]
 
+{% include figure.html
+    caption="System boundaries"
+    url="/figures/system_boundaries.png"
+    class="row"
+%}
 
-### Unifying concepts
 
-#### Conservation of mass
+**Landscape is an open system**. It involves exchange of energy and matter with surroundings and other systems.
+
+## Unifying concepts
+
+### Conservation of mass
 Landscapes are dynamic systems through which mass is continually moving. Individual landforms can lose or gain mass over time; for example, rocky outcrops disaggregate and erode over time as they weather, but mass is conserved as it moves downslope. Eroded material is transformed by chemical reactions or physical abrasion as it moves, but it always ends up somewhere else. For example, a delta system at the mouth of a river grows because of input of sediment from upstream sources.
 
 In geomorphic systems, a simple yet very useful concept is that the difference between inputs (I) and outputs (O) during some time period equals the change in storage (ST):  

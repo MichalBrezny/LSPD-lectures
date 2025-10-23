@@ -1,0 +1,421 @@
+---
+---
+
+.book-body {
+    overflow-y: scroll;
+}
+
+.book-body .book-header {
+    position: fixed;
+    width: 100%;
+}
+
+.book.with-summary .book-body .book-header {
+    position: fixed;
+    width: calc(100% - 300px);
+}
+
+.book-body .body-inner {
+    /* position: absolute; */
+    margin-top: 50px;
+    min-height: calc(100% - 50px);
+}
+
+.book-body .body-inner .page-wrapper {
+    min-height: calc(100% - 46px);
+}
+
+.book-body .body-inner .page-wrapper .page-inner {
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1240px) {
+    .book-body .body-inner .navigation {
+        max-width: calc(50% - 3px);
+        width: calc(50% - 3px);
+    }
+}
+
+.book .book-body .book-header {
+    background: #ffffff;
+}
+
+.book.color-theme-1 .book-body .book-header {
+    background: #f3eacb;
+}
+
+.book.color-theme-2 .book-body .book-header {
+    background: #1c1f2b;
+}
+
+.page-inner {
+    max-width: {{ site.page_width | default: '800px' }}
+}
+
+.back-to-top {
+    right: calc((100% - 300px - min(100% - 300px, {{ site.page_width | default: '800px' }})) / 2 + 25px)
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track-piece {
+    /* background-color: rgba(125, 125, 125, 0.2); */
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    height: 5px;
+    background-color: rgba(7, 17, 27, .2);
+    -webkit-border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    width: 5px;
+    background-color: rgba(125, 125, 125, 0.2);
+    -webkit-border-radius: 6px;
+}
+
+/* Style for search page on mobile screens */
+
+#book-search-input-link {
+    padding: 6px;
+    background: 0 0;
+    background: inherit;
+    transition: top .5s ease;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+    border-top: 1px solid rgba(0,0,0,.07);
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+
+#book-search-input-link a {
+    width: 100%;
+    background: 0 0;
+    border: 1px solid transparent;
+    box-shadow: none;
+    outline: 0;
+    line-height: 38px;
+    padding: 7px 7px;
+    color: #757575;
+}
+
+#book-search-input {
+    display: block;
+}
+#book-search-input-link {
+    display: none;
+}
+
+@media (max-width: 1240px) {
+    #book-search-input {
+        display: none;
+    }
+    #book-search-input-link {
+        display: block;
+    }
+}
+
+#book-search-input-inside {
+    padding: 6px;
+    background: 0 0;
+    transition: top .5s ease;
+    background: #fff;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+    border-top: 1px solid rgba(0,0,0,.07);
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+
+#book-search-input-inside input {
+    width: 100%;
+    background: 0 0;
+    border: 1px solid transparent;
+    box-shadow: none;
+    outline: 0;
+    line-height: 22px;
+    padding: 7px 7px;
+    color: inherit;
+}
+
+
+/* Custom font settings */
+
+.book.font-family-0 {
+    font-family: Georgia, serif;
+}
+.book.font-family-1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Render wide tables */
+
+.table-wrapper {
+    overflow-x: scroll;
+}
+
+/* Tips, warnings, and dangers */
+
+.markdown-section blockquote.block-tip {
+    border-color: var(--c-tip);
+    background-color: var(--c-tip-bg);
+    color: var(--c-tip-text);
+    font-family: var(--font-family);
+}
+
+.markdown-section blockquote.block-tip h1 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-tip h2 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-tip h3 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-tip h4 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-tip h5 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-tip h6 {
+    color: var(--c-tip-title);
+}
+
+.markdown-section blockquote.block-warning {
+    border-color: var(--c-warning);
+    background-color: var(--c-warning-bg);
+    color: var(--c-warning-text);
+    font-family: var(--font-family);
+}
+
+.markdown-section blockquote.block-warning h1 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-warning h2 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-warning h3 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-warning h4 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-warning h5 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-warning h6 {
+    color: var(--c-warning-title);
+}
+
+.markdown-section blockquote.block-danger {
+    border-color: var(--c-danger);
+    background-color: var(--c-danger-bg);
+    color: var(--c-danger-text);
+    font-family: var(--font-family);
+}
+
+.markdown-section blockquote.block-danger h1 {
+    color: var(--c-danger-title);
+}
+
+.markdown-section blockquote.block-danger h2 {
+    color: var(--c-danger-title);
+}
+
+.markdown-section blockquote.block-danger h3 {
+    color: var(--c-danger-title);
+}
+
+.markdown-section blockquote.block-danger h4 {
+    color: var(--c-danger-title);
+}
+
+.markdown-section blockquote.block-danger h5 {
+    color: var(--c-danger-title);
+}
+
+.markdown-section blockquote.block-danger h6 {
+    color: var(--c-danger-title);
+}
+
+:root {
+    --c-tip: #42b983;
+    --c-tip-bg: #e2f5ec;
+    --c-tip-text: #215d42;
+    --c-tip-title: #359469;
+    --c-warning: #e7c000;
+    --c-warning-bg: rgba(255, 229, 100, .25);
+    --c-warning-text: #6b5900;
+    --c-warning-title: #b29400;
+    --c-danger: #c00;
+    --c-danger-bg: #ffe0e0;
+    --c-danger-text: #600;
+    --c-danger-title: #c00;
+    --font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+/*admonitions*/
+.admonition {
+    margin: 1.5625em 0;
+    overflow: hidden;
+    page-break-inside: avoid;
+    border-left: 0.3rem solid #fc0;
+    border-radius: 0.1rem;
+}
+.admonition p {
+    padding: 0 1rem;
+}
+
+.admonition-body {
+    padding: 0 1rem;
+    margin: 0;
+}
+.admonition .admonition-title {
+    color: #ddd;
+    background-color: rgba(56, 44, 0, .4);
+    font-weight: 700;
+    line-height: 3rem;
+}
+.admonition-title::before {
+    margin-right: 0.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    display: inline-block;
+    content: '';
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    background-color: #fc0;
+    vertical-align: text-bottom;
+}
+.admonition.note .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/pen-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/pen-solid.svg") no-repeat 50% 50%;
+}
+.admonition.abstract .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/align-left-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/align-left-solid.svg") no-repeat 50% 50%;
+}
+.admonition.info {
+    border-left-color: #00b0ff;
+}
+.admonition.info .admonition-title {
+    background-color: #293d52;
+}
+.admonition.info .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/info-circle-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/info-circle-solid.svg") no-repeat 50% 50%;
+    background-color: #00b0ff;
+}
+.admonition.tip {
+    border-left-color: #ff9100;
+}
+.admonition.tip .admonition-title {
+    background-color: #433a38;
+}
+.admonition.tip .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/fire-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/fire-solid.svg") no-repeat 50% 50%;
+    background-color: #ff9100;
+}
+.admonition.success {
+    border-left-color: #00c953;
+}
+.admonition.success .admonition-title {
+    background-color: #294040;
+}
+.admonition.success .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/check-circle-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/check-circle-solid.svg") no-repeat 50% 50%;
+    background-color: #00c953;
+}
+.admonition.question {
+    border-left-color: #00b8d4;
+}
+.admonition.question .admonition-title {
+    background-color: #293e4e;
+}
+.admonition.question .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/question-circle-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/question-circle-solid.svg") no-repeat 50% 50%;
+    background-color: #00b8d4;
+}
+.admonition.warning {
+    border-left-color: #ff9100;
+}
+.admonition.warning .admonition-title {
+    background-color: #564b3c;
+}
+.admonition.warning .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/exclamation-triangle-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/exclamation-triangle-solid.svg") no-repeat 50% 50%;
+    background-color: #ff9100;
+}
+.admonition.failure {
+    border-left-color: #ff5252;
+}
+.admonition.failure .admonition-title {
+    background-color: #564444;
+}
+.admonition.failure .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/times-circle-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/times-circle-solid.svg") no-repeat 50% 50%;
+    background-color: #ff5252;
+}
+.admonition.danger {
+    border-left-color: #ff1744;
+}
+.admonition.danger .admonition-title {
+    background-color: #563e43;
+}
+.admonition.danger .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/bolt-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/bolt-solid.svg") no-repeat 50% 50%;
+    background-color: #ff1744;
+}
+.admonition.bug {
+    border-left-color: #f50057;
+}
+.admonition.bug .admonition-title {
+    background-color: #553c45;
+}
+.admonition.bug .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/bug-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/bug-solid.svg") no-repeat 50% 50%;
+    background-color: #f50057;
+}
+.admonition.example {
+    border-left-color: #9e9e9e;
+}
+.admonition.example .admonition-title {
+    background-color: #4c4c4c;
+}
+.admonition.example .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/list-ol-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/list-ol-solid.svg") no-repeat 50% 50%;
+    background-color: #9e9e9e;
+}
+.admonition.quote {
+    border-left-color: #9e9e9e;
+}
+.admonition.quote .admonition-title {
+    background-color: #4c4c4c;
+}
+.admonition.quote .admonition-title::before {
+    -webkit-mask: url("/assets/img/icons/quote-right-solid.svg") no-repeat 50% 50%;
+    mask: url("/assets/img/icons/quote-right-solid.svg") no-repeat 50% 50%;
+    background-color: #9e9e9e;
+}
