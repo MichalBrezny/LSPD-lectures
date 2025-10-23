@@ -3,10 +3,17 @@ layout: home
 title: "Home"
 ---
 
-# Landscape Evolution and Surface Processes
+# Land surface processes and dynamics
 
 Welcome to the course!  
 This website contains lecture materials, reading assignments, and practical exercises.
+
+Course is still under development.
+
+
+> [!IMPORTANT]  
+> Course is a work in progress.
+> Materials will be added and updated over time.
 
 ---
 

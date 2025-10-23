@@ -20,7 +20,7 @@ baseurl_canonical: https://michalbrezny.github.io/LSPD-course
 # Set copyright: false to disable.
 copyright:
   start_year: 2025
-  url: /book.html
+  url: 
 
 # Customize the link favicon in header. Will be {{site.baseurl}}/{{site.favicon_path}}
 favicon_path: assets/gitbook/images/favicon.ico
@@ -48,20 +48,16 @@ sidebar_nav_top:
 sidebar_nav_bottom:
 - label: Draft outline
   url: /outline.html
-- label: Fork at GitHub
-  url: https://github.com/jasongrimes/jekyll-chapterbook/fork
+
 
 # Navigation shown at the bottom of the page
 # All "url" variables should have a leading slash.
 bottom_nav:
 - label: Home
   url: /index.html
-- label: Book
-  url: /book.html
-- label: GitHub
+- label: Jekyll Chapterbook Theme
   url: https://github.com/jasongrimes/jekyll-chapterbook
-- label: Privacy
-  url: /privacy.html
+
 
 
 # Whether to show chapter headings as a table of contents at the top of each chapter page.
@@ -98,13 +94,6 @@ extra_css:
 show_drafts_in_dev: false
 
 
-
-
-
-exclude:
-  - _drafts
-  - tmp
-
 page_width: 800px
 
 destination: ./_site
@@ -115,6 +104,10 @@ plugins:
 #  - jekyll-feed
   - jekyll-readme-index
 #  - jemoji
+  - jekyll/scholar
+  - jekyll-gfm-admonitions
+  - jekyll-optional-front-matter
+
 
 collections:
   chapters:
@@ -146,3 +139,25 @@ kramdown:
     guess_lang:           true
 syntax_highlighter_style: colorful
 markdown_ext:     markdown,mkdown,mkdn,mkd,md
+
+
+
+exclude:
+  - _drafts
+  - tmp 
+  - "**/*.ts" # Exclude source code files!
+  - "**/*.js"
+  - "*.ts" # Also those in the root directory!
+  - "*.js"
+  - "*.json" # Don't forget about assets!
+  - node_modules/ # And large vendored directories
+  # And these ignore all the artifacts the build produces:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
