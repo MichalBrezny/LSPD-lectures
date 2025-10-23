@@ -49,3 +49,28 @@ abstract:
    - Discuss sensitivity to DEM resolution.
 
 ---
+
+# Fluvial incision
+
+Fluvial incision is a dominant erosion process in many landscapes. The Stream Power Incision Model (SPIM) provides a framework to quantify how rivers erode their beds based on drainage area and channel slope. In this lecture, we will explore the theoretical underpinnings of SPIM, its assumptions, and how to implement it using real-world data.
+
+## Fundamentals of SPIM
+
+Stream power incision model (SPIM) is based on the idea that the rate of river incision (E) is proportional to the stream power per unit bed area, which can be expressed as:
+$$E = KA^mS^n$$
+
+Where:
+- E = incision rate (m/yr)
+- K = erodibility coefficient (depends on climate, lithology)
+- A = drainage area (m²)
+- S = channel slope (dimensionless)
+- m, n = empirical exponents that describe how incision scales with area and slope
+
+This is the simplest but still widely used model for fluvial incision. 
+
+
+Parameter $K$ incorporates factors like climate and lithology that affect how easily a river can erode its bed. The exponents $m$ and $n$ are typically determined empirically, often through regression analysis of slope-area data from river networks.
+
+These parameters, though thought to be constants, can vary in space and time depending on environmental conditions. Different erodibility values can be during glacial vs. interglacial periods or in different lithologies.
+
+

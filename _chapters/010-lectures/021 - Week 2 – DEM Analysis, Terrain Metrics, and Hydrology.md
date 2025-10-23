@@ -1,5 +1,5 @@
 ---
-title: Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
+title: Week 2 – Terrain Metrics
 slug: Week2
 abstract:
 ---
