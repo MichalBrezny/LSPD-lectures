@@ -58,4 +58,20 @@ abstract:
 
 
 
+This will be probably for most of you repetition of what you already know from previous courses, but it is important to have a good understanding of these terrain metrics as they are widely used in geomorphology and hydrology.
+
+#### Slope and Aspect
+Slope is the first derivative of elevation. It indicates the steepness or incline of the terrain. Steeper slopes are more prone to erosion and landslides. Aspect is the compass direction that a slope faces. It influences microclimate conditions, such as sunlight exposure and moisture retention, which affect vegetation patterns. 
+
+#### Curvature
+Curvature describes the rate of change of slope. Profile curvature affects the acceleration or deceleration of flow along the slope, influencing erosion and deposition processes. Planform curvature indicates whether the terrain is converging or diverging, which affects water flow paths and sediment transport.  
+
+#### Hypsometry
+The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
+
+#### Hydrological Indices
+The Topographic Wetness Index (TWI) is calculated as TWI = ln(a / tanβ), where 'a' is the upslope contributing area and 'β' is the local slope angle. TWI helps identify areas prone to soil saturation and potential flooding. The Stream Power Index (SPI) is calculated as SPI = a·tanβ, indicating the erosive power of flowing water, which is crucial for understanding sediment transport dynamics.
+
+#### Runoff Processes
+Hortonian runoff occurs when rainfall intensity exceeds the soil's infiltration capacity, leading to surface runoff. Dunne runoff happens when the soil becomes saturated, causing excess water to flow over the surface. The hydrograph illustrates the temporal variation of streamflow, with key features including the rising limb, peak flow, and recession limb, which reflect the catchment's response to rainfall events.
 
