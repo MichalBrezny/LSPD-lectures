@@ -12,24 +12,29 @@ abstract:
 ---
 
 ## From descriptive to quantitative geomorphology
- 
+The shift from descriptive to quantitative geomorphology represents a fundamental change in the way geomorphologists study and understand landscape processes. Descriptive geomorphology focuses on the classification and description of landforms and processes, often relying on qualitative observations and case studies. While this approach has provided valuable insights into the diversity of landscapes and their evolution, it has limitations in terms of reproducibility and predictive power.
+
+Quantitative geomorphology, on the other hand, seeks to develop mathematical models and statistical methods to analyze and predict landscape change. This approach allows researchers to test hypotheses, explore relationships between variables, and make predictions about future landscape evolution. By incorporating quantitative methods, geomorphologists can better understand the complex interactions between processes and landforms, leading to more robust and generalizable findings.
+
+
+
 ## Historical development
 
 
-
 ### Davis cycle
-![[Pasted image 20250915173832.png]]
-![[Pasted image 20250918230243.png]]
+{% include figure.html
+    caption="System boundaries"
+    url="/figures/davies.png"
+    class="row"
+%}
 
 
 ### Penck
-![[Pasted image 20250915173851.png]]
-
-![[Pasted image 20250915173946.png]]
-
-
-
-![[Pasted image 20250915175505.png]]
+{% include figure.html
+    caption="System boundaries"
+    url="/figures/davies_penck.png"
+    class="row"
+%}
 
 ### Hack
 

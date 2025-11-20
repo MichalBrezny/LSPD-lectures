@@ -12,7 +12,6 @@ abstract:
 Chorley and Kennedy, 1971
 
 There are three types of systems:
-
   - Open system - exchanges energy and matter with surroundings
   - Closed system - exchanges only energy with surroundings
   - Isolated system - does not exchange energy or matter with surroundings
@@ -26,40 +25,37 @@ There are three types of systems:
 The character of system is dependent on the choice of boundaries - the system can have different qualities and inputs and outputs based (and if it is open or isolated)
 
 System and boundaries
-![[Pasted image 20250929182030.png]]
-
 {% include figure.html
     caption="System boundaries"
     url="/figures/system_boundaries.png"
     class="row"
 %}
 
-
 **Landscape is an open system**. It involves exchange of energy and matter with surroundings and other systems.
 
 ## Unifying concepts
-
 ### Conservation of mass
 Landscapes are dynamic systems through which mass is continually moving. Individual landforms can lose or gain mass over time; for example, rocky outcrops disaggregate and erode over time as they weather, but mass is conserved as it moves downslope. Eroded material is transformed by chemical reactions or physical abrasion as it moves, but it always ends up somewhere else. For example, a delta system at the mouth of a river grows because of input of sediment from upstream sources.
 
 In geomorphic systems, a simple yet very useful concept is that the difference between inputs (I) and outputs (O) during some time period equals the change in storage (ST):  
 $$ I - O =\delta ST$$
+
 #### Conservation of energy
-Energy cannot be created or destroyed. It only transforms from one to another.
-
-For example potential energy, the energy of position can be converted into kinetic energy. Boulder on the hill.
-
+Energy cannot be created or destroyed; it can only be transformed from one form to another.
+For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy.
 Water running down on slopes also transforms it potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
 
 #### Material routing
-From source to sink
-Most of the transport is one way. A flow of water down river networks, of ice down glacial valley systems, and of soil and rock down hillslopes are the predominant agents of mass transport on the continents.
+From source to sink, most geomorphic transport is effectively one-way.
+Water flowing downstream through river networks, ice moving down glacial valleys, and soil and rock moving downslope under gravity are the predominant agents of mass transport on the continents. Together, these flows transfer material from upland source areas (where rock is uplifted and weathered) towards lowland sinks such as floodplains, lakes, and ultimately the oceans, where sediment is deposited and stored over longer timescales.
 
 #### Balance of forces and thresholds
-Balance of forces - important concept. For example slope stability - some forces hold slope together, other forces are driving particles on slope to move.
+A balance of forces is a fundamental concept in geomorphology.
 
-##### Thresholds
-Physical or chemical conditions that, when reached or exceeded, triggers a change, shift to new state or a new range of average conditions
+For example, in slope stability, some forces act to hold the slope together (resisting forces), while others act to drive particles on the slope to move (driving forces). Resisting forces include friction and the cohesive strength of soil or rock, whereas driving forces are primarily related to gravity acting on the mass of material and any additional loads (e.g. water). A slope remains stable as long as resisting forces exceed driving forces; once driving forces become greater, slope failure and mass movement can occur.
+
+#### Thresholds
+In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, however, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
 
 ## Main leading factor in landscape evolution
 
