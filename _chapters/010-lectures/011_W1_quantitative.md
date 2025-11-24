@@ -31,7 +31,7 @@ Uplift is short-lived compared to erosion. Therefore, landscapes evolve through 
 2. **Maturity**: Slopes become gentler, valleys widen, and rivers develop floodplains.
 3. **Old Age**: The landscape is nearly flat, with low relief and extensive peneplanation.
 
-New uplift rejuvenate the landscape and restards the cycle.
+New uplift rejuvenate the landscape and restarts the cycle.
 
 
 {% include figure.html
@@ -49,6 +49,12 @@ New uplift rejuvenate the landscape and restards the cycle.
 %}
 
 ### Hack
+
+{% include figure.html
+    caption="Landscape evolution models: Davis vs. Penck vs. Hack (After Burbank 2012)"
+    url="/figures/W1/landscape_evolution_models.jpg"
+    class="row"
+%}
 
 
 ## Benefits of quantification
