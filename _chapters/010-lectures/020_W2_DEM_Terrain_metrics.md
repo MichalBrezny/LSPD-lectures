@@ -70,19 +70,22 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 
 
 {% include image.html
+  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_profile.png"
   alt="Profile curvature"
-  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"}
+  %}
 
 {% include image.html
+  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_plan.png"
   alt="Plan (horizontal) curvature"
-  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)" %}
+   %}
 
 {% include image.html
+  caption="Combinations of profile and horizontal curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_combo.png"
   alt="Profile and planform curvature"
-  caption="Combinations of profile and horizontal curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)" %}
+  %}
 
 
 > [!NOTE]
