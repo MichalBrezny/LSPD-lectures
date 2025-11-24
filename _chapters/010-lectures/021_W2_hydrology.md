@@ -1,6 +1,6 @@
 ---
-title: Week 2 – Terrain Metrics
-slug: Week2
+title: W2 – Terrain Metrics and Hydrology
+slug: week2-terrain-metrics-hydrology
 abstract:
 ---
 

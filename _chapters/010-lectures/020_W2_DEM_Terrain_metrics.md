@@ -1,6 +1,6 @@
 ---
-title: Week 2 – DEM Analysis, Terrain Metrics
-slug: Week2
+title: W2 – DEM Analysis, Terrain Metrics
+slug: week2-dem-analysis-terrain-metrics
 abstract:
 ---
 
@@ -61,13 +61,38 @@ This will be probably for most of you repetition of what you already know from p
 ### Topography metrics to process
 
 #### Slope and Aspect
-Slope is the first derivative of elevation. It indicates the steepness or incline of the terrain. Steeper slopes are more prone to erosion and landslides. Aspect is the compass direction that a slope faces. It influences microclimate conditions, such as sunlight exposure and moisture retention, which affect vegetation patterns. 
+Slope is the first derivative of elevation. It indicates the steepness or incline of the terrain. Steeper slopes are more prone to erosion and landslides. Aspect is the compass direction that a slope faces. It influences microclimate conditions, such as sunlight exposure and moisture retention, which affect vegetation patterns.
+
+<!-- Obrazek sklony -->
 
 #### Curvature
-Curvature describes the rate of change of slope. Profile curvature affects the acceleration or deceleration of flow along the slope, influencing erosion and deposition processes. Planform curvature indicates whether the terrain is converging or diverging, which affects water flow paths and sediment transport.  
+Curvature describes the rate of change of slope. Profile curvature affects the acceleration or deceleration of flow along the slope, influencing erosion and deposition processes. Horizontal (planform) curvature indicates whether the terrain is converging or diverging, which affects water flow paths and sediment transport.  
+
+
+{% include image.html
+  url="/figures/W2/curvature_profile.png"
+  alt="Profile curvature"
+  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"}
+
+{% include image.html
+  url="/figures/W2/curvature_plan.png"
+  alt="Plan (horizontal) curvature"
+  caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)" %}
+
+{% include image.html
+  url="/figures/W2/curvature_combo.png"
+  alt="Profile and planform curvature"
+  caption="Combinations of profile and horizontal curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)" %}
+
+
+> [!NOTE]
+> There area many other types of curvaters, but plan and profile curvatures are the mostly used and easiest to interpret. 
 
 #### Hypsometry
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
+
+
+
 
 #### Hydrological Indices
 The Topographic Wetness Index (TWI) is calculated as 
