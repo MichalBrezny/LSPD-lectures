@@ -42,6 +42,8 @@ New uplift rejuvenate the landscape and restarts the cycle.
 
 
 ### Penck's model of landscape evolution
+Walther Penck's model (1953) emphasized the continuous interplay between uplift and erosion. Unlike Davis, Penck proposed that uplift and erosion occur simultaneously. Uplift increases over time until it reaches its climax and then slowly declines. Erosion responds immediately to changes in uplift rates, leading to a more dynamic view of landscape evolution. 
+
 {% include figure.html
     caption="System boundaries"
     url="/figures/davies_penck.png"
@@ -49,6 +51,9 @@ New uplift rejuvenate the landscape and restarts the cycle.
 %}
 
 ### Hack
+Hack
+
+
 
 {% include figure.html
     caption="Landscape evolution models: Davis vs. Penck vs. Hack (After Burbank 2012)"

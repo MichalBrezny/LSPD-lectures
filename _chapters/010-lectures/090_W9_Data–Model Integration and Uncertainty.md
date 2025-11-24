@@ -1,6 +1,6 @@
 ---
-title: Week 9 – Data–Model Integration and Uncertainty
-slug: Week9
+title: W9 – Data–Model Integration and Uncertainty
+slug: W9_Data_Model_Integration_Uncertainty
 abstract:
 ---
 ## Week 9 – Data–Model Integration and Uncertainty

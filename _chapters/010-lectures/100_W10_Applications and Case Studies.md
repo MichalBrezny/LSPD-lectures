@@ -1,6 +1,6 @@
 ---
-title: Week 10 – Applications and Case Studies
-slug: Week10
+title: W10 – Applications and Case Studies
+slug: W10_Applications_Case_Studies
 abstract:
 ---
 
