@@ -58,6 +58,15 @@ abstract:
 
 This will be probably for most of you repetition of what you already know from previous courses, but it is important to have a good understanding of these terrain metrics as they are widely used in geomorphology and hydrology.
 
+## Digital Elevation Models (DEMs)
+Digital Elevation Models (DEMs) are raster representations of the Earth's surface, where each cell contains an elevation value. DEMs are fundamental for terrain analysis and are used to derive various topographic metrics that describe the shape and characteristics of the landscape. We can distinguish two main types of DEMs: 
+- Digital Terrain Models (DTMs): Represent the bare earth surface, excluding vegetation and anthropogenic features like houses, bridges, etc.
+- Digital Surface Models (DSMs): Include all surface features, such as vegetation and buildings.
+
+Many global DEMs are in fact DSMs, as they are derived from remote sensing techniques that capture the first reflective surface. 
+
+Many DEMs are freely available for download, e.g., SRTM (Shuttle Radar Topography Mission) or its succesor NASADEM, ASTER GDEM, ALOS DEM and more. Recently, there area attempts to create DTMs using machine learning to remove vegetation and buildings like FABDEM. High-resolution DEMs from LiDAR surveys have become increasingly accessible for detailed local studies. For regional to global scale studies, usage of high resolution DEMs might be problematic due to data volume and processing requirements. Further the high detail of LiDAR DEMs might introduce high frequency noise and artifacts due to man made structures. Thus resampling to coarser resolution DEMs (e.g., 30 m or 90 m) is often performed for larger scale studies.
+
 ### Topography metrics to process
 
 #### Slope and Aspect
@@ -69,19 +78,19 @@ Slope is the first derivative of elevation. It indicates the steepness or inclin
 Curvature describes the rate of change of slope. Profile curvature affects the acceleration or deceleration of flow along the slope, influencing erosion and deposition processes. Horizontal (planform) curvature indicates whether the terrain is converging or diverging, which affects water flow paths and sediment transport.  
 
 
-{% include image.html
+{% include figure.html
   caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_profile.png"
   alt="Profile curvature"
   %}
 
-{% include image.html
+{% include figure.html
   caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_plan.png"
   alt="Plan (horizontal) curvature"
    %}
 
-{% include image.html
+{% include figure.html
   caption="Combinations of profile and horizontal curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
   url="/figures/W2/curvature_combo.png"
   alt="Profile and planform curvature"
@@ -89,7 +98,7 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 
 
 > [!NOTE]
-> There area many other types of curvaters, but plan and profile curvatures are the mostly used and easiest to interpret. 
+> There area many other types of curvatures, but plan and profile curvatures are the mostly used and easiest to interpret. For more information on other types of curvatures, see e.g., . 
 
 #### Hypsometry
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
