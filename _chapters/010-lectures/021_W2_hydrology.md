@@ -4,7 +4,7 @@ slug: Week2
 abstract:
 ---
 
-
+<!-- 
 ## Overview
 **Lecture 1: Digital Elevation Models**
 - Data sources: SRTM, ASTER, LiDAR, UAV-based DEMs.
@@ -26,7 +26,7 @@ abstract:
 - **Exercise:** Test infiltration capacity scenarios (sandy vs. clay soil).
 
 ---
-
+-->
 
 ## Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
 
@@ -82,7 +82,6 @@ abstract:
   - Discuss: How does land cover affect hydrograph form?
 
 ---
-
 ### Lab 2: Terrain Metrics and Runoff Modelling
 **Objectives**
 - Extract key terrain metrics from DEMs.

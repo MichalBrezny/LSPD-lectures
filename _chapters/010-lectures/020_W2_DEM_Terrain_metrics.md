@@ -70,7 +70,9 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
 
 #### Hydrological Indices
-The Topographic Wetness Index (TWI) is calculated as TWI = ln(a / tanβ), where 'a' is the upslope contributing area and 'β' is the local slope angle. TWI helps identify areas prone to soil saturation and potential flooding. The Stream Power Index (SPI) is calculated as SPI = a·tanβ, indicating the erosive power of flowing water, which is crucial for understanding sediment transport dynamics.
+The Topographic Wetness Index (TWI) is calculated as 
+$$ TWI = \ln\left(\frac{a}{\tan\beta}\right) $$
+where \( a \) is the upslope contributing area per unit contour length and \( \beta \) is the local slope angle. TWI helps predict soil moisture distribution and potential saturation zones. 
 
 #### Runoff Processes
 Hortonian runoff occurs when rainfall intensity exceeds the soil's infiltration capacity, leading to surface runoff. Dunne runoff happens when the soil becomes saturated, causing excess water to flow over the surface. The hydrograph illustrates the temporal variation of streamflow, with key features including the rising limb, peak flow, and recession limb, which reflect the catchment's response to rainfall events.
