@@ -1,7 +1,8 @@
 remote_theme: jasongrimes/jekyll-chapterbook
 
 # Site settings
-title: Land surface processes and dynamics
+title: LSPD lectures
+long_title: Land surface processes and dynamics
 description: An open course in quantitative geomorphology
 author: Michal Břežný
 email: michal.brezny@osu.cz
@@ -39,9 +40,9 @@ bookcrumbs:
 # Links shown above the TOC in the sidebar
 # All "url" variables should have a leading slash.
 
-#sidebar_nav_top:
-#- label: Home
-#  url: /index.html
+sidebar_nav_top:
+- label: Home
+  url: /index.html
 
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
