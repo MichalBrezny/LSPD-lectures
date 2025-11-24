@@ -1,10 +1,10 @@
 ---
-title: Week 3 – River Networks and Longitudinal Profiles
-slug: Week3
+title: W3 – River Networks
+slug: W3_river-networks
 abstract:
 ---
 
-
+<!-- 
 ## Overview
 
 **Lecture 1: River Network Geometry**
@@ -25,7 +25,7 @@ abstract:
 - Generate longitudinal profiles.
 - Identify and classify knickpoints (tectonic vs. lithologic).
 
-
+-->
 ---
 ## Lecture 1: River Networks and Drainage Basins
 
@@ -72,11 +72,15 @@ Drainage basins are elementary units of the landscape, and their organization is
 - **Sediment Transport**: The movement of sediment through the river network and its implications for basin evolution.
 
 
-Drainage density and bifurcation ratios.
-**Drainage density** is a quantity used to describe physical parameters of a [drainage basin](https://en.wikipedia.org/wiki/Drainage_basin "Drainage basin"). First described by [Robert E. Horton](https://en.wikipedia.org/wiki/Robert_E._Horton "Robert E. Horton"), drainage density is defined as the total length of channel in a drainage basin divided by the total area.
-![{\displaystyle D_{d}={\frac {\sum {L}}{A_{basin}}}.}](https://wikimedia.org/api/rest_v1/media/math/render/svg/c81f340109ab42d7fea6afb493e95c00b2ef5f8b)
-
-The quantity represents the average length of channel per unit area of [catchment](https://en.wikipedia.org/wiki/Catchment "Catchment") and has units [L][L2]![{\displaystyle {\frac {\left[L\right]}{\left[L^{2}\right]}}}](https://wikimedia.org/api/rest_v1/media/math/render/svg/153862de9928bcdc71663d8013c435afaa549463), which is often reduced to [L−1]![{\displaystyle \left[L^{-1}\right]}](https://wikimedia.org/api/rest_v1/media/math/render/svg/6726ab0af947d8cd3a9e0bed907cec0d07a6170d).
+### Drainage density and bifurcation ratios.
+Drainage density is the total length of mapped channels within a basin divided by the basin area:
+$$ D_d = \frac{\sum L}{A_{basin}} $$
+where:
+- \( D_d \) = drainage density (L^-1)
+- \( \sum L \) = total length of all streams in the basin (L)
+- \( A_{basin} \) = area of the drainage basin (L^2)    
+  
+It expresses average channel length per unit area (e.g., km km^-2 or m m^-2, often reported simply as km^-1 or m^-1). Higher values indicate more closely spaced channels (greater dissection); lower values indicate more widely spaced channels (less dissection).
 
 #### What affects drainage density?
 Drainage density is influenced by climatic factors and physical properties of the drainage basin. Very important is also the time, as landscapes evolve and drainage networks develop over time. 

@@ -1,6 +1,6 @@
 ---
-title: Week 3 – River Networks and Longitudinal Profiles
-slug: Week3
+title: W3-Longitudinal Profiles
+slug: W3_longitudinal-profiles
 abstract:
 ---
 
@@ -28,10 +28,6 @@ Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls
     class="row"
 %}
 
-
-
-
-
 ### Influences on longitudinal profiles
 
 - **Tectonics**: Uplift can create knickpoints and steepen profiles.
@@ -42,7 +38,7 @@ Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls
 ### Examples and case studies
 
 
-
+<!--
 ---
 
 ### Lab 3: River Profiles and Drainage Metrics
@@ -60,4 +56,5 @@ Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls
 7. **Exercise**
    - Compare concavity index (θ) for tectonically active vs. stable basins.
 
----
+-->
+

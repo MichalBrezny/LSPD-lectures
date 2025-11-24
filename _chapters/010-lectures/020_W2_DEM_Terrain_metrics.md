@@ -6,7 +6,7 @@ abstract:
 
 
 ---
-
+<!-- ## Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
 ### Lecture 2: Terrain Metrics & Hydrology
 **Structure**
 - **Introduction (5 min)**
@@ -53,12 +53,12 @@ abstract:
    - Write 2-page lab report:
      - Compare hydrographs between sandy vs. clay catchments.
      - Relate results to DEM-derived wetness indices.
-
----
-
+-->
 
 
 This will be probably for most of you repetition of what you already know from previous courses, but it is important to have a good understanding of these terrain metrics as they are widely used in geomorphology and hydrology.
+
+### Topography metrics to process
 
 #### Slope and Aspect
 Slope is the first derivative of elevation. It indicates the steepness or incline of the terrain. Steeper slopes are more prone to erosion and landslides. Aspect is the compass direction that a slope faces. It influences microclimate conditions, such as sunlight exposure and moisture retention, which affect vegetation patterns. 

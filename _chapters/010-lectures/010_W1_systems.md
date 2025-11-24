@@ -38,11 +38,12 @@ System and boundaries
 Landscapes are dynamic systems through which mass is continually moving. Individual landforms can lose or gain mass over time; for example, rocky outcrops disaggregate and erode over time as they weather, but mass is conserved as it moves downslope. Eroded material is transformed by chemical reactions or physical abrasion as it moves, but it always ends up somewhere else. For example, a delta system at the mouth of a river grows because of input of sediment from upstream sources.
 
 In geomorphic systems, a simple yet very useful concept is that the difference between inputs (I) and outputs (O) during some time period equals the change in storage (ST):  
-$$ I - O =\delta ST$$
-#### Conservation of energy
-Energy cannot be created or destroyed. It only transforms from one to another.
 
-For example potential energy, the energy of position can be converted into kinetic energy. Boulder on the hill.
+$$ I - O =\delta ST$$
+
+#### Conservation of energy
+Energy cannot be created or destroyed; it can only be transformed from one form to another.
+For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy.
 
 Water running down on slopes also transforms it potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
 
@@ -53,12 +54,13 @@ From source to sink
 Most of the transport is one way. A flow of water down river networks, of ice down glacial valley systems, and of soil and rock down hillslopes are the predominant agents of mass transport on the continents.
 
 #### Balance of forces and thresholds
-Balance of forces - important concept. For example slope stability - some forces hold slope together, other forces are driving particles on slope to move.
+A balance of forces is a fundamental concept in geomorphology.
+
+For example, in slope stability, some forces act to hold the slope together (resisting forces), while others act to drive particles on the slope to move (driving forces). Resisting forces include friction and the cohesive strength of soil or rock, whereas driving forces are primarily related to gravity acting on the mass of material and any additional loads (e.g. water). A slope remains stable as long as resisting forces exceed driving forces; once driving forces become greater, slope failure and mass movement can occur.
 
 #### Thresholds
 In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, however, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
-##### Thresholds
-Physical or chemical conditions that, when reached or exceeded, triggers a change, shift to new state or a new range of average conditions
+
 
 ## Main leading factor in landscape evolution
 
@@ -73,7 +75,7 @@ Physical or chemical conditions that, when reached or exceeded, triggers a chang
     - Carbon flux (organic storage vs. oxidation).
 
 ### System Dynamics 
-Equation of landscape change: 
+Equation of landscape change (change of elevation with time): 
 $$∂z/∂t = U – E – D.$$
 
 Where:
@@ -84,8 +86,7 @@ $D$: diffusive hillslope processes.
 
 ## Steady-state vs. dynamic equilibrium:
 
-Steady state in broad view means balance between uplift and erosion.
-Equilibrium landscape = does not change through time. Equilibrium is not static but often dynamic steady state exists. That means, that system oscilates around some mean. Steady state is strongly scale dependent. For example, a landscape can be in steady state on million year timescale, but not on 1000 years timescale.
+Steady state in broad view means balance between uplift and erosion. Equilibrium landscape means that it does not change through time. Equilibrium is not static but often dynamic steady state exists. That means, that system oscillates around some mean. Steady state is strongly scale dependent. For example, a landscape can be in steady state on million year timescale, but not on 1000 years timescale.
 
 The average slope of a mountain range, for example, remains constant if erosion and rock uplift rates are equal over time, even if individual erosional events greatly change local slopes in the short term. The timescales over which topography equilibrates to changes in landscape-forming processes range from seasonal resurfacing of gravel streambeds following winter storms to the tens of millions of years it can take to erode mountain ranges.
 
@@ -93,12 +94,10 @@ Dynamic equilibrium: constant form but shifting position.
 
 Landscapes may appear unchanging, but considered geologically, topography is dynamic because material is constantly being entrained, transported, and deposited. Over centuries to millennia, such changes result in a dynamic equilibrium that maintains topographic forms in an average sense even as individual slopes experience landslides; coastal landforms shift with currents, tides, and storms; and rivers migrate across their floodplains.
  
- 
- 
-Transient state: system adjusting after disturbance.
+Transient state: system adjusting after disturbance. For example in the recentyl deglaciated landscapes so-called paraglacial adjustment occurs. Another example is river adjusting to baselevel fall after sea level drop.
 
+### Feedback loops
 
-Feedback loops:
-    - Positive (accelerated incision after uplift).
-    - Negative (vegetation reducing erosion).
-
+In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behaviour. Feedbacks can be either positive or negative:
+    - **Positive feedback** amplifies the initial change and drives the system further in the same direction.
+    - **Negative feedback** counteracts the initial change and stabilizes the system. 

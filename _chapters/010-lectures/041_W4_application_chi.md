@@ -1,6 +1,6 @@
 ---
-title: Week 4 – Chi Analysis and Transient Profiles
-slug: Week4
+title: W4 – Application of Chi Analysis
+slug: W4_Application_Chi
 abstract:
 ---
 
