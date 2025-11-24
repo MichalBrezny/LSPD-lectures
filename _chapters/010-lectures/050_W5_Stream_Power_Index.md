@@ -1,6 +1,6 @@
 ---
-title: Week 5 – Stream Power Incision Model – Theory and Implementation
-slug: Week5
+title: W5 – Stream Power Incision Model – Theory and Implementation
+slug: W5_Stream_Power_Incision_Model
 abstract:
 ---
 
@@ -66,11 +66,6 @@ Where:
 - S = channel slope (dimensionless)
 - m, n = empirical exponents that describe how incision scales with area and slope
 
-This is the simplest but still widely used model for fluvial incision. 
-
-
-Parameter $K$ incorporates factors like climate and lithology that affect how easily a river can erode its bed. The exponents $m$ and $n$ are typically determined empirically, often through regression analysis of slope-area data from river networks.
-
-These parameters, though thought to be constants, can vary in space and time depending on environmental conditions. Different erodibility values can be during glacial vs. interglacial periods or in different lithologies.
+This is the simplest but still widely used model for fluvial incision. Parameter $K$ incorporates factors like climate and lithology that affect how easily a river can erode its bed. The exponents $m$ and $n$ are typically determined empirically, often through regression analysis of slope-area data from river networks. These parameters, though thought to be constants, can vary in space and time depending on environmental conditions. Different erodibility values can be during glacial vs. interglacial periods or in different lithologies.
 
 

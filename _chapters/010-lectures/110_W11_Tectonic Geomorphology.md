@@ -1,6 +1,6 @@
 ---
-title: Week 11 – Tectonic Geomorphology
-slug: Week11
+title: W11 – Tectonic Geomorphology
+slug: W11_Tectonic_Geomorphology
 abstract:
 ---
 
