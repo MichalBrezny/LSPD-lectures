@@ -1,37 +1,11 @@
 ---
-title: W2 – Terrain Metrics and Hydrology
-slug: week2-terrain-metrics-hydrology
+title: Week 2 – Terrain Metrics
+slug: week2-terrain-metrics
 abstract:
 ---
 
-<!-- 
-## Overview
-**Lecture 1: Digital Elevation Models**
-- Data sources: SRTM, ASTER, LiDAR, UAV-based DEMs.
-- Strengths and weaknesses of different datasets.
-- Vertical accuracy, resolution trade-offs.
-- DEM preprocessing workflows.
 
-**Lecture 2: Terrain Metrics & Hydrology**
-- First- and second-order DEM derivatives: slope, aspect, curvature.
-- Basin hypsometry as a maturity indicator.
-- Hydrological indices: TWI, SPI.
-- Infiltration theory: Horton vs. Dunne mechanisms.
-- Hydrographs: stormflow, baseflow, lag time.
-
-**Lab**
-- Extract slope, aspect, curvature, hypsometry, TWI from DEM in GIS (QGIS/SAGA).
-- Compare terrain metrics at different DEM resolutions.
-- Spreadsheet hydrology: create a rainfall–runoff model.
-- **Exercise:** Test infiltration capacity scenarios (sandy vs. clay soil).
-
----
--->
-
-## Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
-
-<!-- 
-### Lecture 1: Digital Elevation Models
+## Digital Elevation Models
 **Structure**
 - **Introduction (5 min)**
   - DEM as foundation of quantitative geomorphology.
@@ -82,6 +56,7 @@ abstract:
   - Discuss: How does land cover affect hydrograph form?
 
 ---
+
 ### Lab 2: Terrain Metrics and Runoff Modelling
 **Objectives**
 - Extract key terrain metrics from DEMs.
@@ -104,7 +79,7 @@ abstract:
      - Relate results to DEM-derived wetness indices.
 
 ---
--->
 
-# Topography metrics to process
+
+
 

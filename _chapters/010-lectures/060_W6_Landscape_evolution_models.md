@@ -1,6 +1,6 @@
 ---
 title: Week 6 – SPIM in Landlab – Basic Modelling
-slug: week6-spim-landlab-basic-modelling
+slug: week6-landscape-evolution-models-introduction
 abstract:
 ---
 
