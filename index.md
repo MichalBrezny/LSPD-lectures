@@ -19,7 +19,12 @@ Course is still under development.
 
 ## Course Overview
 
-Geomorphology is the study of Earth's surface forms and the processes that shape them.  
-In this course, we will explore how landscapes evolve over time using both theoretical and quantitative approaches.
+Geomorphology is the study of Earth's surface forms and the processes that shape them. This course follows on from basic course of geomorhology, which gave you an introduction to the main surface processes and landforms. This course focuses and explore the processes that drive landscape evolution over time, and how we can model and quantify these processes.
 
 ### Structure
+Course is structured into weekly modules, each consisting of:
+- Lectures: Theoretical background and key concepts.
+- Labs: Hands-on exercises using real-world data and modeling tools.
+- Readings: Selected papers and book chapters for deeper understanding.
+- Assignments: Problem sets and projects to apply learned concepts.
+

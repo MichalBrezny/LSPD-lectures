@@ -1,6 +1,6 @@
 ---
 title: W10 – Applications and Case Studies
-slug: W10_Applications_Case_Studies
+slug: week10-applications-case-studies
 abstract:
 ---
 

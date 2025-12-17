@@ -1,6 +1,6 @@
 ---
 title: W5 – Stream Power Incision Model – Theory and Implementation
-slug: W5_Stream_Power_Incision_Model
+slug: week5-stream-power-incision-model
 abstract:
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: W4 – Application of Chi Analysis
-slug: W4_Application_Chi
+slug: week4-application-chi
 abstract:
 ---
 

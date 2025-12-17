@@ -1,9 +1,9 @@
 ---
 title: Week 6 – SPIM in Landlab – Basic Modelling
-slug: Week6
+slug: week6-spim-landlab-basic-modelling
 abstract:
 ---
-<!--
+
 ### Lecture 1: Introduction to LEMs
 **Structure**
 - **Introduction (5 min)**
@@ -54,4 +54,5 @@ abstract:
      - Dataset to be used.
      - Research question.
      - Planned methods and expected challenges.
--->
+
+----

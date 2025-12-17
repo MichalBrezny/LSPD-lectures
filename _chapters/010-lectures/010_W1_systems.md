@@ -50,8 +50,12 @@ Water running down on slopes also transforms it potential energy to kinetic ener
 #### Material routing
 From source to sink, most geomorphic transport is effectively one-way.
 Water flowing downstream through river networks, ice moving down glacial valleys, and soil and rock moving downslope under gravity are the predominant agents of mass transport on the continents. Together, these flows transfer material from upland source areas (where rock is uplifted and weathered) towards lowland sinks such as floodplains, lakes, and ultimately the oceans, where sediment is deposited and stored over longer timescales.
-From source to sink
-Most of the transport is one way. A flow of water down river networks, of ice down glacial valley systems, and of soil and rock down hillslopes are the predominant agents of mass transport on the continents.
+
+>[!NOTE]
+> Some mass can be transported back upslope by biological activity (e.g., tree throw, animal burrowing) or human activities (e.g., terracing, mining), but these processes are generally of secondary importance at landscape scales.
+
+
+
 
 #### Balance of forces and thresholds
 A balance of forces is a fundamental concept in geomorphology.

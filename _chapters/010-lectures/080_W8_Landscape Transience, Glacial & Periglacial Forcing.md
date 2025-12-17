@@ -1,6 +1,6 @@
 ---
-title: W8 – Landscape Transience, Glacial & Periglacial Forcing
-slug: W8_Landscape_Transience_Glacial_Periglacial_Forcing
+title: W8 – Landscape Transience, Glacial & Periglacial Forcing 2
+slug: week8-landscape-transience-glacial-periglacial-forcing
 abstract:
 ---
 ### Lecture 1: Landscape Transience

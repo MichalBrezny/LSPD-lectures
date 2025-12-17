@@ -1,6 +1,6 @@
 ---
 title: W3 – River Networks
-slug: W3_river-networks
+slug: week3-river-networks
 abstract:
 ---
 

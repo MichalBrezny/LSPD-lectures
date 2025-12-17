@@ -67,6 +67,10 @@ Many global DEMs are in fact DSMs, as they are derived from remote sensing techn
 
 Many DEMs are freely available for download, e.g., SRTM (Shuttle Radar Topography Mission) or its succesor NASADEM, ASTER GDEM, ALOS DEM and more. Recently, there area attempts to create DTMs using machine learning to remove vegetation and buildings like FABDEM. High-resolution DEMs from LiDAR surveys have become increasingly accessible for detailed local studies. For regional to global scale studies, usage of high resolution DEMs might be problematic due to data volume and processing requirements. Further the high detail of LiDAR DEMs might introduce high frequency noise and artifacts due to man made structures. Thus resampling to coarser resolution DEMs (e.g., 30 m or 90 m) is often performed for larger scale studies.
 
+> [!NOTE]  
+> Open topography portal (https://opentopography.org/) is a good resource to search and download high-resolution DEMs from LiDAR surveys and also global DEMs.
+
+
 ### Topography metrics to process
 
 #### Slope and Aspect
@@ -102,9 +106,6 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 
 #### Hypsometry
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
-
-
-
 
 #### Hydrological Indices
 The Topographic Wetness Index (TWI) is calculated as 
