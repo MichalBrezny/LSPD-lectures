@@ -20,8 +20,6 @@ abstract:
 - **Wrap-up (5–10 min)**
   - Quick discussion: What does a break in slope of χ-plot mean?
 
-
-
 ### Chi transformation - what is it and why we use it?
 
 The Chi transformation is a mathematical approach used in geomorphology to analyze river profiles. It helps to identify and quantify changes in river morphology, particularly in response to tectonic or climatic forces. By transforming the river profile into a Chi plot, we can better understand the processes shaping the landscape.

@@ -98,10 +98,12 @@ Dynamic equilibrium: constant form but shifting position.
 
 Landscapes may appear unchanging, but considered geologically, topography is dynamic because material is constantly being entrained, transported, and deposited. Over centuries to millennia, such changes result in a dynamic equilibrium that maintains topographic forms in an average sense even as individual slopes experience landslides; coastal landforms shift with currents, tides, and storms; and rivers migrate across their floodplains.
  
-Transient state: system adjusting after disturbance. For example in the recentyl deglaciated landscapes so-called paraglacial adjustment occurs. Another example is river adjusting to baselevel fall after sea level drop.
+Transient state: system adjusting after disturbance. For example in the recently deglaciated landscapes so-called paraglacial adjustment occurs. Another example is river adjusting to base level fall after sea level drop.
 
 ### Feedback loops
 
-In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behaviour. Feedbacks can be either positive or negative:
+In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behavior. Feedbacks can be either positive or negative:
     - **Positive feedback** amplifies the initial change and drives the system further in the same direction.
     - **Negative feedback** counteracts the initial change and stabilizes the system. 
+For example, in landscape evolution, a positive feedback loop can occur when increased erosion exposes more erodible material, leading to further erosion. Conversely, a negative feedback loop might involve vegetation growth stabilizing slopes and reducing erosion rates.
+

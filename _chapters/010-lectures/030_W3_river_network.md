@@ -27,7 +27,7 @@ abstract:
 
 -->
 ---
-## Lecture 1: River Networks and Drainage Basins
+## River Networks and Drainage Basins
 
 ### River Networks
 River networks are hierarchical structures that efficiently channel water and sediment from upland areas to downstream sinks. Geometry of river networks reflects the underlying landscape processes, geology, and controls hydrological and sediment transport dynamics.
