@@ -53,3 +53,16 @@ abstract:
    - Simulate base-level fall to mimic deglaciation.
 6. **Exercise**
    - Write interpretation of paraglacial adjustment.
+
+
+# What is transience in landscapes?
+
+Imagine steady state longitudinal river profile. It has nice concave shape. But what if base level (erosinal base) drops? The river will react by incising into the bedrock. But this does not happen instantaneously. Instead, a knickpoint (a sharp change in slope) will form and start migrating upstream. Behind the knickpoint, the river profile will adjust to new base level, but upstream of the knickpoint, the river profile will still reflect the old base level. This is an example of landscape transience.
+
+Transience refers to the period where the landscape adjust to the new conditions. 
+
+An example of landscape in transience are recentyl deglaciated areas. 
+
+
+
+

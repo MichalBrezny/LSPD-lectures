@@ -18,7 +18,7 @@ abstract:
   - Post-orogenic Appalachians.
 - **Wrap-up (5 min)**
   - Q: What landforms show “memory” of past events?
-
+  - 
 ### Lecture 2: Glacial & Periglacial Processes
 **Structure**
 - **Introduction (5 min)**
@@ -53,3 +53,10 @@ abstract:
    - Simulate base-level fall to mimic deglaciation.
 6. **Exercise**
    - Write interpretation of paraglacial adjustment.
+
+
+# Paraglacial transience
+
+Ballantyne (2002) defined paraglacial as "the suite of processes, landforms, and sedimentary deposits that result from the adjustment of Earth's surface to the removal of glacial ice." Following deglaciation, landscapes often experience a period of heightened geomorphic activity as they adjust to the new conditions. This adjustment can include increased rates of mass wasting, fluvial incision, and sediment transport.
+
+Glaciation profoundly reshapes landscapes through processes such as abrasion and quarrying, leading to characteristic landforms like U-shaped valleys and fjords. The efficiency of glacial incision often exceeds that of fluvial processes, resulting in overdeepened valleys that can influence postglacial landscape evolution.
