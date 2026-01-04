@@ -62,13 +62,13 @@ abstract:
 Mass movements, such as landslides and debris flows, are rapid downslope movements of soil and rock that occur when the driving forces exceed the resisting forces on a slope. The infinite slope model is commonly used to assess slope stability, calculating the Factor of Safety (FoS) as:
 $$ FoS = \frac{c + (\sigma - u) \tan \phi}{\tau} $$
 where:
-- \( c \) = cohesion of the soil (force per unit area)
-- \( \sigma \) = normal stress on the failure plane (force per unit area)
-- \( u \) = pore water pressure (force per unit area)
-- \( \phi \) = internal friction angle (degrees)
-- \( \tau \) = shear stress driving the movement (force per unit area)
-
-If \( FoS > 1 \), the slope is stable; if \( FoS < 1 \), failure is likely. Triggering mechanisms for mass movements include intense rainfall, earthquakes, and undercutting by rivers. Mass wasting plays a significant role in landscape evolution by rapidly delivering sediment to channels, influencing erosion rates and topographic development.
+- $ c $ = cohesion of the soil (force per unit area)
+- $ \sigma $ = normal stress on the failure plane (force per unit area)
+- $ u $ = pore water pressure (force per unit area)
+- $ \phi $ = internal friction angle (degrees)
+- $ \tau $ = shear stress driving the movement (force per unit area)
+  
+If $ FoS > 1 $, the slope is stable; if $ FoS < 1 $, failure is likely. Triggering mechanisms for mass movements include intense rainfall, earthquakes, and undercutting by rivers. Mass wasting plays a significant role in landscape evolution by rapidly delivering sediment to channels, influencing erosion rates and topographic development.
 
 In landscape evolution models, stochastic landslide modules can be incorporated to simulate the effects of mass movements on sediment flux and topography over time.
 

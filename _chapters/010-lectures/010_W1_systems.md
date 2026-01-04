@@ -8,8 +8,8 @@ abstract:
 *Landscapes are suites of landforms which share a common genesis, contiguous location, and related history.* (Bierman & Montgomery 2014)
 
 ## Landscape as Open System
-"A system is a structured set of objects and/or attributes. These objects and attributes consist of components or variables (i.e. phenomena which are free to assume variable magnitudes) that exhibit discernible relationships with one another and operate together as a complex whole, according to some observed pattern." 
-Chorley and Kennedy, 1971
+>*"A system is a structured set of objects and/or attributes. These objects and attributes consist of components or variables (i.e. phenomena which are free to assume variable magnitudes) that exhibit discernible relationships with one another and operate together as a complex whole, according to some observed pattern."*
+>Chorley and Kennedy, 1971
 
 There are three types of systems:
   - Open system - exchanges energy and matter with surroundings
@@ -81,9 +81,21 @@ $E$: erosion/incision (fluvial, glacial, aeolian).
 $D$: diffusive hillslope processes.
 
 
-## Steady-state vs. dynamic equilibrium:
+## Landscape types
 
-Steady state in broad view means balance between uplift and erosion. Equilibrium landscape means that it does not change through time. Equilibrium is not static but often dynamic steady state exists. That means, that system oscillates around some mean. Steady state is strongly scale dependent. For example, a landscape can be in steady state on million year timescale, but not on 1000 years timescale.
+Bierman & Montgomery (2014) classify landscapes into 4 broad types:
+
+- **Steady-state landscapes**: long-term balance between uplift and erosion. Characterized by mature landforms, stable drainage patterns, and equilibrium profiles.
+- **Transient landscapes**: adjusting to recent changes in tectonics or climate. Characterized by disequilibrium profiles, migrating knickpoints, and evolving drainage networks.
+- **Relict landscapes**: preserved remnants of past geomorphic conditions. Characterized by ancient landforms, low erosion rates, and limited active processes.
+- **Ancient landscapes**: very old surfaces that have experienced minimal tectonic or climatic change. Characterized by deeply weathered profiles, subdued topography, and low relief.
+
+### Steady State vs. Equilibrium vs. Transient
+
+Steady state in broad view means balance between uplift and erosion. 
+
+
+Equilibrium landscape means that it does not change through time. Equilibrium is not static but often dynamic steady state exists. That means, that system oscillates around some mean. Steady state is strongly scale dependent. For example, a landscape can be in steady state on million year timescale, but not on 1000 years timescale.
 
 The average slope of a mountain range, for example, remains constant if erosion and rock uplift rates are equal over time, even if individual erosional events greatly change local slopes in the short term. The timescales over which topography equilibrates to changes in landscape-forming processes range from seasonal resurfacing of gravel streambeds following winter storms to the tens of millions of years it can take to erode mountain ranges.
 
