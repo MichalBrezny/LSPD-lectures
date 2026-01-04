@@ -1,6 +1,6 @@
 ---
-title: W10 – Data–Model Integration and Uncertainty
-slug: week10-data-model-integration-uncertainty
+title: W10 – Data–Model Integration and Uncertainty 2
+slug: week10-data-model-integration-uncertainty2
 abstract:
 ---
 ## Week 10 – Data–Model Integration and Uncertainty

@@ -1,6 +1,6 @@
 ---
-title: W11 – Applications and Case Studies: Applied Geomorphology
-slug: week11-applications-case-studies
+title: W11 – Applications and Case Studies – Applied Geomorphology
+slug: week11-applications-case-studies-applied-geomorphology
 abstract:
 ---
 

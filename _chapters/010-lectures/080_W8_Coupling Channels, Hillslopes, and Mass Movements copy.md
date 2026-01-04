@@ -1,6 +1,6 @@
 ---
-title: Week 8 – Coupling Channels, Hillslopes, and Mass Movements
-slug: week8-coupling-channels-hillslopes-mass-movements
+title: W8 – Coupling Channels, Hillslopes, and Mass Movements - Diffusion
+slug: week8-coupling-channels-hillslopes-mass-movements-diffusion
 abstract:
 ---
 <!--

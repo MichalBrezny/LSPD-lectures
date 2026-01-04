@@ -1,5 +1,5 @@
 ---
-title: W3-Longitudinal Profiles
+title: W3 – Longitudinal Profiles
 slug: week3-longitudinal-profiles
 abstract:
 ---

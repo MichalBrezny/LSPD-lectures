@@ -1,5 +1,5 @@
 ---
-title: W6 – Stream Power Incision Model – Theory and Implementation
+title: W6 – Stream Power Incision Model – Applications
 slug: week6-application-stream-power-incision-model
 abstract:
 ---

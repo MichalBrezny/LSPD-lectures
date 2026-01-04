@@ -1,6 +1,6 @@
 ---
 title: W9 – Landscape Transience, Glacial & Periglacial Forcing 2
-slug: week9-landscape-transience-glacial-periglacial-forcing
+slug: week9-landscape-transience-glacial-periglacial-forcing2
 abstract:
 ---
 ### Lecture 1: Landscape Transience

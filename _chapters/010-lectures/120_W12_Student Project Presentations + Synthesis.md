@@ -1,5 +1,5 @@
 ---
 title: Week 12 – Student Project Presentations + Synthesis
-slug: Week12
+slug: week12-student-project-presentations-synthesis
 abstract:
 ---
