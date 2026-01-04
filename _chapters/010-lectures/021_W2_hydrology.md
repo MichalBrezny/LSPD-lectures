@@ -1,5 +1,5 @@
 ---
-title: W2 – Terrain Metrics
+title: W2 – Terrain Metrics & Hydrology
 slug: week2-terrain-metrics-hydrology
 abstract:
 ---

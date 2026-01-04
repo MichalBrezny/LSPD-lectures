@@ -1,6 +1,6 @@
 ---
-title: W11 – Applications and Case Studies: Case Studies 
-slug: week11-applications-case-studies
+title: W11 – Applications and Case Studies – Case Studies 
+slug: week11-applications-case-studies-case-studies
 abstract:
 ---
 

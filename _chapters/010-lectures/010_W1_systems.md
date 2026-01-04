@@ -39,7 +39,9 @@ Landscapes are dynamic systems through which mass is continually moving. Individ
 
 In geomorphic systems, a simple yet very useful concept is that the difference between inputs (I) and outputs (O) during some time period equals the change in storage (ST):  
 
-$$ I - O =\delta ST$$
+$$ 
+I - O =\delta ST 
+$$
 
 #### Conservation of energy
 Energy cannot be created or destroyed; it can only be transformed from one form to another.
