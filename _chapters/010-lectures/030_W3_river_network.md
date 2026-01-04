@@ -82,8 +82,10 @@ where:
   
 It expresses average channel length per unit area (e.g., km km^-2 or m m^-2, often reported simply as km^-1 or m^-1). Higher values indicate more closely spaced channels (greater dissection); lower values indicate more widely spaced channels (less dissection).
 
+Drainage density is refers to a average spacing of channels in a drainage basin. It is inversely related to the average distance water must travel overland before reaching a channel ($\overline{L} \sim 1/2D_d$). Further the drainage density is related to the valley density (length of valleys per unit area) as valleys typically host channels.
+
 #### What affects drainage density?
-Drainage density is influenced by climatic factors and physical properties of the drainage basin. Very important is also the time, as landscapes evolve and drainage networks develop over time. 
+Drainage density is influenced by climatic factors, physical properties of the drainage basin, rock and soil properties, relief, vegetation. Very important is also the time, as landscapes evolve and drainage networks develop over time. 
 
 For example soil permeability (how easily water can infiltrate into soil) and underlying rock type affect the runoff in a watershed. Impermeable ground or exposed bedrock will lead to an increase in surface water runoff and therefore to more frequent streams. Rugged regions or those with high relief will also have a higher drainage density than other drainage basins if the other characteristics of the basin are the same.
 
@@ -92,3 +94,8 @@ Drainage density is often used as an indicator of the maturity of a landscape. Y
 
 ## Inverse of drainage density as a physical quantity
 
+
+# References
+Horton, R.E., 1945. Erosional Development of Streams and Their Drainage Basins; Hydrophysical Approach to Quantitative Morphology. Geol Soc America Bull 56, 275. https://doi.org/10.1130/0016-7606(1945)56%255B275:EDOSAT%255D2.0.CO;2
+
+Tucker, G.E., Catani, F., Rinaldo, A., Bras, R.L., 2001. Statistical analysis of drainage density from digital terrain data. Geomorphology 36, 187–202. https://doi.org/10.1016/S0169-555X(00)00056-8

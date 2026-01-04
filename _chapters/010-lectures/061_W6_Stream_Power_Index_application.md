@@ -49,3 +49,93 @@ Once we have estimates for \(\theta\) and \(k_s\), we can relate them to the SPI
 Model calibration involves adjusting the erodibility coefficient \(K\) to match observed incision rates. This can be done by comparing modeled erosion rates from SPIM with measured incision rates from field data, such as river terrace elevations or cosmogenic nuclide dating.
 
 Finally, it is important to test the sensitivity of the model to changes in parameters \(K\), \(m\), and \(n\). This helps to understand how uncertainties in these parameters can affect predicted incision rates. 
+
+
+
+
+
+
+## Lecture 2: Using SPIM to Interpret and Predict Landscape Evolution
+
+### 1. Introduction: From Explanation to Experiment (5 min)
+- Chi showed us *what* the landscape is doing.
+- SPIM explains *why*.
+- Next step:
+  > *Use SPIM to test hypotheses about tectonic forcing.*
+
+---
+
+### 2. Steady-State Solutions (20 min)
+
+#### 2.1 Balance Between Uplift and Incision
+- At steady state:
+  - U = K A^m S^n everywhere along channel.
+- Implications:
+  - spatially uniform uplift produces systematic slope patterns.
+  - rivers encode uplift in their geometry.
+
+#### 2.2 Spatial Variations
+- Changes in:
+  - uplift rate,
+  - erodibility,
+  - base level
+  produce predictable profile changes.
+- SPIM allows forward prediction:
+  - if U doubles, how must S respond?
+
+---
+
+### 3. Transient Scenarios (25 min)
+
+#### 3.1 Uplift Rate Change
+- Sudden increase in uplift:
+  - produces steep reach near outlet,
+  - knickpoint migrates upstream.
+- Rate of migration depends on:
+  - K,
+  - drainage area,
+  - channel slope.
+
+#### 3.2 Base-Level Fall
+- River responds similarly to uplift pulse.
+- Explains:
+  - postglacial incision,
+  - river response to sea-level change.
+
+---
+
+### 4. Interpreting SPIM Outputs (20 min)
+
+#### 4.1 What SPIM Can Tell Us
+- Relative uplift patterns.
+- Incision histories (qualitative).
+- Expected profile shapes.
+
+#### 4.2 What SPIM Cannot Tell Us
+- Absolute uplift rates without calibration.
+- Exact timing of events.
+- Effects of complex sediment dynamics.
+
+---
+
+### 5. Linking SPIM to LEMs (15 min)
+
+- SPIM is:
+  - 1D along channels.
+- Landscape evolution models:
+  - extend SPIM across 2D surfaces,
+  - couple with hillslopes and tectonics.
+- Conceptual shift:
+  > *From interpreting rivers to simulating landscapes.*
+
+---
+
+### 6. Wrap-up & Transition (10 min)
+
+- Key takeaways:
+  - SPIM explains chi patterns mechanistically.
+  - Parameters have physical meaning tied to tectonics.
+- Explicit transition:
+  > *Next, we implement SPIM numerically to explore landscape evolution through time.*
+
+---

@@ -3,7 +3,7 @@ title: W7 – SPIM in Landlab – Basic Modelling
 slug: week7-spim-landlab-basic-modelling
 abstract:
 ---
-
+<!--
 ### Lecture 1: Introduction to LEMs
 **Structure**
 - **Introduction (5 min)**
@@ -56,3 +56,7 @@ abstract:
      - Planned methods and expected challenges.
 
 ----
+-->
+# Landlab and Basic SPIM Modelling
+
+

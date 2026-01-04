@@ -53,19 +53,95 @@ Chi plots are graphical representations that plot the Chi values against elevati
 
 
 
+## Lecture 1: Why Chi? From Tectonic Forcing to River Profiles
+
+### 1. Introduction: The Problem We Are Trying to Solve (10 min)
+- Recap from tectonic geomorphology:
+  - Tectonic uplift creates relief.
+  - Rivers respond by adjusting slope and incision rate.
+- Key difficulty:
+  - River profiles are **nonlinear**.
+  - Slope varies systematically with drainage area.
+- Central question:
+  > *How can we objectively compare rivers and quantify their response to tectonic forcing?*
+- Chi analysis is introduced as a **coordinate transformation**, not a new process.
 
 ---
-### Lab 4: Chi Analysis of River Networks
-**Objectives**
-- Gain hands-on skills in χ analysis.
-- Learn to detect disequilibrium landscapes.
 
-**Steps**
-1. **Load DEM** and delineate catchments.
-2. **Run χ-analysis tool** in TopoToolbox or Python script.
-3. **Generate χ–elevation plots** for main stem and tributaries.
-4. **Interpret breaks and slope changes**.
-5. **Exercise**
-   - Write a short interpretation: tectonic vs. lithologic vs. climatic control.
+### 2. Rivers as Tectonic Sensors (15 min)
+
+#### 2.1 Conceptual Link
+- Uplift increases erosion demand.
+- Rivers steepen to keep up with uplift.
+- Steepness is therefore a **proxy**, not a direct measurement.
+
+#### 2.2 Why Slope Alone Is Not Enough
+- Channel slope decreases downstream due to increasing discharge.
+- Two rivers with the same uplift rate can have very different slopes.
+- Need to normalize slope for drainage area.
 
 ---
+
+### 3. From Slope–Area to Chi (25 min)
+
+#### 3.1 Slope–Area Scaling
+- Empirical relationship:
+  - S ∝ A^(-θ)
+- Interpretation:
+  - θ reflects concavity.
+  - k reflects channel steepness.
+- Problem:
+  - Slope–area plots are noisy and difficult to compare across basins.
+
+#### 3.2 The Idea Behind Chi
+- Replace downstream distance with an **integrated drainage-area coordinate**.
+- Chi accumulates the effect of drainage area upstream.
+- Key idea:
+  > *If uplift and erodibility are uniform, river profiles become linear in chi space.*
+
+---
+
+### 4. Physical Meaning of Chi (20 min)
+
+#### 4.1 What Chi Represents
+- Chi is proportional to:
+  - time-integrated erosion potential,
+  - normalized upstream incision demand.
+- Higher chi values upstream = greater cumulative resistance to incision.
+
+#### 4.2 What a Linear Chi Profile Means
+- Linear χ–elevation profile implies:
+  - steady-state conditions,
+  - balance between uplift and incision,
+  - spatially uniform forcing (within assumptions).
+
+#### 4.3 What Breaks in Chi Mean
+- Changes in slope of χ–z plot indicate:
+  - transient adjustment,
+  - uplift rate change,
+  - base-level perturbation,
+  - drainage reorganization.
+
+---
+
+### 5. Assumptions and Limits (15 min)
+
+- Assumes:
+  - detachment-limited incision,
+  - power-law erosion,
+  - uniform climate and lithology (first order).
+- Chi does **not**:
+  - prove active tectonics,
+  - give absolute uplift rates,
+  - replace field observations.
+- Emphasize:
+  > *Chi quantifies response, not cause.*
+
+---
+
+### 6. Wrap-up & Transition (5 min)
+- Chi is a **formalization** of ideas introduced in tectonic geomorphology.
+- Sets stage for:
+  - channel steepness indices (ksn),
+  - SPIM parameters,
+  - landscape evolution modeling.
