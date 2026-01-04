@@ -74,57 +74,6 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 4. **Faulting and folding**: These processes can create localized topographic highs and lows, influencing drainage patterns and erosion rates.
 -->
 
-## Geomorphic indicators of tectonic activity
-
-As we want to measure tectonic activity e.g., uplift rates, we can use *geomorphic markers*. These are landforms, surfaces, linear trends which have these characteristics:
-- we know  the initial geometry (e.g., flat surface)
-- we know the age (e.g., dated river terrace)
-- has a high preservation potential
-
-Some of geomorphic markers:
-- Planar surfaces:
-  - marine terraces, beaches, shorelines
-  - deltas
-  - river terraces
-  - alluvial fans
-  - erosional surfaces
-- Linear markers:
-  - rivers, ridge crests
-  - glacial moraines
-
-
-
-
-### 2. Types of Tectonic Forcing (20 min)
-
-#### 2.1 Vertical Motions
-- Rock uplift vs. surface uplift:
-  - rock uplift: motion of rock relative to geoid,
-  - surface uplift: change in land surface elevation.
-- Mechanisms:
-  - crustal thickening,
-  - mantle dynamics,
-  - flexural and erosional isostasy.
-- Spatial patterns of uplift:
-  - uniform uplift,
-  - block uplift,
-  - fault-controlled uplift.
-
-#### 2.2 Horizontal Deformation
-- Shortening and extension:
-  - fold-and-thrust belts,
-  - rift systems.
-- Strike-slip deformation:
-  - lateral offsets,
-  - pull-apart basins.
-- Consequences for drainage:
-  - river deflection,
-  - drainage capture,
-  - basin tilting.
-
----
-
-### 3. Landscape Response to Tectonic Forcing (25 min)
 
 #### 3.1 Channel Response
 - Increase in channel slope to balance uplift.
@@ -169,7 +118,26 @@ Some of geomorphic markers:
   - Can two landscapes with the same uplift rate look different?
   - How long does it take for tectonic signals to appear in topography?
 
----
+
+## Geomorphic indicators of tectonic activity
+
+As we want to measure tectonic activity e.g., uplift rates, we can use *geomorphic markers*. These are landforms, surfaces, linear trends which have these characteristics:
+- we know  the initial geometry (e.g., flat surface)
+- we know the age (e.g., dated river terrace)
+- has a high preservation potential
+
+Some of geomorphic markers:
+- Planar surfaces:
+  - marine terraces, beaches, shorelines
+  - deltas
+  - river terraces
+  - alluvial fans
+  - erosional surfaces
+- Linear markers:
+  - rivers, ridge crests
+  - glacial moraines
+
+
 
 ## Lecture 2: Geomorphic Indicators of Active Tectonics
 
@@ -181,69 +149,6 @@ Some of geomorphic markers:
 
 ---
 
-### 2. Channel-Based Indicators (30 min)
-
-#### 2.1 Channel Steepness (Conceptual)
-- Steepness as a response to uplift.
-- Relationship between slope, discharge, and erosion.
-- Intuition behind channel steepness indices.
-
-#### 2.2 Knickpoints and Knickzones
-- Types:
-  - tectonic knickpoints,
-  - lithologic knickpoints,
-  - base-level knickpoints.
-- Migration vs. fixed knickpoints.
-- Using knickpoints as timing indicators.
-
-#### 2.3 Drainage Network Organization
-- Asymmetric drainage basins.
-- River deflection and offset.
-- Beheaded streams and captures.
-
----
-
-### 3. Basin-Scale Indicators (25 min)
-
-#### 3.1 Hypsometry
-- Hypsometric curve:
-  - cumulative area vs. elevation.
-- Hypsometric integral:
-  - youthful vs. mature basins.
-- Interpreting hypsometry cautiously:
-  - tectonics vs. climate vs. lithology.
-
-#### 3.2 Basin Asymmetry
-- Basin tilt and lateral migration.
-- Asymmetry factor (AF).
-- Links to active faulting and warping.
-
----
-
-### 4. Integrating Indicators (20 min)
-
-- No single metric proves tectonic activity.
-- Strength lies in **converging evidence**:
-  - steep channels + asymmetric basins,
-  - knickpoints aligned across basins,
-  - consistency with known faults.
-- Importance of scale:
-  - reach-scale vs. basin-scale signals.
-- Preparing ground for:
-  - chi analysis,
-  - ksn mapping,
-  - SPIM interpretation.
-
----
-
-### 5. Wrap-up and Transition (10 min)
-- Key takeaways:
-  - Tectonic geomorphology is interpretative.
-  - Metrics quantify responses, not causes.
-- Explicit transition:
-  > *Next, we introduce χ-analysis as a tool to formalize and quantify these tectonic signals in river networks.*
-
----
 
 ## Lab: Quantitative Tectonic Geomorphology from DEMs
 

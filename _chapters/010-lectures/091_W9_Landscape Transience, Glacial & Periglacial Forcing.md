@@ -3,6 +3,7 @@ title: W9 – Landscape Transience, Glacial & Periglacial Forcing 2
 slug: week9-landscape-transience-glacial-periglacial-forcing2
 abstract:
 ---
+<!--
 ### Lecture 1: Landscape Transience
 **Structure**
 - **Introduction (5 min)**
@@ -53,7 +54,7 @@ abstract:
    - Simulate base-level fall to mimic deglaciation.
 6. **Exercise**
    - Write interpretation of paraglacial adjustment.
-
+-->
 
 # Paraglacial transience
 

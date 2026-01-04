@@ -3,6 +3,8 @@ title: W9 – Landscape Transience, Glacial & Periglacial Forcing
 slug: week9-landscape-transience-glacial-periglacial-forcing
 abstract:
 ---
+
+<!--
 ### Lecture 1: Landscape Transience
 **Structure**
 - **Introduction (5 min)**
@@ -54,14 +56,13 @@ abstract:
 6. **Exercise**
    - Write interpretation of paraglacial adjustment.
 
+-->
 
-# What is transience in landscapes?
+# Transient landscapes
+Transient landscapes are those that are adjusting to changes in boundary conditions, such as tectonic uplift, climate change, or base-level fluctuations. These landscapes exhibit features like migrating knickpoints, sediment waves, and lagged responses to forcing events. Understanding transience is crucial for interpreting landscape evolution and the timescales over which geomorphic processes operate.
 
 Imagine steady state longitudinal river profile. It has nice concave shape. But what if base level (erosinal base) drops? The river will react by incising into the bedrock. But this does not happen instantaneously. Instead, a knickpoint (a sharp change in slope) will form and start migrating upstream. Behind the knickpoint, the river profile will adjust to new base level, but upstream of the knickpoint, the river profile will still reflect the old base level. This is an example of landscape transience.
 
-Transience refers to the period where the landscape adjust to the new conditions. 
-
-An example of landscape in transience are recentyl deglaciated areas. 
 
 
 

@@ -3,7 +3,7 @@ title: W11 – Applications and Case Studies – Case Studies
 slug: week11-applications-case-studies-case-studies
 abstract:
 ---
-
+<!--
 ## Week 11 – Applications and Case Studies
 ### Lecture 1: Applied Quantitative Geomorphology
 **Structure**
@@ -53,3 +53,4 @@ abstract:
 3. **Instructor guidance** on feasibility and datasets.
 4. **Exercise**
    - Submit 1-page project plan with objectives and methods.
+-->
