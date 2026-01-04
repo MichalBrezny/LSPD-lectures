@@ -12,10 +12,12 @@ abstract:
 ---
 -->
 
-## From descriptive to quantitative geomorphology
-The shift from descriptive to quantitative geomorphology represents a fundamental change in the way geomorphologists study and understand landscape processes. Descriptive geomorphology focuses on the classification and description of landforms and processes, often relying on qualitative observations and case studies. While this approach has provided valuable insights into the diversity of landscapes and their evolution, it has limitations in terms of reproducibility and predictive power.
+# From descriptive to quantitative geomorphology
+The shift from descriptive to quantitative geomorphology represents a fundamental change in the way geomorphologists study and understand landscape processes. 
 
-Quantitative geomorphology, on the other hand, seeks to develop mathematical models and statistical methods to analyze and predict landscape change. This approach allows researchers to test hypotheses, explore relationships between variables, and make predictions about future landscape evolution. By incorporating quantitative methods, geomorphologists can better understand the complex interactions between processes and landforms, leading to more robust and generalizable findings.
+**Descriptive geomorphology** focuses on the classification and description of landforms and processes, often relying on qualitative observations and case studies. While this approach has provided valuable insights into the diversity of landscapes and their evolution, it has limitations in terms of reproducibility and predictive power.
+
+**Quantitative geomorphology**, on the other hand, seeks to develop mathematical models and statistical methods to analyze and predict landscape change. This approach allows researchers to test hypotheses, explore relationships between variables, and make predictions about future landscape evolution. By incorporating quantitative methods, geomorphologists can better understand the complex interactions between processes and landforms, leading to more robust and generalizable findings.
 
 ## Historical development
 The first model of landscape evolution was proposed by William Morris Davis in the late 19th century. His "cycle of erosion" model described a sequence of landscape development stages (youth, maturity, old age) based on qualitative observations. However, this model was criticized for its oversimplification and lack of consideration for dynamic processes.
@@ -51,9 +53,7 @@ Walther Penck's model (1953) emphasized the continuous interplay between uplift 
 %}
 
 ### Hack
-Hack
-
-
+Hack (1960s) introduced the concept of dynamic equilibrium in landscapes. He argued that landscapes adjust to a balance between tectonic uplift and erosional processes. In this view, landscapes are constantly evolving but tend to maintain a state of equilibrium over long timescales. Hack's work laid the foundation for modern process-based geomorphology, emphasizing the importance of quantifying landscape processes.
 
 {% include figure.html
     caption="Landscape evolution models: Davis vs. Penck vs. Hack (After Burbank 2012)"
@@ -61,7 +61,7 @@ Hack
     class="row"
 %}
 
-
+<!--
 ## Benefits of quantification
 Quantifying landscape systems offers several advantages:
 - **Reproducibility**: Quantitative methods allow for consistent measurements and analyses, enabling other researchers to replicate studies and validate findings.
@@ -86,3 +86,17 @@ Quantifying landscape systems offers several advantages:
 - **Long-term monitoring**: Quantitative approaches enable long-term monitoring of landscape changes, providing insights into trends and patterns over time.
 - **Improved accuracy**: Quantitative measurements enhance the accuracy of landscape analyses, reducing subjectivity and bias.
 - **Facilitation of large-scale studies**: Quantitative methods allow for the analysis of large datasets, enabling regional to global-scale studies of landscape processes and changes.
+
+-->
+## Concepts of scaling and dimensional analysis
+Scaling and dimensional analysis are essential tools in quantitative geomorphology. They help to understand how landscape processes and landforms change with size and time.
+- **Scaling**: Examines how geomorphic processes and landforms change with size. For example, the relationship between river discharge and channel width can be described using scaling laws.
+- **Dimensional analysis**: A mathematical technique used to derive relationships between physical quantities by analyzing their dimensions (e.g., length, time, mass). This approach helps to identify key variables and formulate dimensionless numbers that characterize geomorphic processes.   
+- **Applications**: Scaling and dimensional analysis are used to develop empirical relationships, validate numerical models, and interpret field data in geomorphology.
+- **Examples**: The Shields parameter, a dimensionless number used to predict sediment transport initiation, is derived using dimensional analysis.
+
+### Examples of simple quantitative models
+1. **Box models**: Simplified representations of landscape systems that use mass balance equations to track inputs, outputs, and storage of sediment or other materials.
+2. **Balance equations**: Mathematical equations that describe the balance between different geomorphic processes, such as erosion and deposition, to predict landscape evolution over time.
+3. **Stream power law**: A quantitative model that relates river incision rates to channel slope and discharge, providing insights into landscape evolution driven by fluvial processes.
+

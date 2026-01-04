@@ -56,3 +56,43 @@ abstract:
      - Planned methods and expected challenges.
 
 ----
+
+# Introduction to Landscape Evolution Models (LEMs)
+
+## What is a Landscape Evolution Model?
+
+Landscape Evolution Models (LEMs) are numerical tools that simulate the long-term evolution of topography under the influence of tectonic, climatic, and surface processes. They allow us to explore how landscapes respond to various forcings over geological timescales by implementing mathematical representations of physical processes such as erosion, sediment transport, and uplift.
+
+## Why Use LEMs?
+LEMs serve as a bridge between theoretical concepts and real-world observations. They help us to:
+- Test hypotheses about landscape dynamics.
+- Understand the interplay between different geomorphic processes.
+- Predict future landscape changes under varying conditions.
+- Explore transient responses to tectonic or climatic perturbations.
+- Visualize complex interactions in a controlled environment.
+- Identify key parameters that influence landscape evolution.
+- Generate synthetic datasets for comparison with field data.
+- Facilitate learning and teaching of geomorphic principles.
+- And more!
+However, it is important to recognize the limitations of LEMs, including simplifications of complex processes, uncertainties in parameter values, and computational constraints.
+
+## Types of Models
+LEMs can be broadly categorized into three types:
+1. **Conceptual Models**: Simplified representations using block diagrams or flowcharts to illustrate processes and interactions.
+2. **Physical Models**: Laboratory experiments (e.g., flume studies) that replicate landscape processes at a smaller scale.
+3. **Numerical Models**: Computer simulations that implement mathematical equations to represent landscape processes over time. Examples include Landlab, CHILD, and others.
+
+## Numerical landscape evolution models - an overview
+
+There are several numerical landscape evolution models (LEMs) available, each with its own strengths and applications. Some popular LEMs include:
+- **Landlab**: An open-source Python library that provides a flexible framework for building and running LEMs. It includes components for various geomorphic processes and supports grid-based landscape representations.
+- **CHILD (Channel-Hillslope Integrated Landscape Development)**: A widely used LEM that simulates fluvial and hillslope processes, allowing for the study of landscape evolution under different tectonic and climatic conditions.
+- **SIBERIA**: A LEM that focuses on simulating sediment transport and landscape evolution in response to tectonic uplift and climatic changes.
+- **CASCADE**: A LEM that integrates fluvial and hillslope processes to study landscape evolution in response to tectonic and climatic forcings.
+- **Delft3D**: A hydrodynamic and morphodynamic model that can simulate coastal and riverine landscape evolution.
+- **TopoFlow**: A LEM that focuses on simulating surface water flow and sediment transport in landscapes.
+- **iSOSIA**: A LEM that simulates landscape evolution by integrating fluvial, hillslope, and glacial processes.
+- **TopoToolbox LEM** (TTLEM): A MATLAB-based LEM that allows for the simulation of landscape evolution using digital elevation models (DEMs).
+
+
+

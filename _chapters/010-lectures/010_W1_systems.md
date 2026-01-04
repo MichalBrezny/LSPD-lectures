@@ -4,7 +4,7 @@ slug: week1-landscapes-as-open-system
 abstract:
 ---
 
-## What is landscape?
+# What is landscape?
 *Landscapes are suites of landforms which share a common genesis, contiguous location, and related history.* (Bierman & Montgomery 2014)
 
 ## Landscape as Open System
@@ -22,7 +22,7 @@ There are three types of systems:
     class="row"
 %}
 
-The character of system is dependent on the choice of boundaries - the system can have different qualities and inputs and outputs based (and if it is open or isolated)
+The character of system is dependent on the choice of boundaries. Same system can be viewed differently depending on the boundaries chosen, which affects its qualities, inputs, and outputs (and whether it is open or isolated).
 
 System and boundaries
 {% include figure.html
@@ -31,46 +31,36 @@ System and boundaries
     class="row"
 %}
 
-**Landscape is an open system**. It involves exchange of energy and matter with surroundings and other systems.
+In the most basic sense, **landscape is an open system**. It involves exchange of energy and matter with surroundings and other systems.
 
-## Unifying concepts
-### Conservation of mass
-Landscapes are dynamic systems through which mass is continually moving. Individual landforms can lose or gain mass over time; for example, rocky outcrops disaggregate and erode over time as they weather, but mass is conserved as it moves downslope. Eroded material is transformed by chemical reactions or physical abrasion as it moves, but it always ends up somewhere else. For example, a delta system at the mouth of a river grows because of input of sediment from upstream sources.
+# Unifying concepts
+## Conservation of mass
+Landscapes are **dynamic systems** through which mass is continually moving. Individual landforms can lose or gain mass over time; for example, rocky outcrops disaggregate and erode over time as they weather, but mass is conserved as it moves downslope. Eroded material is transformed by chemical reactions or physical abrasion as it moves, but it always ends up somewhere else. For example, a delta system at the mouth of a river grows because of input of sediment from upstream sources.
 
-In geomorphic systems, a simple yet very useful concept is that the difference between inputs (I) and outputs (O) during some time period equals the change in storage (ST):  
+In geomorphic systems, a simple yet very useful concept is that the difference between inputs ($I$) and outputs ($O$) during some time period equals the change in storage ($ST$):  
 
 $$ 
 I - O =\delta ST 
 $$
 
-#### Conservation of energy
-Energy cannot be created or destroyed; it can only be transformed from one form to another.
-For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy.
+## Conservation of energy
+**Energy cannot be created or destroyed**; it can only be transformed from one form to another. For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy. Water running down on slopes also transforms its potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
 
-Water running down on slopes also transforms it potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
-
-#### Material routing
-From source to sink, most geomorphic transport is effectively one-way.
-Water flowing downstream through river networks, ice moving down glacial valleys, and soil and rock moving downslope under gravity are the predominant agents of mass transport on the continents. Together, these flows transfer material from upland source areas (where rock is uplifted and weathered) towards lowland sinks such as floodplains, lakes, and ultimately the oceans, where sediment is deposited and stored over longer timescales.
+## Material routing
+**From source to sink**, most geomorphic transport is effectively one-way. Water flowing downstream through river networks, ice moving down glacial valleys, and soil and rock moving downslope under gravity are the predominant agents of mass transport on the continents. Together, these flows transfer material from upland source areas (where rock is uplifted and weathered) towards lowland sinks such as floodplains, lakes, and ultimately the oceans, where sediment is deposited and stored over longer timescales.
 
 >[!NOTE]
 > Some mass can be transported back upslope by biological activity (e.g., tree throw, animal burrowing) or human activities (e.g., terracing, mining), but these processes are generally of secondary importance at landscape scales.
 
+## Balance of forces and thresholds
+A **balance of forces** is an important concept in geomorphology. For example, in slope stability, some forces act to hold the slope together (resisting forces), while others act to drive particles on the slope to move (driving forces). Resisting forces include friction and the cohesive strength of soil or rock, whereas driving forces are primarily related to gravity acting on the mass of material and any additional loads (e.g. water). A slope remains stable as long as resisting forces exceed driving forces; once driving forces become greater, slope failure and mass movement can occur.
 
+## Thresholds
+In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
 
+# Main leading factor in landscape evolution
 
-#### Balance of forces and thresholds
-A balance of forces is a fundamental concept in geomorphology.
-
-For example, in slope stability, some forces act to hold the slope together (resisting forces), while others act to drive particles on the slope to move (driving forces). Resisting forces include friction and the cohesive strength of soil or rock, whereas driving forces are primarily related to gravity acting on the mass of material and any additional loads (e.g. water). A slope remains stable as long as resisting forces exceed driving forces; once driving forces become greater, slope failure and mass movement can occur.
-
-#### Thresholds
-In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, however, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
-
-
-## Main leading factor in landscape evolution
-
-### Inputs and Outputs
+## Inputs and Outputs
   - Inputs:
     - Tectonic uplift and crustal movements (vertical and horizontal).
     - Climate forcing (precipitation, temperature, glaciations).
@@ -80,7 +70,8 @@ In geomorphology, a threshold is a particular set of physical or chemical condit
     - Solute flux (weathering products).
     - Carbon flux (organic storage vs. oxidation).
 
-### System Dynamics 
+## System Dynamics 
+
 Equation of landscape change (change of elevation with time): 
 $$∂z/∂t = U – E – D.$$
 
@@ -102,10 +93,11 @@ Landscapes may appear unchanging, but considered geologically, topography is dyn
  
 Transient state: system adjusting after disturbance. For example in the recently deglaciated landscapes so-called paraglacial adjustment occurs. Another example is river adjusting to base level fall after sea level drop.
 
-### Feedback loops
+## Feedback loops
 
 In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behavior. Feedbacks can be either positive or negative:
     - **Positive feedback** amplifies the initial change and drives the system further in the same direction.
     - **Negative feedback** counteracts the initial change and stabilizes the system. 
+
 For example, in landscape evolution, a positive feedback loop can occur when increased erosion exposes more erodible material, leading to further erosion. Conversely, a negative feedback loop might involve vegetation growth stabilizing slopes and reducing erosion rates.
 
