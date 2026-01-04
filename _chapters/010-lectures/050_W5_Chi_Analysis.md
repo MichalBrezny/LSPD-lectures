@@ -1,6 +1,6 @@
 ---
-title: W4 – Chi Analysis and Transient Profiles
-slug: week4-chi-analysis-transient-profiles
+title: W5 – Chi Analysis and Transient Profiles
+slug: week5-chi-analysis-transient-profiles
 abstract:
 ---
 

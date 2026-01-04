@@ -1,10 +1,9 @@
 ---
-title: W9 – Data–Model Integration and Uncertainty
-slug: week9-data-model-integration-uncertainty
+title: W10 – Data–Model Integration and Uncertainty
+slug: week10-data-model-integration-uncertainty
 abstract:
 ---
-## Week 9 – Data–Model Integration and Uncertainty
-
+## Week 10 – Data–Model Integration and Uncertainty
 ### Lecture 1: Calibration Data
 **Structure**
 - **Introduction (5 min)**

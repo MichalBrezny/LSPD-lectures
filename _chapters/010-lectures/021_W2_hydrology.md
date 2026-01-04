@@ -1,34 +1,7 @@
 ---
-title: Week 2 – Terrain Metrics
-slug: week2-terrain-metrics
+title: W2 – Terrain Metrics
+slug: week2-terrain-metrics-hydrology
 abstract:
----
-
-
-## Digital Elevation Models
-**Structure**
-- **Introduction (5 min)**
-  - DEM as foundation of quantitative geomorphology.
-  - Ubiquity: hazard mapping, hydrology, tectonic analysis.
-- **Sources of DEMs (15 min)**
-  - SRTM: 30 m, global coverage, radar-based, voids in steep terrain.
-  - ASTER GDEM: optical stereo, errors in flat areas.
-  - LiDAR: very high resolution, vegetation penetration.
-  - UAV/photogrammetry: local, flexible, but limited extent.
-- **Resolution and Accuracy (10 min)**
-  - Vertical error (±5–15 m typical for SRTM).
-  - Trade-offs: higher resolution vs. larger file sizes.
-  - Scale issues: slope underestimated in coarse DEMs.
-- **Preprocessing Workflows (15 min)**
-  - Projection to UTM for accurate measurements.
-  - Pit filling and breaching.
-  - Mosaic building.
-  - Resampling methods (nearest neighbour vs. bilinear).
-- **Examples (10 min)**
-  - Compare slope histograms of LiDAR vs. SRTM in the same area.
-- **Wrap-up (5 min)**
-  - Short quiz: Which DEM to use for tectonic knickpoint study?
-
 ---
 
 ### Lecture 2: Terrain Metrics & Hydrology
@@ -56,7 +29,7 @@ abstract:
   - Discuss: How does land cover affect hydrograph form?
 
 ---
-
+<!--
 ### Lab 2: Terrain Metrics and Runoff Modelling
 **Objectives**
 - Extract key terrain metrics from DEMs.
@@ -77,9 +50,9 @@ abstract:
    - Write 2-page lab report:
      - Compare hydrographs between sandy vs. clay catchments.
      - Relate results to DEM-derived wetness indices.
-
+-->
 ---
 
 
-
+# 
 

@@ -1,6 +1,6 @@
 ---
-title: W8 – Landscape Transience, Glacial & Periglacial Forcing
-slug: week8-landscape-transience-glacial-periglacial-forcing
+title: W9 – Landscape Transience, Glacial & Periglacial Forcing 2
+slug: week9-landscape-transience-glacial-periglacial-forcing
 abstract:
 ---
 ### Lecture 1: Landscape Transience
@@ -18,7 +18,7 @@ abstract:
   - Post-orogenic Appalachians.
 - **Wrap-up (5 min)**
   - Q: What landforms show “memory” of past events?
-
+  - 
 ### Lecture 2: Glacial & Periglacial Processes
 **Structure**
 - **Introduction (5 min)**
@@ -55,14 +55,8 @@ abstract:
    - Write interpretation of paraglacial adjustment.
 
 
-# What is transience in landscapes?
+# Paraglacial transience
 
-Imagine steady state longitudinal river profile. It has nice concave shape. But what if base level (erosinal base) drops? The river will react by incising into the bedrock. But this does not happen instantaneously. Instead, a knickpoint (a sharp change in slope) will form and start migrating upstream. Behind the knickpoint, the river profile will adjust to new base level, but upstream of the knickpoint, the river profile will still reflect the old base level. This is an example of landscape transience.
+Ballantyne (2002) defined paraglacial as "the suite of processes, landforms, and sedimentary deposits that result from the adjustment of Earth's surface to the removal of glacial ice." Following deglaciation, landscapes often experience a period of heightened geomorphic activity as they adjust to the new conditions. This adjustment can include increased rates of mass wasting, fluvial incision, and sediment transport.
 
-Transience refers to the period where the landscape adjust to the new conditions. 
-
-An example of landscape in transience are recentyl deglaciated areas. 
-
-
-
-
+Glaciation profoundly reshapes landscapes through processes such as abrasion and quarrying, leading to characteristic landforms like U-shaped valleys and fjords. The efficiency of glacial incision often exceeds that of fluvial processes, resulting in overdeepened valleys that can influence postglacial landscape evolution.

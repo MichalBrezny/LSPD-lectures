@@ -1,5 +1,5 @@
 ---
-title: W1 - Landscapes as Open System
+title: W1 – Landscapes as Open System
 slug: week1-landscapes-as-open-system
 abstract:
 ---

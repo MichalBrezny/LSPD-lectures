@@ -1,6 +1,6 @@
 ---
-title: W11 – Tectonic Geomorphology
-slug: W11_Tectonic_Geomorphology
+title: W4 – Tectonic Geomorphology - indicators and metrics
+slug: week4-tectonic-geomorphology-indicators-metrics
 abstract:
 ---
 
