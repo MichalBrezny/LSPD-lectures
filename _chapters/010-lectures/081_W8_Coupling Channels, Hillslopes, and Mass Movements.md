@@ -1,6 +1,6 @@
 ---
-title: Week 7 – Coupling Channels, Hillslopes, and Mass Movements
-slug: week7-coupling-channels-hillslopes-mass-movements
+title: Week 8 – Coupling Channels, Hillslopes, and Mass Movements
+slug: week8-coupling-channels-hillslopes-mass-movements
 abstract:
 ---
 <!--

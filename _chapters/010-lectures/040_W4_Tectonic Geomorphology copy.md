@@ -1,6 +1,6 @@
 ---
-title: W11 – Tectonic Geomorphology
-slug: W11-Tectonic-Geomorphology
+title: W4 – Tectonic Geomorphology – Introduction
+slug: week4-tectonic-geomorphology-introduction
 abstract:
 ---
 

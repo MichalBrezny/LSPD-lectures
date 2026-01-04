@@ -1,6 +1,6 @@
 ---
-title: Week 6 – SPIM in Landlab – Basic Modelling
-slug: week6-spim-landlab-basic-modelling
+title: W7 – SPIM in Landlab – Basic Modelling
+slug: week7-spim-landlab-basic-modelling
 abstract:
 ---
 

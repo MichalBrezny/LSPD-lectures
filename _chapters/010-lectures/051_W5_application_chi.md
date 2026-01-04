@@ -1,6 +1,6 @@
 ---
-title: W4 – Application of Chi Analysis
-slug: week4-application-chi
+title: W5 – Application of Chi Analysis
+slug: week5-application-chi
 abstract:
 ---
 

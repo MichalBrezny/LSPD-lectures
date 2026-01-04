@@ -1,11 +1,10 @@
 ---
-title: W10 – Applications and Case Studies
-slug: week10-applications-case-studies
+title: W11 – Applications and Case Studies: Applied Geomorphology
+slug: week11-applications-case-studies
 abstract:
 ---
 
-## Week 10 – Applications and Case Studies
-
+## Week 11 – Applications and Case Studies
 ### Lecture 1: Applied Quantitative Geomorphology
 **Structure**
 - **Introduction (5 min)**

@@ -1,5 +1,5 @@
 ---
-title: W1 - Quantifying Landscape Systems
+title: W1 – Quantifying Landscape Systems
 slug: week1-quantifying-landscape-systems
 abstract:
 ---

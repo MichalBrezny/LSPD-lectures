@@ -1,6 +1,6 @@
 ---
 title: W3-Longitudinal Profiles
-slug: W3_longitudinal-profiles
+slug: week3-longitudinal-profiles
 abstract:
 ---
 
