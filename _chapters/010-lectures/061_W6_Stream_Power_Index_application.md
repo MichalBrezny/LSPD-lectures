@@ -85,9 +85,9 @@ Finally, it is important to test the sensitivity of the model to changes in para
 
 ---
 
-### 3. Transient Scenarios (25 min)
+###  Transient Scenarios 
 
-#### 3.1 Uplift Rate Change
+#### Uplift Rate Change
 - Sudden increase in uplift:
   - produces steep reach near outlet,
   - knickpoint migrates upstream.
@@ -96,7 +96,7 @@ Finally, it is important to test the sensitivity of the model to changes in para
   - drainage area,
   - channel slope.
 
-#### 3.2 Base-Level Fall
+#### Base-Level Fall
 - River responds similarly to uplift pulse.
 - Explains:
   - postglacial incision,
@@ -104,21 +104,21 @@ Finally, it is important to test the sensitivity of the model to changes in para
 
 ---
 
-### 4. Interpreting SPIM Outputs (20 min)
+### Interpreting SPIM Outputs
 
-#### 4.1 What SPIM Can Tell Us
+#### What SPIM Can Tell Us
 - Relative uplift patterns.
 - Incision histories (qualitative).
 - Expected profile shapes.
 
-#### 4.2 What SPIM Cannot Tell Us
+#### What SPIM Cannot Tell Us
 - Absolute uplift rates without calibration.
 - Exact timing of events.
 - Effects of complex sediment dynamics.
 
 ---
 
-### 5. Linking SPIM to LEMs (15 min)
+### Linking SPIM to LEMs 
 
 - SPIM is:
   - 1D along channels.
@@ -130,7 +130,7 @@ Finally, it is important to test the sensitivity of the model to changes in para
 
 ---
 
-### 6. Wrap-up & Transition (10 min)
+### 6. Wrap-up & Transition
 
 - Key takeaways:
   - SPIM explains chi patterns mechanistically.

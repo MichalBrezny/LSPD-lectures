@@ -5,7 +5,8 @@ abstract:
 ---
 
 # What is landscape?
-*Landscapes are suites of landforms which share a common genesis, contiguous location, and related history.* (Bierman & Montgomery 2014)
+>*Landscapes are suites of landforms which share a common genesis, contiguous location, and related history.*
+>(Bierman & Montgomery 2014)
 
 ## Landscape as Open System
 >*"A system is a structured set of objects and/or attributes. These objects and attributes consist of components or variables (i.e. phenomena which are free to assume variable magnitudes) that exhibit discernible relationships with one another and operate together as a complex whole, according to some observed pattern."*
