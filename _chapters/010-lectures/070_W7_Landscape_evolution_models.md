@@ -3,7 +3,7 @@ title: W7 – Landscape Evolution Models – Introduction
 slug: week7-landscape-evolution-models-introduction
 abstract:
 ---
-
+<!-- 
 ### Lecture 1: Introduction to LEMs
 **Structure**
 - **Introduction (5 min)**
@@ -54,6 +54,7 @@ abstract:
      - Dataset to be used.
      - Research question.
      - Planned methods and expected challenges.
+-->
 
 ----
 

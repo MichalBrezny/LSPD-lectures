@@ -3,7 +3,7 @@ title: W6 – Stream Power Incision Model – Theory and Implementation
 slug: week6-stream-power-incision-model
 abstract:
 ---
-
+<!-- 
 ### Lecture 1: Fundamentals of SPIM
 **Structure**
 - **Introduction (5 min)**
@@ -47,31 +47,12 @@ abstract:
 5. **Exercise**
    - Compare two basins (active vs. passive margin).
    - Discuss sensitivity to DEM resolution.
-
----
-
-# Fluvial incision
-
-Fluvial incision is a dominant erosion process in many landscapes. The Stream Power Incision Model (SPIM) provides a framework to quantify how rivers erode their beds based on drainage area and channel slope. In this lecture, we will explore the theoretical underpinnings of SPIM, its assumptions, and how to implement it using real-world data.
-
-## Fundamentals of SPIM
-
-Stream power incision model (SPIM) is based on the idea that the rate of river incision (E) is proportional to the stream power per unit bed area, which can be expressed as:
-$$E = KA^mS^n$$
-
-Where:
-- E = incision rate (m/yr)
-- K = erodibility coefficient (depends on climate, lithology)
-- A = drainage area (m²)
-- S = channel slope (dimensionless)
-- m, n = empirical exponents that describe how incision scales with area and slope
-
-This is the simplest but still widely used model for fluvial incision. Parameter $K$ incorporates factors like climate and lithology that affect how easily a river can erode its bed. The exponents $m$ and $n$ are typically determined empirically, often through regression analysis of slope-area data from river networks. These parameters, though thought to be constants, can vary in space and time depending on environmental conditions. Different erodibility values can be during glacial vs. interglacial periods or in different lithologies.
+-->
 
 
 
 
-# Introduction: Closing the Loop (10 min)
+# Introduction: Closing the Loop 
 
 Recap:
   - Tectonic uplift produces relief.
@@ -97,6 +78,10 @@ Recap:
   - channel slope,
   - resistance of bedrock.
 
+# Fluvial incision
+
+Fluvial incision is a dominant erosion process in many landscapes. The Stream Power Incision Model (SPIM) provides a framework to quantify how rivers erode their beds based on drainage area and channel slope. In this lecture, we will explore the theoretical underpinnings of SPIM, its assumptions, and how to implement it using real-world data.
+
 ### The Stream Power Concept
 
 Stream power per unit channel length:
@@ -112,8 +97,7 @@ Assumptions:
   - energy expenditure controls erosion rate.
 
 ---
-
-### 3. Governing Equation and Its Meaning (25 min)
+## Governing Equation and Its Meaning 
 
 #### 3.1 The SPIM Equation
 - E = K A^m S^n
@@ -123,7 +107,21 @@ Assumptions:
   - S: channel slope.
   - m, n: scaling exponents.
 
-#### 3.2 Physical Interpretation of Parameters
+## Fundamentals of SPIM
+
+Stream power incision model (SPIM) is based on the idea that the rate of river incision (E) is proportional to the stream power per unit bed area, which can be expressed as:
+$$E = KA^mS^n$$
+
+Where:
+- E = incision rate (m/yr)
+- K = erodibility coefficient (depends on climate, lithology)
+- A = drainage area (m²)
+- S = channel slope (dimensionless)
+- m, n = empirical exponents that describe how incision scales with area and slope
+
+This is the simplest but still widely used model for fluvial incision. Parameter $K$ incorporates factors like climate and lithology that affect how easily a river can erode its bed. The exponents $m$ and $n$ are typically determined empirically, often through regression analysis of slope-area data from river networks. These parameters, though thought to be constants, can vary in space and time depending on environmental conditions. Different erodibility values can be during glacial vs. interglacial periods or in different lithologies.
+
+### Physical Interpretation of Parameters
 - **Uplift (U)**:
   - external forcing, not part of SPIM itself.
   - enters through boundary conditions.
@@ -135,9 +133,9 @@ Assumptions:
 
 ---
 
-### 4. SPIM, Chi, and Steady State (20 min)
+### 4. SPIM, Chi, and Steady State
 
-#### 4.1 Why Chi Linearizes SPIM
+#### Why Chi Linearizes SPIM
 - In steady state:
   - U = E = K A^m S^n
 - Rearranging yields:
@@ -146,7 +144,7 @@ Assumptions:
 - Key insight:
   > *Chi is mathematically consistent with SPIM under steady-state assumptions.*
 
-#### 4.2 What Steepness (ksn) Means Physically
+#### What Steepness (ksn) Means Physically
 - ksn reflects:
   - the slope required to balance uplift.
 - Higher uplift or lower K → higher ksn.
@@ -155,7 +153,7 @@ Assumptions:
 
 ---
 
-### 5. Transient Landscapes and SPIM (15 min)
+### Transient Landscapes and SPIM 
 
 - Landscapes are rarely in perfect steady state.
 - After uplift change:
@@ -168,7 +166,7 @@ Assumptions:
 
 ---
 
-### 6. Assumptions and Limitations (10 min)
+### Assumptions and Limitations
 
 - Assumes:
   - detachment-limited incision,

@@ -6,18 +6,18 @@ abstract:
 
 ### Lecture 1: Chi Transformation
 **Structure**
-- **Introduction (5 min)**
+- **Introduction**
   - Why chi analysis? Problem of nonlinear river profiles.
-- **Core Concepts (25 min)**
+- **Core Concepts**
   - Derivation of χ:
     - χ = ∫ (A0 / A)^m/n dx.
     - Normalization with reference area A0.
   - In steady state, χ–elevation plots are straight lines.
   - Disequilibrium: profile bends or breaks.
   - Sensitivity to m/n ratio choice.
-- **Examples (10 min)**
+- **Examples**
   - Taiwan (active orogen) vs. Canadian Shield (stable craton).
-- **Wrap-up (5–10 min)**
+- **Wrap-up**
   - Quick discussion: What does a break in slope of χ-plot mean?
 
 ### Chi transformation - what is it and why we use it?

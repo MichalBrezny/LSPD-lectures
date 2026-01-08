@@ -3,7 +3,7 @@ title: W4 – Tectonic Geomorphology – Introduction
 slug: week4-tectonic-geomorphology-introduction
 abstract:
 ---
-
+<!--
 ### Lecture 1: Tectonic Controls on Landscape Evolution
 **Structure**
 - **Introduction (5 min)**
@@ -23,6 +23,9 @@ abstract:
 - **Wrap-up (5 min)**
   - Discussion: What signals differentiate tectonic from climate?
 
+
+
+-->
 # Introduction: Why Tectonics Matters
 
 >*The unrelenting competition between tectonic processes that tend to build topography and surface processes that tend to tear them down represents the core of tectonic geomorphology.* 
@@ -65,7 +68,7 @@ Thus:
   - drainage capture,
   - basin tilting.
 
-<!-->
+
 ## Modes of tectonic forcing
 Tectonic forcing can manifest in several ways that impact landscape evolution:
 1. **Uplift**: Vertical rise of the Earth's surface, which increases potential energy and drives erosion.
@@ -74,18 +77,23 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 4. **Faulting and folding**: These processes can create localized topographic highs and lows, influencing drainage patterns and erosion rates.
 -->
 
+## Geomorphic Responses to Tectonic Forcing
 
-#### 3.1 Channel Response
+### Channel Response
 - Increase in channel slope to balance uplift.
 - Incision rates adjusting to uplift rates.
 - Formation of knickpoints and knickzones.
+### Basin Response
+- Changes in drainage area and network geometry.
+- Alteration of sediment supply and transport.
+- Drainage basin tilting and asymmetry.
 
-#### 3.2 Hillslope Response
+###  Hillslope Response
 - Relief growth leads to steeper slopes.
 - Increased frequency of threshold processes (landslides).
 - Coupling between uplift, incision, and mass wasting.
 
-#### 3.3 Transient Adjustment
+### Transient Adjustment
 - Time lag between uplift and geomorphic response.
 - Concept of response time and landscape memory.
 - Inherited topography vs. active forcing.
@@ -138,7 +146,7 @@ Some of geomorphic markers:
   - glacial moraines
 
 
-
+<!--
 ## Lecture 2: Geomorphic Indicators of Active Tectonics
 
 ### 1. Introduction: Reading Tectonics from Topography (5 min)
@@ -206,3 +214,4 @@ Some of geomorphic markers:
   - chi plots,
   - ksn maps,
   - uplift parameters in models.
+-->

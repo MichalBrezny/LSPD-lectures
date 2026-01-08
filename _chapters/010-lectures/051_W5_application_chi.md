@@ -3,7 +3,7 @@ title: W5 – Application of Chi Analysis
 slug: week5-application-chi
 abstract:
 ---
-
+<!--
 ### Lecture 1: Chi Transformation
 **Structure**
 - **Introduction (5 min)**
@@ -50,20 +50,19 @@ abstract:
 
 ---
 
+-->>
 
-## Lecture 2: Interpreting Chi and Channel Steepness in Tectonic Context
+# Interpreting Chi and Channel Steepness in Tectonic Context
 
-### 1. Introduction: From Transformation to Interpretation (5 min)
+## 1. Introduction: From Transformation to Interpretation (5 min)
 - Chi transforms river profiles.
 - Interpretation requires tectonic context.
 - Reminder:
   > *Metrics do not interpret themselves.*
 
----
+## Channel Steepness (ksn) Revisited
 
-### 2. Channel Steepness (ksn) Revisited (20 min)
-
-#### 2.1 What ksn Actually Represents
+## What ksn Actually Represents
 - ksn combines:
   - slope,
   - drainage area normalization,
@@ -71,7 +70,7 @@ abstract:
 - Conceptual meaning:
   - relative measure of erosion demand.
 
-#### 2.2 ksn and Uplift
+## ksn and Uplift
 - Higher uplift → higher required incision → higher ksn.
 - Spatial patterns of ksn reflect:
   - fault zones,
@@ -80,15 +79,15 @@ abstract:
 
 ---
 
-### 3. Detecting Tectonic Signals with Chi (25 min)
+## Detecting Tectonic Signals with Chi (25 min)
 
-#### 3.1 Knickpoints in Chi Space
+## Knickpoints in Chi Space
 - Vertical offsets in χ–z plots.
 - Interpreting:
   - migrating knickpoints (uplift or base-level change),
   - stationary knickpoints (lithologic control).
 
-#### 3.2 Tributary Consistency
+## Tributary Consistency
 - In steady state:
   - tributaries align with main stem in chi space.
 - Misalignment indicates:
@@ -98,23 +97,23 @@ abstract:
 
 ---
 
-### 4. What Can Go Wrong (20 min)
+## What Can Go Wrong 
 
-#### 4.1 Lithologic Effects
+## Lithologic Effects
 - Resistant rock can mimic tectonic signal.
 - Importance of independent geological information.
 
-#### 4.2 Climatic Modulation
+## Climatic Modulation
 - Precipitation gradients affect discharge–area scaling.
 - Chi assumes constant runoff efficiency.
 
-#### 4.3 Choice of m/n Ratio
+## Choice of m/n Ratio
 - Sensitivity to concavity index.
 - Why standard values (e.g. 0.45–0.6) are used.
 
 ---
 
-### 5. Integrating Chi with Other Indicators (15 min)
+## Integrating Chi with Other Indicators
 
 - Best practice:
   - chi + ksn + hypsometry + basin asymmetry.
@@ -125,7 +124,7 @@ abstract:
 
 ---
 
-### 6. Wrap-up & Transition to SPIM (10 min)
+##  Wrap-up & Transition to SPIM
 
 - Key messages:
   - Chi quantifies tectonic response in river networks.
