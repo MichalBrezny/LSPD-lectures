@@ -61,7 +61,7 @@ Hack (1960s) introduced the concept of dynamic equilibrium in landscapes. He arg
     class="row"
 %}
 
-<!--
+
 ## Benefits of quantification
 Quantifying landscape systems offers several advantages:
 - **Reproducibility**: Quantitative methods allow for consistent measurements and analyses, enabling other researchers to replicate studies and validate findings.
@@ -69,6 +69,9 @@ Quantifying landscape systems offers several advantages:
 - **Predictive capacity**: Mathematical models can be used to predict future landscape changes under different scenarios, aiding in land management and hazard assessment.
 - **Integration of data**: Quantitative methods enable the integration of diverse datasets (e.g., topographic, climatic, geological) for comprehensive analyses.
 - **Understanding complexity**: Quantitative approaches help unravel the complex interactions between multiple processes shaping landscapes.
+
+
+<!--
 - **Communication**: Quantitative results can be more easily communicated to stakeholders, policymakers, and the public.
 - **Advancement of theory**: Quantification drives the development of new theories and models in geomorphology.
 - **Technological integration**: Advances in technology (e.g., remote sensing, GIS) enhance the ability to collect and analyze quantitative data.
@@ -86,8 +89,9 @@ Quantifying landscape systems offers several advantages:
 - **Long-term monitoring**: Quantitative approaches enable long-term monitoring of landscape changes, providing insights into trends and patterns over time.
 - **Improved accuracy**: Quantitative measurements enhance the accuracy of landscape analyses, reducing subjectivity and bias.
 - **Facilitation of large-scale studies**: Quantitative methods allow for the analysis of large datasets, enabling regional to global-scale studies of landscape processes and changes.
-
 -->
+
+
 ## Concepts of scaling and dimensional analysis
 Scaling and dimensional analysis are essential tools in quantitative geomorphology. They help to understand how landscape processes and landforms change with size and time.
 - **Scaling**: Examines how geomorphic processes and landforms change with size. For example, the relationship between river discharge and channel width can be described using scaling laws.

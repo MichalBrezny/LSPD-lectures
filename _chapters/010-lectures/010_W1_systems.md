@@ -44,6 +44,11 @@ $$
 I - O =\delta ST 
 $$
 
+{% include youtube.html
+    id="rPKsMRyZ92BZgGku)"
+    title="Conservation of Mass in Geomorphic Systems"}
+
+
 ## Conservation of energy
 **Energy cannot be created or destroyed**; it can only be transformed from one form to another. For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy. Water running down on slopes also transforms its potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
 
@@ -58,6 +63,15 @@ A **balance of forces** is an important concept in geomorphology. For example, i
 
 ## Thresholds
 In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
+
+## Magnitude and frequncy
+
+Relationshio between magnitude and frequency of geomorphic events is often inverse: high-magnitude events (e.g., large floods, major landslides) tend to occur infrequently, while low-magnitude events (e.g., small storms, minor soil creep) happen more regularly. This relationship has important implications for landscape evolution, as both types of events contribute to shaping landforms over different timescales.
+
+{% include figure.html
+    caption="Magnitude and frequency of earthquakes (source: https://www.iris.edu/hq/inclass/fact-sheet/how_often_do_earthquakes_occur)"
+    url="/figures/magnitude_frequency.jpg"
+    class="row"}
 
 # Main leading factor in landscape evolution
 
@@ -114,3 +128,7 @@ In systems, feedback loops occur when outputs of a system are routed back as inp
 
 For example, in landscape evolution, a positive feedback loop can occur when increased erosion exposes more erodible material, leading to further erosion. Conversely, a negative feedback loop might involve vegetation growth stabilizing slopes and reducing erosion rates.
 
+## References
+- Bierman, P. R., & Montgomery, D. R. (2014). Key Concepts in Geomorphology
+- Chorley, R. J., & Kennedy, B. A. (1971). Physical Geography: A Systems Approach.
+- Summerfield, M. A. (1991). Global Geomorphology

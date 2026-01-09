@@ -21,26 +21,6 @@ abstract:
 - **Wrap-up (5 min)**
   - Q: What landforms show “memory” of past events?
 
-### Lecture 2: Glacial & Periglacial Processes
-**Structure**
-- **Introduction (5 min)**
-  - Cold-region processes as strong forcings on topography.
-- **Core Concepts (25 min)**
-  - Glacial erosion laws:
-    - Basal sliding.
-    - Abrasion and quarrying.
-  - Landforms:
-    - U-shaped valleys, cirques, overdeepenings, fjords.
-  - Periglacial processes:
-    - Frost creep, solifluction, ice wedges, permafrost thaw.
-  - Paraglacial sediment pulses:
-    - Postglacial overloading of channels.
-- **Examples (10 min)**
-  - Patagonian fjords.
-  - European Alps deglaciation.
-- **Wrap-up (5 min)**
-  - Compare glacial vs. fluvial incision efficiency.
-
 ### Lab 8: Glacial and Periglacial DEM Analysis
 **Objectives**
 - Identify glacial and periglacial signatures in DEMs.
@@ -59,11 +39,25 @@ abstract:
 -->
 
 # Transient landscapes
-Transient landscapes are those that are adjusting to changes in boundary conditions, such as tectonic uplift, climate change, or base-level fluctuations. These landscapes exhibit features like migrating knickpoints, sediment waves, and lagged responses to forcing events. Understanding transience is crucial for interpreting landscape evolution and the timescales over which geomorphic processes operate.
+Transient landscapes are those that are adjusting to changes in boundary conditions, such as tectonic uplift, climate change, or base-level fluctuations. These landscapes exhibit features like *migrating knickpoints*, *sediment waves*, and *lagged responses to forcing events*. Understanding transience is crucial for interpreting landscape evolution and the timescales over which geomorphic processes operate.
 
 Imagine steady state longitudinal river profile. It has nice concave shape. But what if base level (erosinal base) drops? The river will react by incising into the bedrock. But this does not happen instantaneously. Instead, a knickpoint (a sharp change in slope) will form and start migrating upstream. Behind the knickpoint, the river profile will adjust to new base level, but upstream of the knickpoint, the river profile will still reflect the old base level. This is an example of landscape transience.
 
 
+{include youtube.html
+    id="Oi_JCy2VstiIXVpC"
+    title="Problems arising from landscape transience"}
 
 
+## Relaxation time and lagged response
+Relaxation time is the timescale over which a landscape returns to equilibrium after a disturbance. Different geomorphic processes have different relaxation times, leading to lagged responses in landscape adjustment. For example, fluvial systems may respond relatively quickly to changes in sediment supply, while hillslope processes may take longer to adjust to changes in climate.
+
+## Landscape memory and hysteresis
+Landscapes can exhibit memory effects, where past events influence current geomorphic conditions. Hysteresis refers to the dependence of a system's state on its history. For instance, a river may not return to its original profile after a disturbance, instead settling into a new configuration that reflects both past and present conditions.
+
+## Knickpoint migration as indicator of transience
+Knickpoints are sharp changes in river slope that can indicate transient conditions in a landscape. Their migration upstream provides insights into the rate of landscape adjustment and the underlying processes driving geomorphic change.
+
+## Sediment waves propagating downstream
+Sediment waves are pulses of sediment that move downstream in response to changes in sediment supply or transport capacity. These waves can significantly impact river morphology and sediment dynamics, serving as indicators of transient landscape conditions.
 

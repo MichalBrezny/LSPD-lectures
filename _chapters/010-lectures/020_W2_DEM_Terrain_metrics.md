@@ -44,7 +44,7 @@ Many global DEMs are in fact DSMs, as they are derived from remote sensing techn
 
 Many DEMs are freely available for download, e.g., SRTM (Shuttle Radar Topography Mission) or its successor NASADEM, ASTER GDEM, ALOS DEM and more. Recently, there area attempts to create DTMs using machine learning to remove vegetation and buildings like FABDEM. High-resolution DEMs from LiDAR surveys have become increasingly accessible for detailed local studies. 
 
-For regional to global scale studies, usage of high resolution DEMs might be problematic due to data volume and processing requirements. Further the high detail of LiDAR DEMs might introduce high frequency noise and artifacts due to man made structures. Thus resampling to coarser resolution DEMs (e.g., 30 m or 90 m) is often performed for larger scale studies.
+For regional to global scale studies, usage of high resolution DEMs might be problematic due to data volume and processing requirements. Further the high detail of LiDAR DEMs might introduce high frequency noise and artifacts due to man made structures. Thus resampling to coarser resolution DEMs (e.g., 10 m, 30 m or 90 m) is often performed for larger scale studies.
 
 > [!NOTE]  
 > [Open topography](https://opentopography.org/) is a good resource to search and download high-resolution DEMs from LiDAR surveys and also global DEMs.
@@ -56,10 +56,14 @@ For regional to global scale studies, usage of high resolution DEMs might be pro
 Slope is the first derivative of elevation. It indicates the steepness or incline of the terrain. Steeper slopes are more prone to erosion and landslides. Aspect is the compass direction that a slope faces. It influences microclimate conditions, such as sunlight exposure and moisture retention, which affect vegetation patterns.
 
 <!-- Obrazek sklony -->
+{% include figure.html
+  caption="Slope calculation (source: https://pro.arcgis.com/en/pro-app/3.4/tool-reference/spatial-analyst/slope.html)"
+  url="/figures/W2/slope.png"
+  alt="Slope"
+  %}
 
 #### Curvature
 Curvature describes the rate of change of slope. Profile curvature affects the acceleration or deceleration of flow along the slope, influencing erosion and deposition processes. Horizontal (planform) curvature indicates whether the terrain is converging or diverging, which affects water flow paths and sediment transport.  
-
 
 {% include figure.html
   caption="Profile and planform curvature (source: https://pro.arcgis.com/en/pro-app/latest/help/analysis/raster-functions/curvature-function.html)"
@@ -85,6 +89,7 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 
 #### Hypsometry
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
+
 
 #### Hydrological Indices
 The Topographic Wetness Index (TWI) is calculated as 
