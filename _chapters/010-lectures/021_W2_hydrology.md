@@ -4,6 +4,7 @@ slug: week2-terrain-metrics-hydrology
 abstract:
 ---
 
+<!--
 ### Lecture 2: Terrain Metrics & Hydrology
 **Structure**
 - **Introduction (5 min)**
@@ -27,8 +28,8 @@ abstract:
   - Hydrograph: rising limb, peak, recession.
 - **Wrap-up (5 min)**
   - Discuss: How does land cover affect hydrograph form?
+-->
 
----
 <!--
 ### Lab 2: Terrain Metrics and Runoff Modelling
 **Objectives**
@@ -61,10 +62,11 @@ Flow routing is the process of determining the path that water takes as it moves
 ### D8 Algorithm
 The simplest and most widely used method for flow routing is the D8 algorithm. In this method, each cell in the DEM directs flow to one of its eight neighboring cells (the one with the steepest descent). This creates a network of flow paths that can be used to delineate watersheds and identify stream channels.
 
-{ % include figure.html
+{% include figure.html
   caption="D8 flow direction example (source: https://pro.arcgis.com/en/pro-app/3.4/tool-reference/spatial-analyst/how-flow-direction-works.htm)"
   url="/figures/W2/D8.gif"
-  alt="D8 flow direction"}
+  alt="D8 flow direction"
+  %}
 
 
 ### D∞ Algorithm
@@ -74,10 +76,11 @@ The D∞ algorithm allows for flow to be distributed among multiple neighboring 
 ## Flow accumulation
 Flow accumulation quantifies the amount of upstream area that contributes flow to each cell in the DEM. It is calculated by summing the number of cells that flow into each cell, providing insight into potential stream channels and watershed characteristics. High flow accumulation values typically indicate stream channels, while low values correspond to hillslopes.
 
-{ % include figure.html
+{% include figure.html
   caption="Flow accumulation example (source: https://pro.arcgis.com/en/pro-app/3.5/tool-reference/spatial-analyst/how-flow-accumulation-works.htm)"
   url="/figures/W2/flow_accumulation.png"
-  alt="Flow accumulation"}
+  alt="Flow accumulation"
+ %}
 
 
 

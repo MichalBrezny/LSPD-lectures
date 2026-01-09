@@ -45,8 +45,9 @@ I - O =\delta ST
 $$
 
 {% include youtube.html
-    id="rPKsMRyZ92BZgGku)"
-    title="Conservation of Mass in Geomorphic Systems"}
+    id="rPKsMRyZ92BZgGku"
+    title="Conservation of Mass in Geomorphic Systems"
+%}
 
 
 ## Conservation of energy
