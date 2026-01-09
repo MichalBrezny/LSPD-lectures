@@ -61,7 +61,7 @@ $$ \chi = \int \left( \frac{A_0}{A(x)} \right)^{m/n} dx $$
 {% include figure.html
     caption="Sketch illustrating examples of linearity or nonlinearity of channels in χ-elevation space. Channel networks with spatially homogenous uplift and erodibility that are at steady state should have channels that are not just linear but collinear (after Mudd et al., 2014)."
     url="/figures/chi_plot_linear.jpg"
-    class="row"}
+    class="row"
 %}
 
 ### Interpretation of Chi plots
