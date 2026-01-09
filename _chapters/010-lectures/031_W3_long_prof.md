@@ -11,6 +11,11 @@ Rivers are dynamic system which react on the external forcings like tectonics, c
 # Concept of graded stream and equilibrium profile
 The concept of graded stream was introduced by Gilbert (1877) and further developed by Mackin (1948). A graded stream is one that has achieved a balance between sediment supply and transport capacity, resulting in a stable longitudinal profile. In this state, the river neither aggrades nor degrades its bed over time. The equilibrium profile is typically concave-upward, reflecting the decreasing slope with increasing downstream distance. This concavity arises because steeper slopes are required in the upper reaches to provide sufficient energy for sediment transport, while gentler slopes in the lower reaches accommodate the reduced energy available as the river approaches its base level.
 
+## Slope-area relationships
+Slope-area relationships describe how channel slope (S) varies with drainage area (A).  Generally slope is proportional to drainage area raised to some negative exponent:
+$$ S ∝ A^{-\theta} $$
+
+This relationship reflects the balance between sediment transport capacity and sediment supply. The concavity index (θ) provides insights into the geomorphic processes shaping the river profile, with higher values indicating steeper profiles and potentially more active tectonic or climatic forcing.
 
 ## Knickpoints and knickzones
 Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls or rapids. They can form due to various factors, including tectonic uplift, lithologic boundaries, or base-level fall. Knickpoints can migrate upstream over time through processes such as vertical incision or upstream migration, leading to the adjustment of the river profile towards a new equilibrium state. 
@@ -22,13 +27,13 @@ Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls
 %}
 
 ### Influences on longitudinal profiles
-
 - **Tectonics**: Uplift can create knickpoints and steepen profiles.
 - **Base-level changes**: Sea-level fall or lake level drop can induce incision.
 - **Dams**: Artificial structures can create local base-level changes, leading to upstream aggradation and downstream incision.
 - **Climate**: Changes in precipitation and temperature can affect erosion and sediment transport.
 
-### Examples and case studies
+
+
 
 
 <!--
