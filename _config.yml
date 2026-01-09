@@ -128,7 +128,7 @@ defaults:
       permalink: /:slug:output_ext
 
 # Markdown render engine.
-markdown:         kramdown
+markdown:         GFM
 kramdown:
   auto_ids:               true
   input:                  GFM
