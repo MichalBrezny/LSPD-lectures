@@ -91,9 +91,12 @@ abstract:
 
 ---
 
-#### Erosion Rate Data
-- Cosmogenic nuclides (e.g. ¹⁰Be):
-  - basin-averaged erosion rates.
+### Erosion Rate Data
+#### Cosmogenic nuclides (e.g. ¹⁰Be):
+We can use concentrations of cosmogenic nuclides like ¹⁰Be in river sediments to estimate basin-averaged erosion rates over timescales of 10³–10⁵ years. These measurements provide direct constraints on how quickly landscapes are lowering, which can be compared to model predictions.
+
+
+
 - Sediment yield measurements:
   - modern erosion proxies.
 - What they constrain:

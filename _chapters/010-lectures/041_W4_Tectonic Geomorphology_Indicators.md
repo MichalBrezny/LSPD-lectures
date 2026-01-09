@@ -4,6 +4,26 @@ slug: week4-tectonic-geomorphology-indicators-metrics
 abstract:
 ---
 # Tectonic Geomorphic Indicators and Metrics
+
+As we want to measure tectonic activity e.g., uplift rates, we can use *geomorphic markers*. These are landforms, surfaces, linear trends which have these characteristics:
+- we know  the initial geometry (e.g., flat surface)
+- we know the age (e.g., dated river terrace)
+- has a high preservation potential
+
+Some of geomorphic markers:
+- Planar surfaces:
+  - marine terraces, beaches, shorelines
+  - deltas
+  - river terraces
+  - alluvial fans
+  - erosional surfaces
+- Linear markers:
+  - rivers, ridge crests
+  - glacial moraines
+
+
+
+
 ## Channel-Based Indicators 
 
 ### Channel Steepness (Conceptual)
