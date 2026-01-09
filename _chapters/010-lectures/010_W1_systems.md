@@ -126,6 +126,7 @@ Transient state: system adjusting after disturbance. For example in the recently
 ## Feedback loops
 
 In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behavior. Feedbacks can be either positive or negative:
+
     - **Positive feedback** amplifies the initial change and drives the system further in the same direction.
     - **Negative feedback** counteracts the initial change and stabilizes the system. 
 
