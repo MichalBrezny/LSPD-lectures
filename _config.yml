@@ -81,7 +81,7 @@ sidebar_toc:
 
 # Show a link to edit each page on GitHub
 github_edit:
-  enabled: true
+  enabled: false
   base_url: 
 
 # Custom CSS
@@ -128,7 +128,7 @@ defaults:
       permalink: /:slug:output_ext
 
 # Markdown render engine.
-markdown:         GFM
+markdown:         kramdown
 kramdown:
   auto_ids:               true
   input:                  GFM

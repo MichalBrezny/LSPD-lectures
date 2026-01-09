@@ -11,7 +11,7 @@ This website contains lecture materials, reading assignments, and practical exer
 Course is still under development.
 
 
-> [!IMPORTANT]  
+> [!WARNING]  
 > Course is a work in progress.
 > Materials will be added and updated over time.
 
