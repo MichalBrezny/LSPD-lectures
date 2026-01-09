@@ -85,7 +85,7 @@ For example in the Razula forest in the Outer Western Carpathians (study area ab
 {% include figure.html
     caption="Pit-and-mound topography caused by tree throw in the Razula forest, Outer Western Carpathians (Phillips et al., 2017)."
     url="/figures/W8/pit_mound1.jpg"
-    class="row">
+    class="row"
 %}
 
 The simplest model for hillslope diffusion is the linear diffusion equation:
