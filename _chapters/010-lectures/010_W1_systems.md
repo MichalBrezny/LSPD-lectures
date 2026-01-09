@@ -71,7 +71,7 @@ Relationshio between magnitude and frequency of geomorphic events is often inver
 {% include figure.html
     caption="Magnitude and frequency of earthquakes (source: https://www.iris.edu/hq/inclass/fact-sheet/how_often_do_earthquakes_occur)"
     url="/figures/magnitude_frequency.jpg"
-    class="row"}
+    class="row"
 %}
 
 # Main leading factor in landscape evolution
