@@ -43,10 +43,10 @@ Transient landscapes are those that are adjusting to changes in boundary conditi
 
 Imagine steady state longitudinal river profile. It has nice concave shape. But what if base level (erosinal base) drops? The river will react by incising into the bedrock. But this does not happen instantaneously. Instead, a knickpoint (a sharp change in slope) will form and start migrating upstream. Behind the knickpoint, the river profile will adjust to new base level, but upstream of the knickpoint, the river profile will still reflect the old base level. This is an example of landscape transience.
 
-
-{include youtube.html
+Problems arising from landscape transience
+{% include youtube.html
     id="Oi_JCy2VstiIXVpC"
-    title="Problems arising from landscape transience"}
+%}
 
 
 ## Relaxation time and lagged response

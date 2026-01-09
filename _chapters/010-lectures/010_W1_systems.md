@@ -44,9 +44,10 @@ $$
 I - O =\delta ST 
 $$
 
+
+Conservation of mass explained:
 {% include youtube.html
     id="rPKsMRyZ92BZgGku"
-    title="Conservation of Mass in Geomorphic Systems"
 %}
 
 
