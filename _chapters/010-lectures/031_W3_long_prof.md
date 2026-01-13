@@ -32,8 +32,8 @@ Knickpoints are abrupt changes in channel slope, often manifesting as waterfalls
 - **Dams**: Artificial structures can create local base-level changes, leading to upstream aggradation and downstream incision.
 - **Climate**: Changes in precipitation and temperature can affect erosion and sediment transport.
 
-
-
+<!-- Fiona Clubb https://www.youtube.com/watch?v=zPFLuPouSLk -->
+{%% include youtube.html id="zPFLuPouSLk" %%}
 
 
 <!--
