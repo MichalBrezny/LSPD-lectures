@@ -25,8 +25,6 @@ The first model of landscape evolution was proposed by William Morris Davis in t
 In the mid-20th century, geomorphologists like Robert E. Hack introduced the concept of dynamic equilibrium, emphasizing the balance between tectonic uplift and erosion. This marked a shift towards understanding landscapes as dynamic systems influenced by various processes.
 Subsequently, the development of process-based approaches and the integration of quantitative methods allowed for more rigorous analysis of landscape evolution. Techniques such as dimensional analysis, scaling laws, and numerical modeling have become essential tools in modern geomorphology.
 
-
-
 ### Davis's cycle of erosion
 Uplift is short-lived compared to erosion. Therefore, landscapes evolve through a cycle of uplift and subsequent erosion. Davis proposed three main stages of landscape evolution:
 1. **Youth**: Characterized by steep slopes, V-shaped valleys, and active downcutting by rivers.
@@ -35,20 +33,18 @@ Uplift is short-lived compared to erosion. Therefore, landscapes evolve through 
 
 New uplift rejuvenate the landscape and restarts the cycle.
 
-
 {% include figure.html
     caption="System boundaries"
-    url="/figures/davies.png"
+    url="/figures/W1/davies.png"
     class="row"
 %}
-
 
 ### Penck's model of landscape evolution
 Walther Penck's model (1953) emphasized the continuous interplay between uplift and erosion. Unlike Davis, Penck proposed that uplift and erosion occur simultaneously. Uplift increases over time until it reaches its climax and then slowly declines. Erosion responds immediately to changes in uplift rates, leading to a more dynamic view of landscape evolution. 
 
 {% include figure.html
     caption="System boundaries"
-    url="/figures/davies_penck.png"
+    url="/figures/W1/davies_penck.png"
     class="row"
 %}
 
@@ -60,6 +56,22 @@ Hack (1960s) introduced the concept of dynamic equilibrium in landscapes. He arg
     url="/figures/W1/landscape_evolution_models.jpg"
     class="row"
 %}
+
+## Modelling in geomorphology
+Landscape is a complex system with many components which interacts in many different ways. To understand such complex systems, we create models, that simplify reality and help us to understand how the system works. Models can be conceptual, physical or mathematical/numerical.
+
+{% include figure.html
+    caption="Types of model in geomorphology. Source: After Huggett (1993, 4)"
+    url="/figures/W1/types_of_model.png"
+    class="row"
+%}
+
+Huggett (1993) defines models in geomorphology as "simplified representations of reality that are designed to explain, predict or control aspects of the behaviour of geomorphic systems". Models can be classified into three main types:
+1. **Conceptual models**: These are qualitative representations of geomorphic systems, often in the form of diagrams or flowcharts. They help to visualize the relationships between different components of a system and to generate hypotheses about how the system functions. They may serve as a basis for developing more quantitative models.
+2. **Physical models**: These are scaled-down versions of geomorphic systems that can be manipulated in a laboratory setting. Physical models allow researchers to observe and measure the behaviour of geomorphic processes under controlled conditions.
+3. **Mathematical/numerical models**: These use mathematical equations to represent geomorphic processes and predict landscape evolution. Numerical models can simulate complex interactions between multiple processes and can be used to test hypotheses and explore scenarios that are difficult to study in the field.
+
+In the figure above, slightly different division of models is presented. Hardware models refer to physical models, its subcategory **scale models** refers to physical models that are scaled down versions of real-world systems. **Analogue models** are thought to be maps, remote sensing, but also scaled models which use analoguous materials to represent or demonstrate processes in the scaled reality (with problems arising with findigs of suitable materials). models that use different materials or processes to represent geomorphic systems, often to study specific aspects of landscape evolution. **Mathematical models** and **numerical models** correspond to the mathematical/numerical models described by Huggett (1993). We can also distinguish probabilistic models, which incorporate randomness and uncertainty into their predictions, often using statistical methods to analyze geomorphic data and deterministic models, which use fixed relationships between variables to predict landscape evolution.
 
 
 ## Benefits of quantification
@@ -90,7 +102,6 @@ Quantifying landscape systems offers several advantages:
 - **Improved accuracy**: Quantitative measurements enhance the accuracy of landscape analyses, reducing subjectivity and bias.
 - **Facilitation of large-scale studies**: Quantitative methods allow for the analysis of large datasets, enabling regional to global-scale studies of landscape processes and changes.
 -->
-
 
 ## Concepts of scaling and dimensional analysis
 Scaling and dimensional analysis are essential tools in quantitative geomorphology. They help to understand how landscape processes and landforms change with size and time.
