@@ -26,8 +26,7 @@ There are three types of systems:
 The character of system is dependent on the choice of boundaries. Same system can be viewed differently depending on the boundaries chosen, which affects its qualities, inputs, and outputs (and whether it is open or isolated).
 
 System and boundaries
-{% include figure.htm
-l
+{% include figure.html
     caption="System boundaries"
     url="/figures/W1/system_boundaries.png"
     class="row"
@@ -35,15 +34,13 @@ l
 
 In the most basic sense, **landscape is an open system**. It involves exchange of energy and matter with surroundings and other systems.
 
-{% include figure.htm
-l
+{% include figure.html
     caption="A hillslope as a system, showing storages (waste mantle), inputs (e.g. wind deposition and debris production), outputs (e.g. wind erosion), throughputs (debris transport), and units (channel, valley-side slope, interfluve) (Source: Hugget, 2007)."
     url="/figures/W1/slope_system.png"
     class="row"
 %}
 
-{% include figure.htm
-l
+{% include figure.html
     caption="A cliff and talus slope viewed as (a) a form system, (b) a flow or cascading system, and (c) a process–form or process–response system. Details are given in the text. (Source: Hugget, 2007)."
     url="/figures/W1/talus_system.png"
     class="row"
@@ -62,8 +59,7 @@ $$
 
 
 Conservation of mass explained:
-{% include youtube.html id="5_7_ux6pFNc"
-%}
+{% include youtube.html id="5_7_ux6pFNc" %}
 
 ## Conservation of energy
 **Energy cannot be created or destroyed**; it can only be transformed from one form to another. For example, potential energy – the energy associated with an object’s position – can be converted into kinetic energy, the energy of motion. A classic case is a boulder resting on a hill slope: at the top it stores gravitational potential energy, and as it begins to move downslope this potential energy is progressively transformed into kinetic energy. Water running down on slopes also transforms its potential energy to kinetic energy. Fraction of the energy is then used for the erosion.
