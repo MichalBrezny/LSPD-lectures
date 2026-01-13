@@ -26,7 +26,7 @@ abstract:
 - Identify and classify knickpoints (tectonic vs. lithologic).
 
 -->
----
+
 ## River Networks and Drainage Basins
 
 ### River Networks
@@ -40,6 +40,9 @@ There are several types of river network patterns, including:
 - Rectangular: channels follow jointed or faulted bedrock, creating right-angle bends.
 - Deranged: irregular patterns with no clear organization, often found in recently glaciated landscapes.
 - Parallel: streams run parallel to each other, often found in areas with uniform slope.
+
+
+
 
 <!-- upravit a doplnit obrazek -->
 
