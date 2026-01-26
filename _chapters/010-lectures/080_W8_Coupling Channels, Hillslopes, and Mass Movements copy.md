@@ -69,13 +69,12 @@ Diffusive processes round the landscape, softens the edges and transport sedimen
 
 <!-- 
 Obrazek hillslope diffusion 
-
+-->
 {% include figure.html
     caption="Hillslope diffusion processes"
     url="/figures/W8/hillslope_diffusion.png"
     class="row"
 %}
--->
 
 **Tree throw** is a bioturbation process where trees uproot and displace soil as they fall. This action can contribute to sediment transport on hillslopes, especially in forested areas. The disturbance caused by tree throw can create microtopography that enhances other diffusive processes. Resulting microtopography is called pit-and-mound topography. 
 
@@ -96,6 +95,9 @@ where:
 - \( \frac{\partial z}{\partial x} \) = slope gradient (dimensionless)
 - L = length, T = time
 This equation states that sediment flux is proportional to the local slope gradient, with the diffusion coefficient \( D \) which integrates all diffusion processes and their efficiency of sediment transport. On steep slopes, nonlinear diffusion models may be more appropriate, accounting for threshold slopes beyond which sediment transport increases rapidly.
+
+
+
 
 
 ## References

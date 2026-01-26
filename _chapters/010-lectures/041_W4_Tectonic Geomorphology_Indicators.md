@@ -21,14 +21,18 @@ Some of geomorphic markers:
   - rivers, ridge crests
   - glacial moraines
 
-
-
-
 ## Channel-Based Indicators 
 
 ### Channel Steepness (Conceptual)
-- Steepness as a response to uplift.
-- Relationship between slope, discharge, and erosion.
+- **Steepness as a response to uplift** - higher uplift rates require steeper channels to transport sediment.
+
+{% include figure.html
+    caption="River balance (\"Lane's balance\") between sediment supply and transport capacity. Source"
+    url="/figures/W4/lane_balance.png"
+    class="row"}
+
+
+- 
 - Intuition behind channel steepness indices.
 
 #### Knickpoints and Knickzones
@@ -46,8 +50,7 @@ Some of geomorphic markers:
 
 ---
 
-### 3. Basin-Scale Indicators (25 min)
-
+### 3. Basin-Scale Indicators 
 #### 3.1 Hypsometry
 - Hypsometric curve:
   - cumulative area vs. elevation.
@@ -63,7 +66,7 @@ Some of geomorphic markers:
 
 ---
 
-### 4. Integrating Indicators (20 min)
+### 4. Integrating Indicators
 
 - No single metric proves tectonic activity.
 - Strength lies in **converging evidence**:
@@ -79,11 +82,22 @@ Some of geomorphic markers:
 
 ---
 
-### 5. Wrap-up and Transition (10 min)
+### Evolution of fault scarp
+Fresh fault scarp has sharp eedge. Over time, diffusive processes smooth the scarp. It is possible to estimate age of the scarp from its shape using diffusion model.
+
+---
+
+### Wrap-up and Transition
 - Key takeaways:
   - Tectonic geomorphology is interpretative.
   - Metrics quantify responses, not causes.
-- Explicit transition:
-  > *Next, we introduce χ-analysis as a tool to formalize and quantify these tectonic signals in river networks.*
 
 ---
+
+> *Next, we introduce χ-analysis as a tool to formalize and quantify these tectonic signals in river networks.*
+
+
+
+## References
+
+
