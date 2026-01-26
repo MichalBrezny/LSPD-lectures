@@ -75,7 +75,11 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 2. **Subsidence**: Vertical lowering of the Earth's surface, which can lead to sediment accumulation.
 3. **Isostasy**: The gravitational equilibrium between the Earth's lithosphere and asthenosphere, which can cause uplift or subsidence in response to loading or unloading (e.g., erosion or sedimentation).
 4. **Faulting and folding**: These processes can create localized topographic highs and lows, influencing drainage patterns and erosion rates.
--->
+
+{% include image.html
+   src="/assets/images/tectonic_geomorphology/slip_accumulation.png"
+   alt="Models of slip accumulation along a regional suite of faults"
+   caption="Models for slip accumulation along a regional suite of faults. Models for (A) variable slip, (B) uniform slip, and (C) characteristic earthquakes. Vertical arrows depict coseismic slip in individual earthquakes. Source: (Burbank and Anderson, 2012)."}
 
 ## Geomorphic Responses to Tectonic Forcing
 
@@ -100,7 +104,7 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 
 ---
 
-### 4. Conceptual Models (20 min)
+### 4. Conceptual Models
 
 #### 4.1 Steady-State Orogen
 - Uplift balanced by erosion.
@@ -119,7 +123,7 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 
 ---
 
-### 5. Wrap-up Discussion (10 min)
+### 5. Wrap-up Discussion 
 - Key message:
   > *Topography is a filtered tectonic signal.*
 - Discussion questions:
