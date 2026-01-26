@@ -94,6 +94,57 @@ There are several numerical landscape evolution models (LEMs) available, each wi
 - **TopoFlow**: A LEM that focuses on simulating surface water flow and sediment transport in landscapes.
 - **iSOSIA**: A LEM that simulates landscape evolution by integrating fluvial, hillslope, and glacial processes.
 - **TopoToolbox LEM** (TTLEM): A MATLAB-based LEM that allows for the simulation of landscape evolution using digital elevation models (DEMs).
+- **OpenLEM**: An open-source LEM that provides a platform for simulating landscape evolution under various environmental conditions. 
 
+## Key Components of Numerical LEMs
+Numerical LEMs typically consist of the following key components:
+- **Grid Representation**: Landscapes are represented using grids (raster, hexagonal, or irregular meshes) that define the spatial resolution of the model.
+  - These grids store eleation data, flow directions and accumulation, information about lithology etc.
+- **Process Modules**: Mathematical representations of geomorphic processes such as erosion, sediment transport, and uplift.
+  - Stream power erosin model, diffusion model, model of landsliding, glacial erosion etc.
+- **Boundary Conditions**: Definitions of how the model interacts with its surroundings, such as fixed or open boundaries.
+  - Fixed boundaries (e.g., base level) vs open boundaries (e.g., inflow/outflow).
+- **Initial Conditions**: The starting state of the landscape, which can be a flat surface, a pre-existing topography, or a synthetic landscape.
+- **Uplift and Forcing Functions**: Parameters that define tectonic uplift rates, climatic inputs, or other external forcings that drive landscape evolution.
+- **Time Stepping**: Numerical methods to advance the simulation through time while ensuring stability (e.g., CFL condition).
+- **Visualization Tools**: Methods for visualizing model outputs, including elevation grids, slope maps, and χ-plots.
+
+## LANDLAB Overview
+Landlab is an open-source, runs in Python, easy to use LEM framework that allows users to build and run landscape evolution models. It provides a modular approach, enabling users to combine different process components and customize their simulations. Landlab supports various grid types and includes built-in tools for flow routing, erosion modeling, and visualization.
+
+## Example: Simple Landscape Evolution Model in Landlab
+Here is a basic example of setting up and running a simple landscape evolution model using Landlab:
+```python
+from landlab import RasterModelGrid
+from landlab.components import FlowAccumulator, StreamPowerEroder
+from landlab.io import read_esri_ascii
+import numpy as np
+
+# Create a raster grid
+mg = RasterModelGrid((100, 100), xy_spacing=10.0)
+
+# Initialize elevation data with some random noise
+initial_noise = 0.1 # You can adjust this value
+elevation = mg.add_field('topographic__elevation', initial_noise * np.random.rand(mg.number_of_nodes), at='node')
+
+# Add flow accumulator component
+fa = FlowAccumulator(mg)
+
+# Add stream power eroder component
+spe = StreamPowerEroder(mg, K_sp=0.0001, m_sp=0.5, n_sp=1.0)
+
+# Define uplift rate
+uplift_rate = 0.001 # meters per timestep, adjust as needed
+
+# Run the model for a specified number of time steps
+for _ in range(1000):
+    fa.run_one_step()
+    spe.run_one_step(dt=1000)
+    # Apply uplift to all nodes (or core nodes)
+    mg.at_node['topographic__elevation'] += uplift_rate * 1.0 # dt is 1.0 from spe.run_one_step
+```
+---
+<!-- Video embed https://youtu.be/jrpabwebOGY?si=hBEDRUOUI0LY4UwJ -->
+{%include youtube.html id="si=hBEDRUOUI0LY4UwJ" title="Landlab - Overview"%}
 
 

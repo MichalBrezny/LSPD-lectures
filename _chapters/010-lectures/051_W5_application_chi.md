@@ -54,7 +54,7 @@ abstract:
 
 # Interpreting Chi and Channel Steepness in Tectonic Context
 
-## 1. Introduction: From Transformation to Interpretation (5 min)
+## 1. Introduction: From Transformation to Interpretation
 - Chi transforms river profiles.
 - Interpretation requires tectonic context.
 - Reminder:
@@ -76,6 +76,9 @@ abstract:
   - fault zones,
   - uplift gradients,
   - tectonic segmentation.
+
+
+
 
 ---
 
