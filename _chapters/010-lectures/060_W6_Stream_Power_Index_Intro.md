@@ -50,8 +50,6 @@ abstract:
 -->
 
 
-
-
 # Introduction: Closing the Loop 
 
 Recap:
@@ -61,17 +59,17 @@ Recap:
 - Key question:
   > *What physical process explains the patterns we observe in chi space?*
 
-- SPIM is introduced as the **mechanistic explanation** behind:
+<!-- SPIM is introduced as the **mechanistic explanation** behind:
   - channel steepness,
   - chi linearity,
   - steady-state river profiles.
-
+-->
 ---
 
 ## Conceptual Foundation of SPIM
 
 ### Rivers as Energy Dissipation Systems
-- Flowing water converts:
+- Flowing water converts: 
   - gravitational potential energy → kinetic energy → erosion.
 - Erosion rate depends on:
   - water discharge,
