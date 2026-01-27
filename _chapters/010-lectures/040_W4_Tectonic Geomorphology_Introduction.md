@@ -91,7 +91,7 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 
 ###  Hillslope Response
 - Relief growth leads to steeper slopes.
-- Increased frequency of threshold processes (e.g.landslides).
+- Increased frequency of threshold processes (e.g. landslides).
 - Coupling between uplift, incision, and mass wasting.
 
 ### Transient Adjustment
@@ -167,52 +167,3 @@ Some of geomorphic markers:
 
 ---
 
-### Step-by-Step Activities
-
-1. **DEM Exploration**
-   - Load DEM of tectonically active region.
-   - Identify major structural features visually.
-
-2. **River Profile Extraction**
-   - Extract longitudinal profiles.
-   - Identify steep reaches and knickpoints.
-
-3. **Hypsometric Analysis**
-   - Generate hypsometric curves for multiple basins.
-   - Compare integrals between basins.
-
-4. **Basin Asymmetry**
-   - Calculate basin asymmetry factor.
-   - Interpret basin tilting directions.
-
-5. **Synthesis Exercise**
-   - Combine all indicators.
-   - Answer:
-     - Is the landscape actively uplifting?
-     - What alternative explanations exist?
-
----
-
-### Deliverables
-- Figures:
-  - river profiles,
-  - hypsometric curves,
-  - asymmetry maps.
-- Short interpretation report (2–3 pages):
-  - evidence for tectonic forcing,
-  - uncertainty and alternative hypotheses.
-
----
-
-## Pedagogical Notes (Instructor)
-
-- Avoid presenting tectonic metrics as “truth”.
-- Emphasize uncertainty and ambiguity.
-- Reinforce idea that:
-  > *Geomorphology records tectonics imperfectly, but systematically.*
-
-- This block should **reduce confusion** later when students encounter:
-  - chi plots,
-  - ksn maps,
-  - uplift parameters in models.
--->
