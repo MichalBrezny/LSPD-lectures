@@ -22,10 +22,8 @@ abstract:
   - Basin asymmetry in Apennines.
 - **Wrap-up (5 min)**
   - Discussion: What signals differentiate tectonic from climate?
-
-
-
 -->
+
 # Introduction: Why Tectonics Matters
 
 >*The unrelenting competition between tectonic processes that tend to build topography and surface processes that tend to tear them down represents the core of tectonic geomorphology.* 
@@ -68,7 +66,6 @@ Thus:
   - drainage capture,
   - basin tilting.
 
-
 ## Modes of tectonic forcing
 Tectonic forcing can manifest in several ways that impact landscape evolution:
 1. **Uplift**: Vertical rise of the Earth's surface, which increases potential energy and drives erosion.
@@ -79,7 +76,7 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 {% include image.html
    src="/assets/images/tectonic_geomorphology/slip_accumulation.png"
    alt="Models of slip accumulation along a regional suite of faults"
-   caption="Models for slip accumulation along a regional suite of faults. Models for (A) variable slip, (B) uniform slip, and (C) characteristic earthquakes. Vertical arrows depict coseismic slip in individual earthquakes. Source: (Burbank and Anderson, 2012)."}
+   caption="Models for slip accumulation along a regional suite of faults. Models for (A) variable slip, (B) uniform slip, and (C) characteristic earthquakes. Vertical arrows depict coseismic slip in individual earthquakes. Source: (Burbank and Anderson, 2012)." %}
 
 ## Geomorphic Responses to Tectonic Forcing
 
@@ -94,7 +91,7 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 
 ###  Hillslope Response
 - Relief growth leads to steeper slopes.
-- Increased frequency of threshold processes (landslides).
+- Increased frequency of threshold processes (e.g.landslides).
 - Coupling between uplift, incision, and mass wasting.
 
 ### Transient Adjustment
