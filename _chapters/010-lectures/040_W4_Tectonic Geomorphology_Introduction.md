@@ -147,23 +147,9 @@ Some of geomorphic markers:
   - glacial moraines
 
 
-<!--
-## Lecture 2: Geomorphic Indicators of Active Tectonics
 
-### 1. Introduction: Reading Tectonics from Topography (5 min)
-- Motivation:
-  - We rarely observe uplift directly.
-  - We infer tectonics from **geomorphic proxies**.
-- Emphasize that indicators are **indirect and non-unique**.
+<!-- Fiona Clubb https://www.youtube.com/watch?v=zPFLuPouSLk -->
+Nice video of tectonic geomorphology on San Andreas Fault by Fiona Clubb.
+{% include youtube.html id="zPFLuPouSLk" %}
 
----
-
-
-## Lab: Quantitative Tectonic Geomorphology from DEMs
-
-### Objectives
-- Identify tectonic signatures in real topography.
-- Practice geomorphic interpretation prior to modeling.
-
----
 

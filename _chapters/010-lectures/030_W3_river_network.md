@@ -4,29 +4,6 @@ slug: week3-river-networks
 abstract:
 ---
 
-<!-- 
-## Overview
-
-**Lecture 1: River Network Geometry**
-- Drainage basin organization: Horton–Strahler ordering.
-- Drainage density and bifurcation ratios.
-- Slope–area relationships and scaling laws.
-- Fractal properties and self-similarity of drainage networks.
-
-**Lecture 2: Longitudinal River Profiles**
-- Concept of graded stream and equilibrium profile.
-- Processes of knickpoint formation and migration.
-- Influence of tectonics, base-level changes, dams.
-- Longitudinal profiles as archives of landscape history.
-
-**Lab**
-- Extract drainage networks from DEM.
-- Calculate stream orders, slope–area relationships.
-- Generate longitudinal profiles.
-- Identify and classify knickpoints (tectonic vs. lithologic).
-
--->
-
 ## River Networks and Drainage Basins
 
 ### River Networks
@@ -41,10 +18,12 @@ There are several types of river network patterns, including:
 - Deranged: irregular patterns with no clear organization, often found in recently glaciated landscapes.
 - Parallel: streams run parallel to each other, often found in areas with uniform slope.
 
+{% include figure.html
+  caption="Types of drainage patterns (source: https://www.geologyin.com/2014/03/drainage-pattern.html"
+  url="/figures/W3/types-of-drainage-patterns.jpg"
+  alt="River network patterns"
+  %}
 
-
-
-<!-- upravit a doplnit obrazek -->
 
 #### Key geometric properties
 River networks can be characterized by several key geometric properties that describe their structure and organization. These include:
@@ -79,13 +58,13 @@ Drainage basins are elementary units of the landscape, and their organization is
 Drainage density is the total length of mapped channels within a basin divided by the basin area:
 $$ D_d = \frac{\sum L}{A_{basin}} $$
 where:
-- \( D_d \) = drainage density (L^-1)
-- \( \sum L \) = total length of all streams in the basin (L)
-- \( A_{basin} \) = area of the drainage basin (L^2)    
+- $D_d$ = drainage density (L^-1)
+- $\sum L$ = total length of all streams in the basin (L)
+- $A_{basin}$ = area of the drainage basin (L^2)    
   
 It expresses average channel length per unit area (e.g., km km^-2 or m m^-2, often reported simply as km^-1 or m^-1). Higher values indicate more closely spaced channels (greater dissection); lower values indicate more widely spaced channels (less dissection).
 
-Drainage density is refers to a average spacing of channels in a drainage basin. It is inversely related to the average distance water must travel overland before reaching a channel ($\overline{L} \sim 1/2D_d$). Further the drainage density is related to the valley density (length of valleys per unit area) as valleys typically host channels.
+Drainage density refers to an average spacing of channels in a drainage basin. It is inversely related to the average distance water must travel overland before reaching a channel ($\overline{L} \sim 1/2D_d$). Further the drainage density is related to the valley density (length of valleys per unit area) as valleys typically host channels.
 
 #### What affects drainage density?
 Drainage density is influenced by climatic factors, physical properties of the drainage basin, rock and soil properties, relief, vegetation. Very important is also the time, as landscapes evolve and drainage networks develop over time. 
@@ -95,7 +74,8 @@ For example soil permeability (how easily water can infiltrate into soil) and un
 #### Drainage density vs. maturity of landscape
 Drainage density is often used as an indicator of the maturity of a landscape. Young landscapes, which are still actively eroding and developing, tend to have higher drainage densities due to the presence of numerous small streams and channels. As landscapes mature, erosion processes tend to smooth out the terrain, leading to a reduction in drainage density.
 
-## Inverse of drainage density as a physical quantity
+# Worth to read
+Migoń, P., Jancewicz, K., Różycka, M., Szymanowski, M., 2025. Drainage patterns in the Sudetes Mountains (Central Europe) – A clue to understanding polygenetic relief? Geomorphology 473, 109637. https://doi.org/10.1016/j.geomorph.2025.109637
 
 
 # References

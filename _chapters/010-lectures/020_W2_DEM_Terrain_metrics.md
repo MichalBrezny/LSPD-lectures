@@ -90,7 +90,6 @@ Curvature describes the rate of change of slope. Profile curvature affects the a
 #### Hypsometry
 The hypsometric curve represents the cumulative distribution of elevation within a drainage basin. The hypsometric integral quantifies the stage of landscape development, with higher values indicating youthful landscapes and lower values indicating mature landscapes.
 
-
 #### Hydrological Indices
 The Topographic Wetness Index (TWI) is calculated as 
 $$ TWI = \ln\left(\frac{a}{\tan\beta}\right) $$

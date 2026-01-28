@@ -21,19 +21,26 @@ Some of geomorphic markers:
   - rivers, ridge crests
   - glacial moraines
 
+{% 
+include figure.html
+    caption="Raised beaches where King's Cave a series seafront caves is located, Isle of Arran in Scotland, Source: dave souza, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
+    url="/figures/W4/marine_terraces.png"
+    class="row"
+
+%}
+
 ## Channel-Based Indicators 
 
 ### Channel Steepness (Conceptual)
 - **Steepness as a response to uplift** - higher uplift rates require steeper channels to transport sediment.
 
+Well known "Lane's balance" concept illustrates the balance between sediment supply and transport capacity in rivers. If uplift increases, transport capacity must also increase (via steeper slopes) to maintain equilibrium. Otherwise, sediment will accumulate, leading to aggradation.
+
 {% include figure.html
-    caption="River balance (\"Lane's balance\") between sediment supply and transport capacity. Source"
+    caption="River balance (&#34;Lane's balance&#34;) between sediment supply and transport capacity. Source"
     url="/figures/W4/lane_balance.png"
-    class="row"}
-
-
-- 
-- Intuition behind channel steepness indices.
+    class="row" 
+%}
 
 #### Knickpoints and Knickzones
 - Types:
@@ -48,10 +55,8 @@ Some of geomorphic markers:
 - River deflection and offset.
 - Beheaded streams and captures.
 
----
-
-### 3. Basin-Scale Indicators 
-#### 3.1 Hypsometry
+### Basin-Scale Indicators 
+#### Hypsometry
 - Hypsometric curve:
   - cumulative area vs. elevation.
 - Hypsometric integral:
@@ -59,15 +64,12 @@ Some of geomorphic markers:
 - Interpreting hypsometry cautiously:
   - tectonics vs. climate vs. lithology.
 
-#### 3.2 Basin Asymmetry
+#### Basin Asymmetry
 - Basin tilt and lateral migration.
 - Asymmetry factor (AF).
 - Links to active faulting and warping.
 
----
-
-### 4. Integrating Indicators
-
+### Integrating Indicators
 - No single metric proves tectonic activity.
 - Strength lies in **converging evidence**:
   - steep channels + asymmetric basins,
@@ -83,7 +85,7 @@ Some of geomorphic markers:
 ---
 
 ### Evolution of fault scarp
-Fresh fault scarp has sharp eedge. Over time, diffusive processes smooth the scarp. It is possible to estimate age of the scarp from its shape using diffusion model.
+Fresh fault scarp has sharp edge. Over time, diffusive processes smooth the scarp. It is possible to estimate age of the scarp from its shape using diffusion model.
 
 ---
 

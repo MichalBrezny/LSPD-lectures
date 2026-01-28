@@ -83,26 +83,6 @@ Quantifying landscape systems offers several advantages:
 - **Understanding complexity**: Quantitative approaches help unravel the complex interactions between multiple processes shaping landscapes.
 
 
-<!--
-- **Communication**: Quantitative results can be more easily communicated to stakeholders, policymakers, and the public.
-- **Advancement of theory**: Quantification drives the development of new theories and models in geomorphology.
-- **Technological integration**: Advances in technology (e.g., remote sensing, GIS) enhance the ability to collect and analyze quantitative data.
-- **Interdisciplinary collaboration**: Quantitative geomorphology facilitates collaboration with other scientific disciplines (e.g., hydrology, ecology, climatology).
-- **Resource management**: Quantitative insights inform sustainable land use and conservation strategies.
-- **Risk assessment**: Quantitative models aid in assessing geomorphic hazards (e.g., landslides, floods).
-- **Policy development**: Quantitative data supports evidence-based policymaking for environmental management.
-- **Educational value**: Quantitative geomorphology enhances the training of future scientists in analytical and modeling skills.
-- **Innovation**: Quantification drives innovation in research methods and technologies in geomorphology.
-- **Global change studies**: Quantitative approaches are essential for understanding and predicting the impacts of global environmental changes on landscapes.
-- **Data-driven insights**: Quantitative analyses provide data-driven insights that can inform decision-making in various sectors (e.g., urban planning, agriculture).
-- **Benchmarking**: Quantitative metrics allow for benchmarking landscape conditions and changes over time.
-- **Enhanced visualization**: Quantitative data can be visualized through graphs, maps, and models, aiding in interpretation and communication of results.
-- **Standardization**: Quantitative methods promote standardization in data collection and analysis, facilitating comparisons across studies and regions.
-- **Long-term monitoring**: Quantitative approaches enable long-term monitoring of landscape changes, providing insights into trends and patterns over time.
-- **Improved accuracy**: Quantitative measurements enhance the accuracy of landscape analyses, reducing subjectivity and bias.
-- **Facilitation of large-scale studies**: Quantitative methods allow for the analysis of large datasets, enabling regional to global-scale studies of landscape processes and changes.
--->
-
 ## Concepts of scaling and dimensional analysis
 Scaling and dimensional analysis are essential tools in quantitative geomorphology. They help to understand how landscape processes and landforms change with size and time.
 - **Scaling**: Examines how geomorphic processes and landforms change with size. For example, the relationship between river discharge and channel width can be described using scaling laws.
@@ -115,3 +95,6 @@ Scaling and dimensional analysis are essential tools in quantitative geomorpholo
 2. **Balance equations**: Mathematical equations that describe the balance between different geomorphic processes, such as erosion and deposition, to predict landscape evolution over time.
 3. **Stream power law**: A quantitative model that relates river incision rates to channel slope and discharge, providing insights into landscape evolution driven by fluvial processes.
 
+### References
+- Burbank, D. W., & Anderson, R. S. (2012). Tectonic geomorphology. John Wiley & Sons.
+- 
