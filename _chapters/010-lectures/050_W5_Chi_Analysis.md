@@ -5,23 +5,7 @@ abstract:
 ---
 
 # Chi Transformation
-<!-- **Structure**
-- **Introduction**
-  - Why chi analysis? Problem of nonlinear river profiles.
-- **Core Concepts**
-  - Derivation of χ:
-    - χ = ∫ (A0 / A)^m/n dx.
-    - Normalization with reference area A0.
-  - In steady state, χ–elevation plots are straight lines.
-  - Disequilibrium: profile bends or breaks.
-  - Sensitivity to m/n ratio choice.
-- **Examples**
-  - Taiwan (active orogen) vs. Canadian Shield (stable craton).
-- **Wrap-up**
-  - Quick discussion: What does a break in slope of χ-plot mean?
--->
-
-### Chi transformation - what is it and why we use it?
+## Chi transformation - what is it and why we use it?
 River profiles are inherently nonlinear due to the relationship between channel slope and drainage area. As rivers flow downstream, their slope typically decreases because the discharge increases with drainage area. This nonlinearity makes it challenging to compare river profiles directly or to assess their response to tectonic or climatic forcing.
 
 The Chi transformation is a mathematical approach used in geomorphology to analyze river profiles. It helps to identify and quantify changes in river morphology, particularly in response to tectonic or climatic forces. By transforming the river profile into a Chi plot, we can better understand the processes shaping the landscape.
