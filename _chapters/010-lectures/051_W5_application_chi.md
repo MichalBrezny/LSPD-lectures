@@ -50,7 +50,15 @@ abstract:
   - divide migration,
   - drainage capture.
 
----
+
+{% include figure.html
+    caption="Example of tributary misalignment in chi space indicating transient response. (Source: Willett et al., 2014)"
+    url="/figures/W5/drainage_migration.jpg"
+    class="row"
+%}
+
+
+
 
 ## What Can Go Wrong 
 
@@ -66,8 +74,6 @@ abstract:
 - Sensitivity to concavity index.
 - Why standard values (e.g. 0.45–0.6) are used.
 
----
-
 ## Integrating Chi with Other Indicators
 
 - Best practice:
@@ -77,12 +83,7 @@ abstract:
 - Temporal reasoning:
   - knickpoint position as response time indicator.
 
----
 
-##  Wrap-up & Transition to SPIM
+# References
+Willett, S.D., McCoy, S.W., Perron, J.T., Goren, L., Chen, C.-Y., 2014. Dynamic Reorganization of River Basins. Science 343, 1248765. https://doi.org/10.1126/science.1248765
 
-- Key messages:
-  - Chi quantifies tectonic response in river networks.
-  - Interpretation must be cautious and contextual.
-- Explicit bridge to SPIM:
-  > *SPIM provides the process-based framework that explains why chi works.*

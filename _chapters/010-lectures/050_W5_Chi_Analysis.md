@@ -58,6 +58,5 @@ Chi plots are graphical representations that plot the Chi values against elevati
 
 
 
-
 ## References
 Mudd, S.M., Attal, M., Milodowski, D.T., Grieve, S.W.D., Valters, D.A., 2014. A statistical framework to quantify spatial variation in channel gradients using the integral method of channel profile analysis. Journal of Geophysical Research: Earth Surface 119, 138–152. https://doi.org/10.1002/2013JF002981
