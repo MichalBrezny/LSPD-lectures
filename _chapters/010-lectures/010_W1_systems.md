@@ -76,12 +76,12 @@ A **balance of forces** is an important concept in geomorphology. For example, i
 ## Thresholds
 In geomorphology, a threshold is a particular set of physical or chemical conditions at which the behaviour of a system changes abruptly. As long as conditions remain below this point, the landscape may appear relatively stable, even if it is slowly adjusting. Once the threshold is reached or exceeded, the system can shift to a different state or a new range of average conditions. Classic examples include a critical shear stress at which sediment on a river bed begins to move, a critical slope angle beyond which landslides are initiated, or chemical thresholds where changes in pH or redox conditions cause minerals to dissolve or precipitate. Crossing such thresholds often leads to rapid geomorphic change and reorganisation of landforms, even if the external forcing (such as climate or tectonics) varies only gradually.
 
-## Magnitude and frequncy
+## Magnitude and frequency
 Relationship between magnitude and frequency of geomorphic events is often inverse: high-magnitude events (e.g., large floods, major landslides) tend to occur infrequently, while low-magnitude events (e.g., small storms, minor soil creep) happen more regularly. This relationship has important implications for landscape evolution, as both types of events contribute to shaping landforms over different timescales.
 
 {% include figure.html
     caption="Magnitude and frequency of earthquakes (source: https://www.iris.edu/hq/inclass/fact-sheet/how_often_do_earthquakes_occur)"
-    url="/figures/W1/magnitude_frequency.jpg"
+    url="/figures/W1/magnitude-frequency.jpg"
     class="row"
 %}
 
@@ -140,16 +140,16 @@ Transient state: system adjusting after disturbance. For example in the recently
 
 {% include figure.html
     caption="Types of equilibrium in geomorphology. (a) Static equilibrium occurs when a system is in balance over a time period and no change in state occurs. (b) Stable equilibrium records a tendency to revert to a previous state after a small disturbance. (c) Unstable equilibrium occurs when a small disturbance forces a system towards a new equilibrium state where stabilization occurs. (d) Metastable equilibrium arises when a system crosses an internal or external system threshold (p. 20), so driving it to a new state. (e) Steady state equilibrium obtains when a system constantly fluctuates about a mean equilibrium state. (f ) Thermodynamic equilibrium is the tendency of some systems towards a state of maximum entropy, as in the gradual dissipation of heat by the Universe and its possible eventual ‘heat death’ and in the reduction of a mountain mass to a peneplain during a prolonged period of no uplift. (g) Dynamic equilibrium may be thought of as balanced fluctuations about a mean state that changes in a definite direction (a trending mean). (h) Dynamic metastable equilibrium combines dynamic and metastable tendencies, with balanced fluctuations about a trending mean flipping to new trending mean values when thresholds are crossed. Source: After Chorley and Kennedy (1971, 202)"
-    url="/figures/system_states.png"
+    url="/figures/W1/system_states.png"
     class="row"
-%}
+%}  
 
 ## Feedback loops
 
 In systems, feedback loops occur when outputs of a system are routed back as inputs, influencing subsequent system behavior. Feedbacks can be either positive or negative:
 
-    - **Positive feedback** amplifies the initial change and drives the system further in the same direction.
-    - **Negative feedback** counteracts the initial change and stabilizes the system. 
+- **Positive feedback** amplifies the initial change and drives the system further in the same direction.
+- **Negative feedback** counteracts the initial change and stabilizes the system. 
 
 For example, in landscape evolution, a positive feedback loop can occur when increased erosion exposes more erodible material, leading to further erosion. Conversely, a negative feedback loop might involve vegetation growth stabilizing slopes and reducing erosion rates.
 
