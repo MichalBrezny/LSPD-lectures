@@ -82,21 +82,17 @@ Well known "Lane's balance" concept illustrates the balance between sediment sup
   - ksn mapping,
   - SPIM interpretation.
 
----
-
 ### Evolution of fault scarp
 Fresh fault scarp has sharp edge. Over time, diffusive processes smooth the scarp. It is possible to estimate age of the scarp from its shape using diffusion model.
 
 ---
 
-### Wrap-up and Transition
-- Key takeaways:
-  - Tectonic geomorphology is interpretative.
-  - Metrics quantify responses, not causes.
-
----
-
 > *Next, we introduce χ-analysis as a tool to formalize and quantify these tectonic signals in river networks.*
+
+# Worth to read
+Różycka, M., Migoń, P., 2023. Deciphering complexity of block-faulted topography – Insights from morphometric variables, drainage patterns and river profiles (Orlickie-Bystrzyckie Mountains Block, Central Europe). Geomorphology 427, 108621. https://doi.org/10.1016/j.geomorph.2023.108621
+
+
 
 
 
