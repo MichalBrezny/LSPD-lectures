@@ -3,82 +3,58 @@ title: W10 – Data–Model Integration and Uncertainty
 slug: week10-data-model-integration-uncertainty
 abstract:
 ---
-<!-- 
-## Week 10 – Data–Model Integration and Uncertainty
-### Lecture 1: Calibration Data
-**Structure**
-- **Introduction (5 min)**
-  - Models are only as good as their calibration.
-- **Core Concepts (25 min)**
-  - Erosion rate measurements:
-    - Cosmogenic nuclides (10Be, 26Al).
-    - Sediment yield gauging.
-  - Uplift rate estimates:
-    - GPS geodesy.
-    - Thermochronology.
-  - Glacial proxies:
-    - Lake sediment cores.
-    - Trimline mapping.
-  - DEM benchmarks for morphology.
-- **Examples (10 min)**
-  - Andes: cosmogenic rates vs. modeled incision.
-- **Wrap-up (5 min)**
-  - Q: Which dataset is most robust at different timescales?
 
-### Lecture 2: Uncertainty and Equifinality
-**Structure**
-- **Introduction (5 min)**
-  - Why uncertainty matters in scientific interpretation.
-- **Core Concepts (25 min)**
-  - Sensitivity analysis: one-at-a-time vs. Monte Carlo.
-  - Equifinality: multiple parameter sets produce same output.
-  - Uncertainty propagation through LEMs.
-  - Reporting uncertainty in publications.
-- **Examples (10 min)**
-  - Landlab SPIM runs with varied K.
-- **Wrap-up (5 min)**
-  - Brainstorm: list 3 main sources of uncertainty in geomorphic models.
+# The Role of Data in Quantitative Geomorphology
 
-### Lab 9: Calibration and Sensitivity Testing
-**Objectives**
-- Integrate empirical data into models.
-- Practice sensitivity analysis.
 
-**Steps**
-1. **Assign erosion rates** (field data provided).
-2. **Run Landlab SPIM** with fixed vs. variable K.
-3. **Perform sensitivity runs** (vary m, n, U).
-4. **Visualize uncertainty** with ensemble outputs.
-5. **Exercise**
-   - Short written reflection: limits of calibration.
-
--->
-
-### 1. Introduction: The Role of Data in Quantitative Geomorphology
-
-- Recap of course narrative:
+To sum up what we have learned so far:
   - Tectonics provides forcing.
   - Rivers respond (chi, ksn).
   - SPIM explains mechanisms.
   - LEMs simulate evolution.
-- Key realization:
-  > *Models without data are unconstrained; data without models are hard to interpret.*
-- Purpose of data–model integration at MSc level:
-  - not prediction,
-  - not optimization,
-  - but **plausibility testing**.
+
+
+# Embracing Uncertainty
+In quantitative geomorphology, we use **models** to explore how landscapes might respond to tectonic forcing, climate, and surface processes. We use **data** to constrain what is physically plausible.  
+
+Neither models nor data alone can fully explain landscape evolution:
+
+- **Models without data** are unconstrained and speculative.
+- **Data without models** are difficult to interpret mechanistically.
+
+> **Key idea:** Models help us *ask better questions*, not provide final answers.
+
+Scientific models are tools, not answers.
+
+>[!Warning]
+>Classic motto: Garbage in, garbage out. Models are only as good as the data and assumptions that go into them. >Understanding and quantifying uncertainty is crucial for responsible interpretation.
+
+
+
+
+> *Models without data are unconstrained; data without models are hard to interpret.*
 
 ---
 
-### 2. Types of Data Used to Constrain Models
+## Types of Data Used to Constrain Models
+What is a constraint? Models work in some parameter space defined. When we do not know exact values of parameters, we can used data to limit the plausible range of these parameters. This is called constraining the model.
 
-#### 2.1 Topographic Data (Primary Constraint)
-- DEM-derived metrics:
+So when we look on SPIM model, we have several parameters: uplift rate (U), erodibility (K), concavity (m/n). Each of these parameters can vary within some range. Data can help us to limit these ranges. Different types of data provide different constraints:
+  - uplift rate (U),
+  - erodibility (K),
+  - concavity (m/n),
+  - diffusion coefficient (D).
+
+## What data are used to constrain models?
+
+### Topographic Data (Primary Constraint)
+DEM-derived metrics:
   - river profiles,
   - chi plots,
   - slope distributions,
   - hypsometry.
-- What topography constrains:
+
+What topography constrains:
   - relative uplift patterns,
   - transient vs. steady-state behavior,
   - spatial variability.
@@ -89,13 +65,9 @@ abstract:
   - integrates long time periods,
   - non-unique interpretations.
 
----
-
 ### Erosion Rate Data
 #### Cosmogenic nuclides (e.g. ¹⁰Be):
 We can use concentrations of cosmogenic nuclides like ¹⁰Be in river sediments to estimate basin-averaged erosion rates over timescales of 10³–10⁵ years. These measurements provide direct constraints on how quickly landscapes are lowering, which can be compared to model predictions.
-
-
 
 - Sediment yield measurements:
   - modern erosion proxies.
@@ -104,8 +76,6 @@ We can use concentrations of cosmogenic nuclides like ¹⁰Be in river sediments
 - Key limitation:
   - represent specific timescales,
   - not directly comparable to short-term processes.
-
----
 
 #### Uplift and Boundary Condition Data
 - Geodetic uplift (GPS):
@@ -116,8 +86,6 @@ We can use concentrations of cosmogenic nuclides like ¹⁰Be in river sediments
   - thermochronology.
 - Role in models:
   - define forcing, not outcome.
-
----
 
 ###  How Data Are Used in Models (Conceptually)
 
@@ -135,13 +103,14 @@ In this course, we focus on **constraint**, not calibration.
 #### Forward vs. Inverse Thinking
 - Forward modeling:
   - assume forcing → predict landscape.
+  - prescribe U, K, m/n → simulate topography.
 - Inverse reasoning:
   - observe landscape → infer forcing.
+  - given topography → estimate U, K, m/n.
 - Important warning:
   - inversion is inherently non-unique.
-
----
-
+  - multiple parameter sets can yield similar landscapes.
+  
 ### Non-Uniqueness and Equifinality
 
 Various parameter combinations can produce similar model outputs. This is known as **equifinality**. That is similar to multiple roads leading to the same destination, but the journey taken may differ significantly. Or as evolutionary biologists say, "convergent evolution"—different paths leading to similar forms (e.g., wings in bats and birds).
@@ -162,8 +131,8 @@ Various parameter combinations can produce similar model outputs. This is known 
 - Key messages:
   - Data guide models, not validate them absolutely.
   - Agreement ≠ truth.
-- Prepare students for:
-  - sensitivity analysis,
-  - uncertainty discussion.
+  - Focus on patterns, not exact fits.
 
+
+## References and Further Reading
 

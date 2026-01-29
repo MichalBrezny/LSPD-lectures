@@ -52,11 +52,6 @@ Finally, it is important to test the sensitivity of the model to changes in para
 
 
 
-
-
-
-## Lecture 2: Using SPIM to Interpret and Predict Landscape Evolution
-
 ### 1. Introduction: From Explanation to Experiment (5 min)
 - Chi showed us *what* the landscape is doing.
 - SPIM explains *why*.

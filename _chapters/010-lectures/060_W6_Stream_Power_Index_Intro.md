@@ -48,14 +48,6 @@ Assumptions:
 ---
 ## Governing Equation and Its Meaning 
 
-#### 3.1 The SPIM Equation
-- E = K A^m S^n
-  - E: incision rate.
-  - K: erodibility (climate, lithology).
-  - A: drainage area (proxy for discharge).
-  - S: channel slope.
-  - m, n: scaling exponents.
-
 ## Fundamentals of SPIM
 
 Stream power incision model (SPIM) is based on the idea that the rate of river incision (E) is proportional to the stream power per unit bed area, which can be expressed as:
