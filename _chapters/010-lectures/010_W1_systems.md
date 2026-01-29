@@ -123,9 +123,8 @@ Bierman & Montgomery (2014) classify landscapes into 4 broad types:
 - **Ancient landscapes**: very old surfaces that have experienced minimal tectonic or climatic change. Characterized by deeply weathered profiles, subdued topography, and low relief.
 
 ### Steady State vs. Equilibrium vs. Transient
-
+We can distinguish different steady states. 
 Steady state in broad view means balance between uplift and erosion. 
-
 
 Equilibrium landscape means that it does not change through time. Equilibrium is not static but often dynamic steady state exists. That means, that system oscillates around some mean. Steady state is strongly scale dependent. For example, a landscape can be in steady state on million year timescale, but not on 1000 years timescale.
 
