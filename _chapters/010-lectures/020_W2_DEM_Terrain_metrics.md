@@ -4,35 +4,6 @@ slug: week2-dem-analysis-terrain-metrics
 abstract:
 ---
 
-
----
-<!-- ## Week 2 – DEM Analysis, Terrain Metrics, and Hydrology
-
----
-
-### Lab 2: Terrain Metrics and Runoff Modelling
-**Objectives**
-- Extract key terrain metrics from DEMs.
-- Link terrain to hydrological processes.
-
-**Steps**
-1. **Load DEM** in QGIS or SAGA.
-2. **Derive terrain attributes**
-   - Slope, aspect, curvature.
-   - TWI and SPI.
-   - Hypsometric curve for selected basins.
-3. **Compare metrics across basins**
-   - Different lithologies and elevations.
-4. **Run rainfall–runoff model (Excel/Python)**
-   - Horton infiltration curve.
-   - Produce hydrographs for two soils.
-5. **Exercise**
-   - Write 2-page lab report:
-     - Compare hydrographs between sandy vs. clay catchments.
-     - Relate results to DEM-derived wetness indices.
--->
-
-
 This will be probably for most of you repetition of what you already know from previous courses, but it is important to have a good understanding of these terrain metrics as they are widely used in geomorphology and hydrology.
 
 # Digital Elevation Models (DEMs)

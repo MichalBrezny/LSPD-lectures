@@ -30,6 +30,14 @@ Scientific models are tools, not answers.
 >Classic motto: Garbage in, garbage out. Models are only as good as the data and assumptions that go into them. >Understanding and quantifying uncertainty is crucial for responsible interpretation.
 
 
+## Calibration vs. Constraint
+
+- **Calibration**: tuning model parameters to match data exactly  
+- **Constraint**: limiting parameter values to a plausible range  
+
+In this course, we focus on **constraint**, not calibration.
+
+> Matching the data does **not** prove the model is correct.
 
 
 > *Models without data are unconstrained; data without models are hard to interpret.*
