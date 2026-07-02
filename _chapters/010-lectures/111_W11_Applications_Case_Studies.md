@@ -1,7 +1,32 @@
 ---
-title: W11 – Applications and Case Studies – Case Studies 
-slug: week11-applications-case-studies-case-studies
-abstract:
+title: W11 – Applications and Case Studies – Case Studies
+slug: week11-applications-case-studies
+abstract: Case studies of tectonics vs. climate, and humans as geomorphic agents in the Anthropocene.
+---
+
+# Case Studies and Anthropocene Geomorphology
+
+This part applies the methods from the [Applied Geomorphology](week11-applications-case-studies-applied-geomorphology) part to real landscapes, then turns to humans as a first-order geomorphic agent.
+
+## Humans as geomorphic agents
+
+Humans move and redistribute enormous volumes of earth materials through mining, construction, and agriculture—often comparable to major natural agents at broad scales. ([exploreiowageology.org][8])
+
+---
+
+## Case study theme: tectonics vs. climate
+
+### A. Himalaya: decoupling and coupling hypotheses
+
+A core debate: Do precipitation gradients map directly onto long-term erosion patterns?
+
+* One influential example shows **weak correspondence** between a strong precipitation gradient and geologic-scale erosion rates in the Greater Himalaya (Nepal), implying decoupling under some conditions. ([Scholars@Duke][9])
+* Interpretation tools: thermochronometry, river profile metrics, landslide contributions, lithologic contrasts, transient response times.
+
+### B. Andes: uplift and precipitation gradients
+
+* Erosion rates can vary strongly across rainfall gradients; examples document **order-of-magnitude** differences across steep climatic transitions and interpret patterns with stream-power style frameworks. ([ScienceDirect][10])
+
 ---
 
 ## Anthropocene geomorphology: three major mechanisms
@@ -24,7 +49,7 @@ Urban watersheds often show:
 
 ---
 
-## Focus example (10 min): Three Gorges Dam (Yangtze/Changjiang)
+## Focus example: Three Gorges Dam (Yangtze/Changjiang)
 
 * Large reservoirs can trap substantial fractions of upstream sediment and shift downstream sediment budgets.
 * Example analyses quantify deposition/trapping and discuss downstream/coastal implications after Three Gorges operation. ([hess.copernicus.org][14])
@@ -38,7 +63,7 @@ Use at least one **order-of-magnitude** argument (e.g., volumes moved per year; 
 
 ---
 
-# Key terms (quick glossary)
+## Key terms (quick glossary)
 
 * **Susceptibility**: relative likelihood of occurrence (where processes are more/less likely).
 * **Hazard**: probability and intensity of a damaging process (depth/velocity/runout).
@@ -49,7 +74,7 @@ Use at least one **order-of-magnitude** argument (e.g., volumes moved per year; 
 
 ---
 
-# Suggested reading (core list)
+## Suggested reading (core list)
 
 * Bates, P. D., et al. (2010). Efficient 2D flood inundation modeling using a (local/inertial) shallow-water formulation. ([ScienceDirect][1])
 * Chalise, A., et al. (2022). Landslide susceptibility mapping (Baglung District, Nepal) using ML approaches. ([nepjol.info][6])

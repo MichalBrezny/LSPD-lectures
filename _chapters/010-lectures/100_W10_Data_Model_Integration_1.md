@@ -141,6 +141,3 @@ Various parameter combinations can produce similar model outputs. This is known 
   - Agreement ≠ truth.
   - Focus on patterns, not exact fits.
 
-
-## References and Further Reading
-

@@ -15,13 +15,13 @@ Diffusive processes round the landscape, softens the edges and transport sedimen
 **Creep** is another diffusive process that slowly moves soil and regolith downslope. Creep is driven by various mechanisms, including freeze-thaw cycles, wetting and drying, and biological activity (e.g., burrowing animals, root growth). These processes cause soil particles to move incrementally downslope over time, leading to gradual landscape evolution.
 
 <!-- 
-Obrazek hillslope diffusion 
--->
+Obrazek hillslope diffusion — figure not yet available, include disabled to avoid a broken link.
 {% include figure.html
     caption="Hillslope diffusion processes"
     url="/figures/W8/hillslope_diffusion.png"
     class="row"
 %}
+-->
 
 **Tree throw** is a bioturbation process where trees uproot and displace soil as they fall. This action can contribute to sediment transport on hillslopes, especially in forested areas. The disturbance caused by tree throw can create microtopography that enhances other diffusive processes. Resulting microtopography is called pit-and-mound topography. 
 

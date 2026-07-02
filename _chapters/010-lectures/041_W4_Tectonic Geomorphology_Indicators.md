@@ -24,7 +24,7 @@ Some of geomorphic markers:
 {% 
 include figure.html
     caption="Raised beaches where King's Cave a series seafront caves is located, Isle of Arran in Scotland, Source: dave souza, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
-    url="/figures/W4/marine_terraces.png"
+    url="/figures/W4/raised_beach.jpg"
     class="row"
 
 %}
@@ -95,7 +95,5 @@ Różycka, M., Migoń, P., 2023. Deciphering complexity of block-faulted topogra
 
 
 
-
-## References
 
 

@@ -74,9 +74,10 @@ Tectonic forcing can manifest in several ways that impact landscape evolution:
 4. **Faulting and folding**: These processes can create localized topographic highs and lows, influencing drainage patterns and erosion rates.
 
 {% include figure.html
-   src="/assets/images/tectonic_geomorphology/slip_accumulation.png"
-   alt="Models of slip accumulation along a regional suite of faults"
-   caption="Models for slip accumulation along a regional suite of faults. Models for (A) variable slip, (B) uniform slip, and (C) characteristic earthquakes. Vertical arrows depict coseismic slip in individual earthquakes. Source: (Burbank and Anderson, 2012)." %}
+   url="/figures/W4/slip_accumulation.png"
+   caption="Models for slip accumulation along a regional suite of faults. Models for (A) variable slip, (B) uniform slip, and (C) characteristic earthquakes. Vertical arrows depict coseismic slip in individual earthquakes. Source: (Burbank and Anderson, 2012)."
+   class="row"
+%}
 
 ## Geomorphic Responses to Tectonic Forcing
 

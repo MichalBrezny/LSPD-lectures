@@ -47,8 +47,9 @@ sidebar_nav_top:
 # Links shown below the TOC in the sidebar
 # All "url" variables should have a leading slash.
 sidebar_nav_bottom:
-- label: Draft outline
-  url: /outline.html
+# Re-enable once an outline/syllabus page exists at /outline.html:
+# - label: Draft outline
+#   url: /outline.html
 
 
 # Navigation shown at the bottom of the page

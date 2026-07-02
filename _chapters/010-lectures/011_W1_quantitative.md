@@ -62,7 +62,7 @@ Landscape is a complex system with many components which interacts in many diffe
 
 {% include figure.html
     caption="Types of model in geomorphology. Source: After Huggett (1993, 4)"
-    url="/figures/W1/types_of_model.png"
+    url="/figures/W1/types_of_models.png"
     class="row"
 %}
 
@@ -97,4 +97,3 @@ Scaling and dimensional analysis are essential tools in quantitative geomorpholo
 
 ### References
 - Burbank, D. W., & Anderson, R. S. (2012). Tectonic geomorphology. John Wiley & Sons.
-- 

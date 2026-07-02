@@ -1,15 +1,12 @@
 ---
 title: W11 – Applications and Case Studies – Applied Geomorphology
 slug: week11-applications-case-studies-applied-geomorphology
-abstract:
+abstract: How quantitative geomorphology supports real-world decisions — hazards, restoration, and land-use impacts.
 ---
-# Week 11 – Applications and Case Studies
 
-# Applied Geomorphology and Case Studies
-[![Three Gorges Dam Facts | Britannica](https://tse1.mm.bing.net/th/id/OIP.qGW69OSSom_TOvcOiiwVqAHaEL?pid=Api)](https://www.britannica.com/facts/Three-Gorges-Dam?utm_source=chatgpt.com)
+# Applied Geomorphology
 
 ## Learning goals for the week
-
 
 * Explain how quantitative geomorphology supports real-world decisions (risk reduction, infrastructure planning, restoration design).
 * Compare empirical/statistical models vs. process-based models and justify model choice for a given problem.
@@ -17,8 +14,6 @@ abstract:
 * Communicate uncertainty (data, model structure, parameters) and its implications for management.
 
 ---
-
-# Applied Quantitative Geomorphology
 
 ## From theory to practice: the applied workflow
 
@@ -91,7 +86,7 @@ Key idea: land use can shift erosion and sediment delivery by orders of magnitud
 
 ---
 
-## Short case examples (10 min)
+## Short case examples
 
 ### Case 1 — Nepal: landslide susceptibility mapping (Baglung District)
 
@@ -110,27 +105,12 @@ Key idea: land use can shift erosion and sediment delivery by orders of magnitud
 **How can landscape evolution models (LEMs) and applied models support decision-making?**
 Think: scenario testing, prioritization, communicating uncertainty, “what-if” planning, and design thresholds.
 
----
+> The case studies that put these methods to work — Himalaya, Andes, and the Anthropocene — continue in the [Case Studies](week11-applications-case-studies) part.
 
-## Case Studies & Anthropocene Geomorphology
-
-## Humans as geomorphic agents
-
-Humans move and redistribute enormous volumes of earth materials through mining, construction, and agriculture—often comparable to major natural agents at broad scales. ([exploreiowageology.org][8])
-
----
-
-## Case study theme: tectonics vs. climate
-
-### A. Himalaya: decoupling and coupling hypotheses
-
-A core debate: Do precipitation gradients map directly onto long-term erosion patterns?
-
-* One influential example shows **weak correspondence** between a strong precipitation gradient and geologic-scale erosion rates in the Greater Himalaya (Nepal), implying decoupling under some conditions. ([Scholars@Duke][9])
-* Interpretation tools: thermochronometry, river profile metrics, landslide contributions, lithologic contrasts, transient response times.
-
-### B. Andes: uplift and precipitation gradients
-
-* Erosion rates can vary strongly across rainfall gradients; examples document **order-of-magnitude** differences across steep climatic transitions and interpret patterns with stream-power style frameworks. ([ScienceDirect][10])
-
----
+[1]: https://www.sciencedirect.com/science/article/abs/pii/S0022169410001538 "A simple inertial formulation of the shallow water equations ..."
+[2]: https://ascelibrary.org/doi/10.1061/%28ASCE%290733-9429%281993%29119%3A2%28244%29 "Two‐Dimensional Water Flood and Mudflow Simulation"
+[3]: https://ramms.ch/ramms-debrisflow/ "RAMMS:: Debrisflow - RAMMS - Rapid Mass Movement ..."
+[4]: https://calsalmon.org/sites/default/files/files/Kondolf_2011_SettingGoals.pdf "Setting Goals in River Restoration: When and Where Can ..."
+[5]: https://www.pnas.org/doi/10.1073/pnas.0611508104 "Soil erosion and agricultural sustainability"
+[6]: https://www.nepjol.info/index.php/NJG/article/download/50880/38019/150357 "Landslide Susceptibility Mapping Using Machine Learning ..."
+[7]: https://pubs.usgs.gov/publication/sir20115200 "Trends in suspended-sediment loads and concentrations ..."

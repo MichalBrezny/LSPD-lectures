@@ -53,12 +53,12 @@ abstract:
 
 {% include figure.html
     caption="Example of tributary misalignment in chi space indicating transient response. (Source: Willett et al., 2014)"
-    url="/figures/W5/.jpg"
+    url="/figures/W5/victim_chi.jpg"
     class="row"
 %}
 
 {% include figure.html
-    caption="Example basin dznamics in the eastern Central Range, Taiwan. (Source: Willett et al., 2014)"
+    caption="Example basin dynamics in the eastern Central Range, Taiwan. (Source: Willett et al., 2014)"
     url="/figures/W5/chi_taiwan.jpg"
     class="row"
 %}
