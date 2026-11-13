@@ -5,12 +5,19 @@ abstract:
 ---
 # Tectonic Geomorphic Indicators and Metrics
 
-As we want to measure tectonic activity e.g., uplift rates, we can use *geomorphic markers*. These are landforms, surfaces, linear trends which have these characteristics:
-- we know  the initial geometry (e.g., flat surface)
-- we know the age (e.g., dated river terrace)
-- has a high preservation potential
+Tectonic deformation is usually too slow to be observed directly, so we have to read it from the landscape. There are two complementary ways to do it:
 
-Some of geomorphic markers:
+- **Geomorphic markers** are landforms whose deformation we can measure. They give absolute values: displacements, and with a known age also rates.
+- **Geomorphic indices** (metrics) are numbers calculated from the topography, today mostly from a DEM. They are fast and cheap and cover large areas, but they give only relative information, for example which part of a mountain range is probably uplifted faster.
+
+## Geomorphic markers
+
+To measure tectonic activity, e.g., uplift rates, we can use *geomorphic markers*. These are landforms, surfaces or linear features with the following characteristics:
+- we know their initial geometry (e.g., a flat surface),
+- we know their age (e.g., a dated river terrace),
+- they have a high preservation potential.
+
+Some geomorphic markers:
 - Planar surfaces:
   - marine terraces, beaches, shorelines
   - deltas
@@ -23,18 +30,33 @@ Some of geomorphic markers:
 
 {% 
 include figure.html
-    caption="Raised beaches where King's Cave a series seafront caves is located, Isle of Arran in Scotland, Source: dave souza, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
+    caption="Raised beaches where King's Cave, a series of seafront caves, is located, Isle of Arran in Scotland, Source: dave souza, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons"
     url="/figures/W4/raised_beach.jpg"
     class="row"
 
 %}
 
+The principle is simple. We compare the present geometry of the marker with its initial geometry, and the difference is the deformation. Divided by the age of the marker it gives the mean rate of deformation:
+
+$$ \text{rate} = \frac{\text{displacement}}{\text{age}} $$
+
+For example, a marine terrace that formed at sea level 125,000 years ago and is now found at 50 m a.s.l. indicates a mean uplift rate of about 0.4 mm/yr. A proper calculation has to take into account also the sea level at the time when the terrace formed, because the sea level has changed by more than 100 m during glacial cycles.
+
+> [!NOTE]
+> The uncertainty of the rate comes from both the displacement and the age, and dating is usually the weaker part. A marker without an age gives only the amount of deformation and not its rate.
+
 ## Channel-Based Indicators 
 
-### Channel Steepness (Conceptual)
-- **Steepness as a response to uplift** - higher uplift rates require steeper channels to transport sediment.
+Rivers are the most sensitive part of the landscape. They respond to tectonic forcing first and pass the signal to hillslopes, and they are present almost everywhere. That is why most geomorphic indices are based on river channels.
 
-Well known "Lane's balance" concept illustrates the balance between sediment supply and transport capacity in rivers. If uplift increases, transport capacity must also increase (via steeper slopes) to maintain equilibrium. Otherwise, sediment will accumulate, leading to aggradation.
+### Channel Steepness (Conceptual)
+The central idea is that steepness is a response to uplift. Where rock is uplifted faster, the river has to incise faster to keep pace, and it also has to carry away more sediment delivered from steeper hillslopes. For a given discharge, the river can do both only on a steeper slope.
+
+The well-known "Lane's balance" (Lane, 1955) illustrates this adjustment. It expresses the balance between the sediment load and the transport capacity of a river:
+
+$$ Q_s \cdot D \propto Q_w \cdot S $$
+
+where $Q_s$ is the sediment supply, $D$ is the sediment grain size, $Q_w$ is the water discharge and $S$ is the channel slope. If the sediment supply or the grain size increases while the discharge stays the same, the river aggrades and its slope increases until it is again able to transport the load. If the supply decreases, the river incises and its slope decreases.
 
 {% include figure.html
     caption="River balance (&#34;Lane's balance&#34;) between sediment supply and transport capacity. Source"
@@ -42,58 +64,125 @@ Well known "Lane's balance" concept illustrates the balance between sediment sup
     class="row" 
 %}
 
-#### Knickpoints and Knickzones
-- Types:
-  - tectonic knickpoints,
-  - lithologic knickpoints,
-  - base-level knickpoints.
-- Migration vs. fixed knickpoints.
-- Using knickpoints as timing indicators.
+Lane's balance was formulated for alluvial rivers, but the same logic applies to bedrock rivers in uplifting areas: the slope adjusts until the river is able to do the work that is imposed on it. In practice, channel steepness is measured with the normalized steepness index $k_{sn}$, which removes the effect of drainage area (see W3). Rivers with high $k_{sn}$ are steeper than other rivers of the same size. High $k_{sn}$ values indicate fast rock uplift, resistant rocks, or both.
 
-#### Drainage Network Organization
-- Asymmetric drainage basins.
-- River deflection and offset.
-- Beheaded streams and captures.
+A simpler and older metric based on the same idea is the stream length–gradient index (Hack, 1973):
 
-### Basin-Scale Indicators 
-#### Hypsometry
-- Hypsometric curve:
-  - cumulative area vs. elevation.
-- Hypsometric integral:
-  - youthful vs. mature basins.
-- Interpreting hypsometry cautiously:
-  - tectonics vs. climate vs. lithology.
+$$ SL = \frac{\Delta H}{\Delta L} L $$
 
-#### Basin Asymmetry
-- Basin tilt and lateral migration.
-- Asymmetry factor (AF).
-- Links to active faulting and warping.
+where $\Delta H / \Delta L$ is the gradient of the reach and $L$ is the channel length from the divide to the centre of the reach. Anomalously high values of $SL$ mark the reaches that are steeper than expected for their position on the river.
 
-### Integrating Indicators
-- No single metric proves tectonic activity.
-- Strength lies in **converging evidence**:
-  - steep channels + asymmetric basins,
-  - knickpoints aligned across basins,
-  - consistency with known faults.
-- Importance of scale:
-  - reach-scale vs. basin-scale signals.
-- Preparing ground for:
-  - chi analysis,
-  - ksn mapping,
-  - SPIM interpretation.
+### Knickpoints and Knickzones
+Knickpoints were introduced in W3. According to their origin we distinguish:
+- **tectonic knickpoints**, formed where a river crosses an active fault or fold, or generated by a change in the uplift rate,
+- **lithologic knickpoints**, formed on contacts of rocks with different resistance,
+- **base-level knickpoints**, formed by a drop in the level to which the river is graded.
 
-### Evolution of fault scarp
-Fresh fault scarp has sharp edge. Over time, diffusive processes smooth the scarp. It is possible to estimate age of the scarp from its shape using diffusion model.
+The key distinction for tectonic interpretation is between migrating and fixed knickpoints. A knickpoint on an active fault or on a lithologic contact stays in place. A knickpoint generated by a change in uplift rate or by a base-level fall migrates upstream through the whole river network.
+
+Migrating knickpoints can be used as timing indicators. If the rate of their migration can be estimated, the distance they have travelled from the place of their origin gives the time since the change occurred. Even without the rates, a group of knickpoints at a similar elevation in neighbouring basins suggests that they were formed by one regional event.
+
+### Drainage Network Organization
+The pattern of the river network also responds to deformation, and some features are diagnostic:
+- **Asymmetric drainage basins**: the main river is shifted to one side of the basin, and the tributaries on the opposite side are longer. It may indicate tilting of the basin.
+- **River deflection**: rivers are deflected around the tips of growing folds and along uplifting blocks. Abandoned valleys across a fold crest (wind gaps) record the former course.
+- **Offset rivers**: channels displaced laterally where they cross a strike-slip fault. The offset divided by its age gives the slip rate.
+- **Beheaded streams and captures**: a channel that has lost its headwaters is too small for its valley. A capture is often marked by a sharp bend (elbow of capture) and a knickpoint.
+
+## Basin-Scale Indicators 
+### Hypsometry
+The **hypsometric curve** shows how the area of a basin is distributed over its elevation range (Strahler, 1952). It is plotted in relative units, so basins of different size and relief can be compared:
+- the horizontal axis shows the relative area $a/A$, i.e., the proportion of the basin area that lies above a given elevation,
+- the vertical axis shows the relative elevation $h/H$, i.e., the height above the lowest point of the basin divided by the total relief of the basin.
+
+The **hypsometric integral** ($HI$) is the area below the hypsometric curve. It ranges from 0 to 1 and can be approximated from three numbers (Pike and Wilson, 1971):
+
+$$ HI \approx \frac{H_{mean} - H_{min}}{H_{max} - H_{min}} $$
+
+- A high $HI$ (above ~0.6) and a convex curve mean that most of the basin lies high above its outlet. Such a basin is only slightly dissected, with deep valleys cut into a high surface. It is traditionally described as youthful.
+- An intermediate $HI$ and an S-shaped curve are described as mature.
+- A low $HI$ (below ~0.35) and a concave curve mean that most of the basin is close to the level of its outlet and only isolated remnants are high.
+
+In tectonic geomorphology, high values are interpreted as a sign of recent uplift, to which the basin has not yet adjusted.
+
+> [!IMPORTANT]
+> Interpret hypsometry cautiously. The hypsometric integral depends also on lithology, climate, glacial history and on the size of the basin, so the same value can have several explanations. Compare only basins of a similar size and in similar rocks.
+
+### Basin Asymmetry
+Tilting of a basin perpendicular to the main river makes the river migrate laterally in the direction of the tilt. The tributaries on the opposite side become longer, and the basin becomes asymmetric. The asymmetry is quantified by the **asymmetry factor** (Keller and Pinter, 2002):
+
+$$ AF = 100 \cdot \frac{A_r}{A_t} $$
+
+where $A_r$ is the area of the basin to the right of the main river (looking downstream) and $A_t$ is the total area of the basin.
+
+- $AF \approx 50$: a symmetric basin with no indication of tilting.
+- $AF > 50$: the main river is shifted to the left side of the basin, which suggests tilting down to the left (looking downstream).
+- $AF < 50$: the main river is shifted to the right, which suggests tilting down to the right.
+
+Systematic asymmetry of several neighbouring basins in the same direction is a much stronger argument than the asymmetry of a single basin. It may indicate tilting of a fault block or regional warping. Asymmetry can also have non-tectonic causes, mainly inclined strata: rivers tend to migrate down the dip of resistant beds.
+
+## Mountain-Front Indicators
+Mountain fronts bounded by active faults have a characteristic morphology, which is described by two classical indices (Bull and McFadden, 1977).
+
+**Mountain-front sinuosity** compares the length of the mountain front measured along the foot of the mountains ($L_{mf}$) with its straight-line length ($L_s$):
+
+$$ S_{mf} = \frac{L_{mf}}{L_s} $$
+
+An active fault keeps the front straight, and $S_{mf}$ is close to 1. When the activity decreases, erosion cuts embayments into the front, and the sinuosity increases.
+
+**Ratio of valley floor width to valley height** describes the shape of the valleys that cross the front:
+
+$$ V_f = \frac{2 V_{fw}}{(E_{ld} - E_{sc}) + (E_{rd} - E_{sc})} $$
+
+where $V_{fw}$ is the width of the valley floor, $E_{ld}$ and $E_{rd}$ are the elevations of the left and right divides, and $E_{sc}$ is the elevation of the valley floor. Low values (below ~1) correspond to narrow V-shaped valleys of actively incising rivers. High values correspond to broad flat-floored valleys, where lateral erosion dominates over incision.
+
+## Evolution of fault scarp
+A fresh fault scarp has a sharp edge and a steep face. Over time, the face collapses to the angle of repose, and slow processes such as soil creep and rain splash then move material from the upper part of the scarp to its base. The crest becomes rounded, the base is buried, and the scarp becomes gentler and wider.
+
+These processes are commonly described as diffusion (we will deal with hillslope diffusion in W8):
+
+$$ \frac{\partial z}{\partial t} = \kappa \frac{\partial^2 z}{\partial x^2} $$
+
+where $z$ is elevation, $x$ is the horizontal distance across the scarp, $t$ is time and $\kappa$ is the diffusivity (m²/yr). The shape of a scarp depends on the product $\kappa t$. If we fit the model to a measured profile of the scarp, we obtain $\kappa t$, and with an independent estimate of $\kappa$ we can calculate the age of the scarp (Hanks et al., 1984).
+
+The method works for scarps in unconsolidated material such as alluvium or colluvium, and not for bedrock scarps. The diffusivity depends on climate, material and vegetation and has to be calibrated on scarps of a known age in the same region.
+
+## Integrating Indicators
+No single metric proves tectonic activity. Each of the indices described above can be explained also by lithology, climate or the history of the river network. The strength lies in **converging evidence**:
+- several independent indicators that point in the same direction, e.g., steep channels together with asymmetric basins and a straight mountain front,
+- knickpoints aligned across neighbouring basins,
+- consistency with mapped faults, seismicity and geodetic data.
+
+Scale is important as well. A steep reach may be a local effect of a resistant bed or a landslide, whereas a pattern that is consistent over many basins is more likely to be tectonic. Always check the pattern of the indices against the geological map before you interpret it in terms of tectonics.
+
+The indices introduced here are mostly descriptive. In the following weeks we will give them a physical basis: $\chi$ analysis and $k_{sn}$ mapping (W5) and their interpretation with the stream power incision model (W6).
+
+## Summary
+- Geomorphic markers with a known initial geometry and age give absolute rates of deformation.
+- Geomorphic indices are calculated from topography and give relative information on tectonic activity over large areas.
+- Channel steepness, knickpoints and drainage patterns record the response of rivers. Hypsometry and basin asymmetry describe whole basins. Mountain-front sinuosity and valley shape describe fault-bounded mountain fronts.
+- All indices are affected by lithology and climate, so the interpretation has to be based on several independent lines of evidence.
 
 ---
 
 > *Next, we introduce χ-analysis as a tool to formalize and quantify these tectonic signals in river networks.*
 
-# Worth to read
+# Worth reading
 Różycka, M., Migoń, P., 2023. Deciphering complexity of block-faulted topography – Insights from morphometric variables, drainage patterns and river profiles (Orlickie-Bystrzyckie Mountains Block, Central Europe). Geomorphology 427, 108621. https://doi.org/10.1016/j.geomorph.2023.108621
 
+# References
+Bull, W.B., McFadden, L.D., 1977. Tectonic geomorphology north and south of the Garlock fault, California, in: Doehring, D.O. (Ed.), Geomorphology in Arid Regions. State University of New York, Binghamton, pp. 115–138.
 
+Burbank, D.W., Anderson, R.S., 2011. Tectonic Geomorphology, 2nd ed. Wiley-Blackwell, Chichester.
 
+Hack, J.T., 1973. Stream-profile analysis and stream-gradient index. Journal of Research of the U.S. Geological Survey 1, 421–429.
 
+Hanks, T.C., Bucknam, R.C., Lajoie, K.R., Wallace, R.E., 1984. Modification of wave-cut and faulting-controlled landforms. Journal of Geophysical Research: Solid Earth 89, 5771–5790. https://doi.org/10.1029/JB089iB07p05771
 
+Keller, E.A., Pinter, N., 2002. Active Tectonics: Earthquakes, Uplift, and Landscape, 2nd ed. Prentice Hall, Upper Saddle River.
 
+Lane, E.W., 1955. The importance of fluvial morphology in hydraulic engineering. Proceedings of the American Society of Civil Engineers 81, paper 745.
+
+Pike, R.J., Wilson, S.E., 1971. Elevation-relief ratio, hypsometric integral, and geomorphic area-altitude analysis. Geological Society of America Bulletin 82, 1079–1084. https://doi.org/10.1130/0016-7606(1971)82[1079:ERHIAG]2.0.CO;2
+
+Strahler, A.N., 1952. Hypsometric (area-altitude) analysis of erosional topography. Geological Society of America Bulletin 63, 1117–1142. https://doi.org/10.1130/0016-7606(1952)63[1117:HAAOET]2.0.CO;2

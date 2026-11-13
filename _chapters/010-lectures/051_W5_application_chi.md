@@ -7,93 +7,153 @@ abstract:
 
 # Interpreting Chi and Channel Steepness in Tectonic Context
 
-## 1. Introduction: From Transformation to Interpretation
-- Chi transforms river profiles.
-- Interpretation requires tectonic context.
-- Reminder:
-  > *Metrics do not interpret themselves.*
+## Introduction: From Transformation to Interpretation
+In the previous lecture we introduced the $\chi$ transformation as a way to turn a concave river profile into a straight line. The transformation itself is only a mathematical operation. A $\chi$ plot or a $\chi$ map does not tell us anything until we interpret it, and the interpretation requires a tectonic and geological context: Where are the faults? What rocks does the river cross? What is the base level and has it changed?
 
-###
+> *Metrics do not interpret themselves.*
+
+In this lecture we look at what can be read from $\chi$ plots and $\chi$ maps: channel steepness, knickpoints, the state of tributaries and the stability of drainage divides. We also look at the ways in which the interpretation can go wrong.
 
 ## Channel Steepness (ksn) Revisited
 
-## What ksn Actually Represents
-- ksn combines:
-  - slope,
-  - drainage area normalization,
-  - assumed concavity (θref).
-- Conceptual meaning:
-  - relative measure of erosion demand.
+### What ksn Actually Represents
+The normalized steepness index $k_{sn}$ was introduced in W3 as channel slope normalized for drainage area with a reference concavity:
 
-## ksn and Uplift
-- Higher uplift → higher required incision → higher ksn.
-- Spatial patterns of ksn reflect:
-  - fault zones,
-  - uplift gradients,
-  - tectonic segmentation.
+$$ k_{sn} = S A^{\theta_{ref}} $$
+
+It combines three things: the local slope, the drainage area and the assumed concavity $\theta_{ref}$. Conceptually it answers the question *how steep is this channel compared with other channels of the same size?*
+
+The $\chi$ transformation gives us a second and more robust way to obtain it. For a river with a constant steepness, the profile in $\chi$–elevation space is a straight line (Perron and Royden, 2013):
+
+$$ z(x) = z_b + \frac{k_{sn}}{A_0^{\theta_{ref}}} \chi $$
+
+where $z_b$ is the elevation of the base level (the point where the integration of $\chi$ starts) and $A_0$ is the reference drainage area. If we set $A_0 = 1\ \mathrm{m^2}$, the equation simplifies to $z = z_b + k_{sn} \chi$:
+
+> [!IMPORTANT]
+> With $A_0 = 1\ \mathrm{m^2}$, **the slope of the $\chi$–elevation plot is the normalized steepness index $k_{sn}$**. A steeper segment in the $\chi$ plot is a segment with a higher $k_{sn}$.
+
+The advantage over slope–area analysis is that $k_{sn}$ is obtained from elevation and not from its derivative, so the result is much less noisy.
+
+### ksn and Uplift
+Why should steepness tell us anything about tectonics? A river in steady state incises at the same rate at which the rock is uplifted. Faster uplift therefore requires faster incision, and a river can incise faster only if it is steeper. We will show in W6 that the stream power incision model predicts for a steady-state river
+
+$$ k_{sn} = \left( \frac{U}{K} \right)^{1/n} $$
+
+where $U$ is the rock uplift rate, $K$ is the erodibility and $n$ is the slope exponent. This relationship summarizes both the power and the weakness of $k_{sn}$:
+
+- $k_{sn}$ increases with the uplift rate, so the spatial pattern of $k_{sn}$ can reveal fault zones, uplift gradients and the boundaries of tectonic blocks.
+- $k_{sn}$ increases also with decreasing erodibility. More resistant rocks or a drier climate have the same effect as faster uplift.
+
+For this reason $k_{sn}$ is a *relative* measure. Without an independent calibration, for example by erosion rates from cosmogenic nuclides, it cannot be converted into an uplift rate in mm/yr.
 
 ---
 
-## Detecting Tectonic Signals with Chi (25 min)
+## Detecting Tectonic Signals with Chi
 
-## Knickpoints in Chi Space
-- Vertical offsets in χ–z plots.
-- Interpreting:
-  - migrating knickpoints (uplift or base-level change),
-  - stationary knickpoints (lithologic control).
+### Knickpoints in Chi Space
+Knickpoints are easier to recognize and classify in a $\chi$ plot than in a normal profile, because the reaches between them are straight. Two types can be distinguished (Kirby and Whipple, 2012):
 
-## Tributary Consistency
-- In steady state:
-  - tributaries align with main stem in chi space.
-- Misalignment indicates:
-  - transient response,
-  - divide migration,
-  - drainage capture.
+- A **slope-break knickpoint** is a kink in the $\chi$ plot. It separates two segments with different slopes, i.e., with different $k_{sn}$. It records a lasting change, either in time (an increase in uplift rate, with the steeper segment downstream) or in space (a boundary between rocks of different erodibility or between blocks with different uplift rates).
+- A **vertical-step knickpoint** is a step in the $\chi$ plot, with a similar slope above and below it. It records a discrete event or a local feature, e.g., a sudden drop in base level, a resistant bed or a landslide dam.
 
+The next step is to decide whether the knickpoint is migrating or stationary. The $\chi$ plot of the main river together with its tributaries provides a useful test:
+
+- **Migrating knickpoints** that were generated by one event at the common outlet are found at the same value of $\chi$ (and at a similar elevation) in the main river and in all tributaries. The reason is that $\chi$ is proportional to the time that a signal needs to travel upstream from the outlet. This holds if the erodibility is uniform.
+- **Stationary knickpoints** controlled by lithology or by a fault are found where the rivers cross the contact or the fault. They plot at different values of $\chi$ in different tributaries, and they coincide with a boundary in the geological map.
+
+### Tributary Consistency
+In a basin that is in steady state, with spatially uniform uplift and erodibility, all tributaries plot on the same line as the main river in $\chi$–elevation space. They are *collinear* (see the figure in the previous lecture).
+
+If the tributaries do not align with the main river, there are several possible explanations:
+
+- a wrong value of the concavity index $m/n$ used for the calculation of $\chi$,
+- spatial differences in uplift rate, rock erodibility or precipitation,
+- a transient response: an incision wave has already passed through some tributaries and has not yet reached others,
+- a change in drainage area by divide migration or river capture.
+
+The first explanation has to be excluded before the other ones are considered.
+
+### Drainage Divide Stability
+Willett et al. (2014) proposed to use $\chi$ not only along rivers but also as a map, to assess the stability of drainage divides. The idea is the following. Under uniform uplift, erodibility and climate, the steady-state elevation of a channel depends only on its $\chi$. If two channel heads on the opposite sides of a divide have different $\chi$ values, they cannot both be at their steady-state elevation, and the network has to reorganize:
+
+- the basin with **lower $\chi$** at the divide has steeper channels and erodes faster. It is the *aggressor*, which gains drainage area,
+- the basin with **higher $\chi$** is the *victim*, which loses drainage area,
+- the divide **migrates towards the side with higher $\chi$**, until the $\chi$ values on both sides are equal.
+
+In a $\chi$ map, stable divides have similar $\chi$ values on both sides, while a sharp contrast in $\chi$ across a divide suggests that the divide is moving.
 
 {% include figure.html
-    caption="Example of tributary misalignment in chi space indicating transient response. (Source: Willett et al., 2014)"
-    url="/figures/W5/victim_chi.jpg"
+    caption="Numerical model of drainage divide migration. Topography (top) and χ map (bottom) of a mountain range before and after it reached a new steady state. At steady state there are no discontinuities in χ across the divides. (Source: Willett et al., 2014)"
+    url="/figures/W5/drainage_divide.jpg"
     class="row"
 %}
 
 {% include figure.html
-    caption="Example basin dynamics in the eastern Central Range, Taiwan. (Source: Willett et al., 2014)"
+    caption="Example of basin dynamics in the eastern Central Range, Taiwan. White arrows indicate the inferred divide motion from low to high χ. (Source: Willett et al., 2014)"
     url="/figures/W5/chi_taiwan.jpg"
     class="row"
 %}
 
 {% include figure.html
-    caption="Example basins in disequilibrium in the North Carolina. (Source: Willett et al., 2014)"
+    caption="Example of basins in disequilibrium on the North Carolina coastal plain. The victim has systematically higher elevation and χ than the aggressor on the opposite side of the divide. (Source: Willett et al., 2014)"
     url="/figures/W5/victim_chi.jpg"
     class="row"
 %}
 
+> [!WARNING]
+> A contrast in $\chi$ across a divide indicates divide migration only if all the compared rivers start at the same base-level elevation and if uplift, erodibility and precipitation are uniform. If these conditions are not met, a $\chi$ contrast can exist across a perfectly stable divide (Whipple et al., 2017; Forte and Whipple, 2018). It is therefore recommended to check the result with direct topographic measures on both sides of the divide, such as the elevation, gradient and local relief of the channel heads.
 
 ## What Can Go Wrong 
 
-## Lithologic Effects
-- Resistant rock can mimic tectonic signal.
-- Importance of independent geological information.
+### Lithologic Effects
+A resistant rock has the same effect on a river as fast uplift: the channel is steeper, $k_{sn}$ is higher, and a knickpoint forms on the contact. A belt of high $k_{sn}$ can be a fault zone as well as an outcrop of quartzite. Always compare $\chi$ plots and $k_{sn}$ maps with the geological map before any tectonic interpretation.
 
-## Climatic Modulation
-- Precipitation gradients affect discharge–area scaling.
-- Chi assumes constant runoff efficiency.
+### Climatic Modulation
+The $\chi$ transformation uses drainage area as a proxy for discharge. This is justified only if precipitation is spatially uniform. In mountain ranges with a strong orographic precipitation gradient, the same drainage area produces different discharges on the windward and leeward sides, and the $\chi$ values on the two sides are not directly comparable. One solution is to weight the drainage area by precipitation.
 
-## Choice of m/n Ratio
-- Sensitivity to concavity index.
-- Why standard values (e.g. 0.45–0.6) are used.
+### Choice of m/n Ratio
+The value of $\chi$ depends on the concavity index $m/n$ (i.e., $\theta_{ref}$), and so does the result of the whole analysis. A wrong value makes steady-state profiles curved in the $\chi$ plot, and it creates apparent contrasts in $\chi$ across divides.
+
+- Concavity indices of natural rivers mostly fall between 0.4 and 0.6. A standard value of 0.45 or 0.5 is commonly used, which also makes the results comparable between studies.
+- The value can be estimated from the data, as the $m/n$ that makes the profiles most linear and the tributaries most collinear with the main river (Perron and Royden, 2013; Mudd et al., 2014).
+- Whatever value is chosen, it is good practice to repeat the analysis with a range of values and to check that the conclusions do not depend on the choice.
+
+### Choice of Base Level
+$\chi$ is integrated upstream from a base level, so its value depends on where the integration starts. The rivers that are compared must start at the same elevation, and this elevation should be a meaningful base level, such as the sea level or the foot of a mountain front. Starting the integration at the edge of the DEM or at arbitrary outlets with different elevations produces $\chi$ contrasts that have no geomorphic meaning.
 
 ## Integrating Chi with Other Indicators
 
-- Best practice:
-  - chi + ksn + hypsometry + basin asymmetry.
-- Spatial coherence:
-  - alignment with mapped faults.
-- Temporal reasoning:
-  - knickpoint position as response time indicator.
+$\chi$ analysis is one line of evidence, and it is most convincing when it agrees with other, independent ones:
 
+- **Combine the metrics**: use $\chi$ and $k_{sn}$ together with hypsometry, basin asymmetry and other indicators from W4.
+- **Look for spatial coherence**: a tectonic signal should be consistent across neighbouring basins and should align with mapped faults. A signal that follows lithological boundaries is probably lithological.
+- **Use temporal reasoning**: the position of a migrating knickpoint in $\chi$ space reflects the time since the change that generated it.
+
+A practical workflow can look like this:
+
+1. Condition the DEM and extract the river network (W2).
+2. Choose a common base level and a reference concavity.
+3. Calculate $\chi$ and plot the $\chi$–elevation profiles of the main rivers with their tributaries.
+4. Identify the linear segments and knickpoints, and classify the knickpoints.
+5. Map $k_{sn}$ and $\chi$ and compare the patterns with the geological map and known faults.
+6. Formulate an interpretation and test it against independent data.
+
+## Summary
+- With $A_0 = 1\ \mathrm{m^2}$, the slope of the $\chi$–elevation plot is $k_{sn}$.
+- $k_{sn}$ reflects the ratio of uplift rate to erodibility, so it is a relative measure that cannot separate tectonics from lithology and climate on its own.
+- Slope-break knickpoints separate reaches with different $k_{sn}$, vertical-step knickpoints record discrete events or local features. Migrating knickpoints of common origin plot at the same $\chi$ in all tributaries.
+- Contrasts in $\chi$ across divides may indicate divide migration towards the side with higher $\chi$, but only under uniform conditions and with a common base level.
+- The results depend on the choice of $m/n$ and of the base level, and on the assumption of uniform lithology and precipitation.
 
 # References
-Willett, S.D., McCoy, S.W., Perron, J.T., Goren, L., Chen, C.-Y., 2014. Dynamic Reorganization of River Basins. Science 343, 1248765. https://doi.org/10.1126/science.1248765
+Forte, A.M., Whipple, K.X., 2018. Criteria and tools for determining drainage divide stability. Earth and Planetary Science Letters 493, 102–117. https://doi.org/10.1016/j.epsl.2018.04.026
 
+Kirby, E., Whipple, K.X., 2012. Expression of active tectonics in erosional landscapes. Journal of Structural Geology 44, 54–75. https://doi.org/10.1016/j.jsg.2012.07.009
+
+Mudd, S.M., Attal, M., Milodowski, D.T., Grieve, S.W.D., Valters, D.A., 2014. A statistical framework to quantify spatial variation in channel gradients using the integral method of channel profile analysis. Journal of Geophysical Research: Earth Surface 119, 138–152. https://doi.org/10.1002/2013JF002981
+
+Perron, J.T., Royden, L., 2013. An integral approach to bedrock river profile analysis. Earth Surface Processes and Landforms 38, 570–576. https://doi.org/10.1002/esp.3302
+
+Whipple, K.X., Forte, A.M., DiBiase, R.A., Gasparini, N.M., Ouimet, W.B., 2017. Timescales of landscape response to divide migration and drainage capture: Implications for the role of divide mobility in landscape evolution. Journal of Geophysical Research: Earth Surface 122, 248–273. https://doi.org/10.1002/2016JF003973
+
+Willett, S.D., McCoy, S.W., Perron, J.T., Goren, L., Chen, C.-Y., 2014. Dynamic Reorganization of River Basins. Science 343, 1248765. https://doi.org/10.1126/science.1248765
